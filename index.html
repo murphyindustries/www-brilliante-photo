@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brilliante — HDR Photo Viewer for Windows</title>
+
+<!-- Icons (Brilliante gem) -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/icon-256.png">
+<link rel="canonical" href="https://brilliante.photo/">
+<meta name="theme-color" content="#0b0626">
+
+<meta name="description" content="Brilliante is an HDR photo viewer for Windows. View Ultra HDR, HEIC, and motion photos in vibrant, true-to-life color — and give every ordinary photo a brilliant glow-up.">
+
+<!-- Open Graph / social -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brilliante — HDR Photo Viewer for Windows">
+<meta property="og:description" content="View Ultra HDR, HEIC, and motion photos in vibrant, true-to-life color — plus a brilliant glow-up for every ordinary photo.">
+<meta property="og:url" content="https://brilliante.photo/">
+<meta property="og:image" content="https://brilliante.photo/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Brilliante — HDR Photo Viewer for Windows">
+<meta name="twitter:description" content="View Ultra HDR, HEIC, and motion photos in vibrant, true-to-life color.">
+<meta name="twitter:image" content="https://brilliante.photo/icon-512.png">
+
+<!-- Structured data: describe the app for richer search results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Brilliante Photo Viewer",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "Windows 10, Windows 11",
+  "url": "https://brilliante.photo/",
+  "downloadUrl": "https://apps.microsoft.com/detail/9NCHQKMDLSZ2",
+  "image": "https://brilliante.photo/icon-512.png",
+  "description": "Brilliante is an HDR photo viewer for Windows. View Ultra HDR, HEIC, and motion photos in vibrant, true-to-life color — and give every ordinary photo a brilliant glow-up.",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "Murphy Industries, LLC", "url": "https://murphy.industries" }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0626;
+    --bg-soft: #140a38;
+    --surface: rgba(255, 255, 255, 0.045);
+    --surface-hover: rgba(255, 255, 255, 0.07);
+    --ink: #f3f0ff;
+    --muted: #a99fd0;
+    --muted-dim: #8076ad;
+    --rule: rgba(255, 255, 255, 0.10);
+    /* Gem facet palette */
+    --amber: #ffc107;
+    --orange: #ff7a1a;
+    --magenta: #ff3d8b;
+    --purple: #a86bff;
+    --blue: #46a6ff;
+    --teal: #1fd1b0;
+    --spectrum: linear-gradient(95deg, #ffc107 0%, #ff6a00 20%, #ff2e8b 42%, #b15cff 60%, #46a6ff 80%, #1fd1b0 100%);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Hanken Grotesk', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* HDR-style color bloom in the background */
+  .glows {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(50rem 50rem at 12% -8%, rgba(255, 193, 7, 0.16), transparent 60%),
+      radial-gradient(46rem 46rem at 92% 6%, rgba(255, 46, 139, 0.16), transparent 60%),
+      radial-gradient(60rem 60rem at 78% 96%, rgba(70, 166, 255, 0.15), transparent 62%),
+      radial-gradient(46rem 46rem at 4% 92%, rgba(31, 209, 176, 0.12), transparent 60%);
+  }
+  /* fine grain */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+    background-size: 24px 24px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ---------- Header ---------- */
+  header { padding: 30px 0 0; }
+  .topline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .brand { display: flex; align-items: center; gap: 11px; }
+  .brand .gem { width: 30px; height: 30px; border-radius: 8px; flex-shrink: 0; }
+  .brand .name {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 1.12rem;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  .topnav {
+    font-size: 0.74rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .topnav a {
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .topnav a:hover { color: var(--ink); }
+
+  /* ---------- Hero ---------- */
+  main { flex: 1; }
+  .hero {
+    text-align: center;
+    padding: 76px 0 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero .gem-hero {
+    width: 124px;
+    height: 124px;
+    border-radius: 22%;
+    display: block;
+    object-fit: cover;
+    filter: drop-shadow(0 18px 50px rgba(168, 107, 255, 0.45)) drop-shadow(0 6px 18px rgba(0, 0, 0, 0.5));
+    animation: float 7s ease-in-out infinite, rise 0.8s ease both;
+  }
+  .eyebrow {
+    margin-top: 32px;
+    font-size: 0.76rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+    opacity: 0;
+    animation: rise 0.8s ease forwards 0.12s;
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: clamp(3.2rem, 9vw, 6rem);
+    line-height: 1.0;
+    letter-spacing: -0.025em;
+    margin: 14px 0 8px;
+    opacity: 0;
+    animation: rise 0.8s ease forwards 0.2s;
+  }
+  .kicker {
+    font-size: clamp(0.85rem, 2vw, 1rem);
+    font-weight: 600;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    background: var(--spectrum);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    opacity: 0;
+    animation: rise 0.8s ease forwards 0.28s;
+  }
+  .lede {
+    font-size: clamp(1.05rem, 2.3vw, 1.32rem);
+    color: var(--ink);
+    max-width: 620px;
+    margin: 28px auto 0;
+    opacity: 0;
+    animation: rise 0.8s ease forwards 0.36s;
+  }
+  .lede .hl { color: var(--amber); font-style: italic; font-family: 'Fraunces', serif; }
+
+  .cta {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    opacity: 0;
+    animation: rise 0.8s ease forwards 0.46s;
+  }
+  .store-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
+    background: #f4f1ff;
+    color: #16102e;
+    text-decoration: none;
+    padding: 13px 24px 13px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    transition: transform 0.22s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+  }
+  .store-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 40px rgba(168, 107, 255, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.4);
+  }
+  .store-btn .ms-logo { width: 26px; height: 26px; flex-shrink: 0; }
+  .store-btn .txt { display: flex; flex-direction: column; line-height: 1.15; text-align: left; }
+  .store-btn .txt small { font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; color: #5a5278; }
+  .store-btn .txt strong { font-size: 1.05rem; font-weight: 600; }
+  .cta .meta { font-size: 0.85rem; color: var(--muted-dim); }
+
+  /* ---------- Features ---------- */
+  .features { padding: 8px 0 90px; }
+  .section-head { text-align: center; max-width: 640px; margin: 0 auto 48px; }
+  .section-head h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: clamp(1.9rem, 4.5vw, 2.7rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+  .section-head h2 em { font-style: italic; background: var(--spectrum); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+  .section-head p { color: var(--muted); margin-top: 14px; font-size: 1.05rem; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    padding: 26px 24px;
+    transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    background: var(--surface-hover);
+    border-color: rgba(255, 255, 255, 0.18);
+  }
+  .card .ic {
+    width: 44px; height: 44px;
+    border-radius: 11px;
+    display: grid; place-items: center;
+    margin-bottom: 16px;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  .card .ic svg { width: 23px; height: 23px; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+  .card h3 { font-size: 1.08rem; font-weight: 600; margin-bottom: 7px; letter-spacing: -0.01em; }
+  .card p { color: var(--muted); font-size: 0.95rem; line-height: 1.55; }
+
+  /* ---------- Closing CTA ---------- */
+  .closing {
+    text-align: center;
+    padding: 64px 36px 70px;
+    border-radius: 24px;
+    border: 1px solid var(--rule);
+    background:
+      radial-gradient(40rem 30rem at 50% -40%, rgba(168, 107, 255, 0.22), transparent 70%),
+      var(--bg-soft);
+    margin-bottom: 80px;
+  }
+  .closing h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: clamp(1.9rem, 5vw, 3rem);
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+  }
+  .closing h2 em { font-style: italic; background: var(--spectrum); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+  .closing p { color: var(--muted); margin: 16px auto 30px; max-width: 480px; }
+  .closing .store-btn { margin: 0 auto; }
+
+  /* ---------- Footer ---------- */
+  footer { border-top: 1px solid var(--rule); padding: 30px 0 44px; }
+  .footline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    font-size: 0.85rem;
+    color: var(--muted-dim);
+  }
+  .footline .left { display: flex; align-items: center; gap: 9px; }
+  .footline .gem-sm { width: 18px; height: 18px; border-radius: 5px; }
+  .footline strong { color: var(--muted); font-weight: 600; }
+  .footline .links { display: flex; gap: 22px; align-items: center; }
+  .footline a { color: var(--muted-dim); text-decoration: none; transition: color 0.2s ease; }
+  .footline a:hover { color: var(--ink); }
+
+  /* ---------- Live demo: split-view comparison (adapted from Brilliante HDR Enhancer) ---------- */
+  .demo { padding: 4px 0 92px; }
+  .demo .demo-wrap { max-width: 760px; margin: 0 auto; }
+  .demo-frame {
+    position: relative; width: 100%; aspect-ratio: 4 / 3;
+    overflow: hidden; border-radius: 18px; border: 1px solid var(--rule);
+    background: #000; touch-action: pan-y;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+    user-select: none; -webkit-user-select: none;
+  }
+  .demo-layer { position: absolute; inset: 0; overflow: hidden; }
+  .demo-layer img { width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none; -webkit-user-drag: none; }
+  /* HDR layer on top, revealed to the RIGHT of the divider via clip-path inset. */
+  #demo-hdr { z-index: 1; clip-path: inset(0 0 0 var(--divider, 50%)); }
+  /* The #demo-hdr <img> is a real Ultra HDR (gain-map) JPEG. On SDR displays (and
+     browsers without HDR support) the gain map can't render, so we SIMULATE the
+     enhancement here to keep a visible before/after. On a true HDR display we drop
+     the filter so the genuine Ultra HDR shows through — a CSS filter would otherwise
+     force SDR compositing and kill the real HDR rendering. */
+  #demo-hdr img { filter: saturate(1.3) contrast(1.05); }
+  @media (dynamic-range: high) {
+    #demo-hdr img { filter: none; }
+  }
+
+  .demo-divider {
+    position: absolute; top: 0; bottom: 0; left: var(--divider, 50%);
+    width: 2px; margin-left: -1px; z-index: 3; cursor: ew-resize; touch-action: none;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .demo-divider .grip {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 40px; height: 40px; border-radius: 50%;
+    display: grid; place-items: center; color: #fff;
+    background: rgba(12, 6, 38, 0.72); border: 2px solid rgba(255, 255, 255, 0.92);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+  }
+  .demo-divider:focus-visible { outline: none; }
+  .demo-divider:focus-visible .grip { border-color: var(--blue); box-shadow: 0 0 0 4px rgba(70, 166, 255, 0.4); }
+
+  .demo-label {
+    position: absolute; top: 14px; z-index: 2; pointer-events: none;
+    padding: 4px 11px; border-radius: 999px;
+    font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #fff;
+    background: rgba(0, 0, 0, 0.5); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
+  }
+  #demo-label-sdr { left: 14px; }
+  #demo-label-hdr { right: 14px; }
+  .demo-hint { text-align: center; color: var(--muted-dim); font-size: 0.9rem; margin-top: 18px; }
+  /* SDR-only caption: shown by default (and on browsers without HDR support),
+     hidden once an HDR display is confirmed. */
+  .demo-sdr-note {
+    text-align: center; color: var(--muted); font-size: 0.84rem;
+    max-width: 560px; margin: 9px auto 0; line-height: 1.5;
+  }
+  .demo-sdr-note b { color: var(--amber); font-weight: 600; }
+  @media (dynamic-range: high) { .demo-sdr-note { display: none; } }
+
+  /* ---------- Animations ---------- */
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-12px); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; scroll-behavior: auto; }
+    .eyebrow, h1, .kicker, .lede, .cta { opacity: 1; }
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .wrap { padding: 0 22px; }
+    .hero { padding: 54px 0 60px; }
+    .grid { grid-template-columns: 1fr; }
+    .topnav .label-long { display: none; }
+    .footline { justify-content: center; text-align: center; }
+  }
+</style>
+</head>
+<body>
+  <!-- Brilliante gem icon (app mark) reused across the page -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="gem" viewBox="0 0 100 100">
+      <rect width="100" height="100" rx="22" fill="#1A1045"/>
+      <polygon fill="#42A5F5" points="26,15 50,15 50,28 17,28"/>
+      <polygon fill="#0D47A1" points="17,28 50,28 50,42 8,42"/>
+      <polygon fill="#FFC107" points="50,15 74,15 83,28 50,28"/>
+      <polygon fill="#E65100" points="50,28 83,28 92,42 50,42"/>
+      <polygon fill="#6A1B9A" points="8,42 50,42 50,65 27,65"/>
+      <polygon fill="#00695C" points="27,65 50,65 50,92"/>
+      <polygon fill="#AD1457" points="50,42 92,42 73,65 50,65"/>
+      <polygon fill="#283593" points="50,65 73,65 50,92"/>
+      <polygon fill="#FFFCF0" points="26,15 74,15 74,20 26,20"/>
+      <rect x="8" y="41.5" width="84" height="2" fill="white" opacity="0.12"/>
+      <ellipse cx="34" cy="23" rx="6.5" ry="3.5" fill="white" opacity="0.2" transform="rotate(-18,34,23)"/>
+      <ellipse cx="31" cy="20" rx="2.5" ry="1.5" fill="white" opacity="0.38" transform="rotate(-18,31,20)"/>
+      <ellipse cx="50" cy="60" rx="7" ry="4" fill="white" opacity="0.09"/>
+      <polygon fill="none" stroke="#8070D0" stroke-width="0.7" opacity="0.4" points="26,15 74,15 92,42 50,92 8,42"/>
+      <line x1="26" y1="15" x2="74" y2="15" stroke="#D4C090" stroke-width="0.6" opacity="0.65"/>
+    </symbol>
+  </svg>
+
+  <div class="glows" aria-hidden="true"></div>
+
+  <header>
+    <div class="wrap">
+      <div class="topline">
+        <span class="brand">
+          <svg class="gem" aria-hidden="true"><use href="#gem"/></svg>
+          <span class="name">Brilliante</span>
+        </span>
+        <nav class="topnav">
+          <a href="https://murphy.industries">
+            <span class="label-long">by</span> Murphy Industries <span aria-hidden="true">&nearr;</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap" style="display:flex; flex-direction:column; align-items:center;">
+        <!-- Hero logo as a live Ultra HDR (gain-map) JPEG — renders in HDR on capable displays,
+             falls back to the embedded SDR base everywhere else. Corners clipped via border-radius. -->
+        <img class="gem-hero" src="/icon-512.hdr.jpg" alt="Brilliante app icon — a live Ultra HDR image" decoding="async">
+        <p class="eyebrow">For Windows 10 &amp; 11</p>
+        <h1>Brilliante</h1>
+        <p class="kicker">HDR Photo Viewer</p>
+        <p class="lede">See your photos in vibrant, true-to-life color. Ultra&nbsp;HDR, HEIC, and motion photos — plus a <span class="hl">brilliant</span> glow-up for every ordinary shot.</p>
+        <div class="cta">
+          <a class="store-btn" href="https://apps.microsoft.com/detail/9NCHQKMDLSZ2" target="_blank" rel="noopener">
+            <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
+              <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
+              <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
+              <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
+            </svg>
+            <span class="txt"><small>Get it from</small><strong>Microsoft Store</strong></span>
+          </a>
+          <span class="meta">Free download &middot; Windows 10 &amp; 11</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LIVE DEMO (split-view comparison) ============ -->
+    <section class="demo">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>See the <em>difference</em></h2>
+          <p>Drag the slider to compare an ordinary photo with Brilliante&rsquo;s HDR enhancement.</p>
+        </div>
+        <div class="demo-wrap">
+          <div class="demo-frame" id="demo-frame">
+            <div class="demo-layer" id="demo-sdr"><img src="/demo-sdr.jpg" alt="Original photo, standard range" decoding="async" loading="lazy"></div>
+            <div class="demo-layer" id="demo-hdr"><img src="/demo-hdr.jpg" alt="The same photo enhanced to Ultra HDR" decoding="async" loading="lazy"></div>
+            <span class="demo-label" id="demo-label-sdr">SDR</span>
+            <span class="demo-label" id="demo-label-hdr">HDR</span>
+            <div class="demo-divider" id="demo-divider" role="slider" tabindex="0" aria-label="Compare SDR and HDR" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+              <span class="grip" aria-hidden="true"><svg width="18" height="12" viewBox="0 0 18 12" fill="currentColor"><path d="M5 1 1 6 5 11 Z"/><path d="M13 1 17 6 13 11 Z"/></svg></span>
+            </div>
+          </div>
+          <p class="demo-hint">Drag the handle to compare</p>
+          <p class="demo-sdr-note">You&rsquo;re viewing on an <b>SDR display</b> — the right side previews the color boost Brilliante brings to standard screens too. On an <b>HDR display</b>, it renders in true&nbsp;HDR.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <!-- Placeholder feature set drawn from the Store listing. Expand with current
+         features (and add app screenshots above this section) after Store submission. -->
+    <section class="features">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Photos, the way they were <em>meant to look</em></h2>
+          <p>Brilliante reads the rich color modern phones capture — and brings it to life on your PC.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="ic" style="color:var(--amber)">
+              <svg viewBox="0 0 24 24" stroke="currentColor"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M21.5 12h-2.6M5.1 12H2.5M18.7 5.3l-1.8 1.8M7.1 16.9l-1.8 1.8M18.7 18.7l-1.8-1.8M7.1 7.1 5.3 5.3"/></svg>
+            </div>
+            <h3>Vibrant HDR color</h3>
+            <p>Ultra HDR JPEG and true HDR images shine in vivid, accurate color on HDR displays.</p>
+          </div>
+
+          <div class="card">
+            <div class="ic" style="color:var(--magenta)">
+              <svg viewBox="0 0 24 24" stroke="currentColor"><path d="M12 3.5l1.7 5.3 5.3 1.7-5.3 1.7L12 17.5l-1.7-5.3L5 10.5l5.3-1.7z"/><path d="M18.5 4v3M20 5.5h-3" /></svg>
+            </div>
+            <h3>Brilliant on any screen</h3>
+            <p>A smart HDR-style boost brings new life to ordinary photos, even on a standard (SDR) display.</p>
+          </div>
+
+          <div class="card">
+            <div class="ic" style="color:var(--blue)">
+              <svg viewBox="0 0 24 24" stroke="currentColor"><rect x="3" y="4.5" width="18" height="15" rx="3"/><path d="M10 9.2l5 2.8-5 2.8z" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <h3>Motion photos</h3>
+            <p>Play the motion photos from Android phones — Pixel Top&nbsp;Shot and Samsung Motion&nbsp;Photo — right on your PC.</p>
+          </div>
+
+          <div class="card">
+            <div class="ic" style="color:var(--teal)">
+              <svg viewBox="0 0 24 24" stroke="currentColor"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 16l9 5 9-5"/></svg>
+            </div>
+            <h3>Wide format support</h3>
+            <p>Opens HEIC, Ultra HDR JPEG, PNG and more — with support for images up to 16-bit.</p>
+          </div>
+
+          <div class="card">
+            <div class="ic" style="color:var(--purple)">
+              <svg viewBox="0 0 24 24" stroke="currentColor"><path d="M4 20v-6M10 20V8M16 20v-9M22 20V5"/><path d="M2.5 20h19" opacity="0.55"/></svg>
+            </div>
+            <h3>True 10-bit HEIC</h3>
+            <p>Decodes 10-bit HEIC for the deepest, smoothest gradients and detail.</p>
+          </div>
+
+          <div class="card">
+            <div class="ic" style="color:var(--orange)">
+              <svg viewBox="0 0 24 24" stroke="currentColor"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0113 0C18.5 15 12 21 12 21z"/><circle cx="12" cy="10" r="2.3"/></svg>
+            </div>
+            <h3>Photo details</h3>
+            <p>See EXIF metadata at a glance, including the GPS location on a map.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CLOSING CTA ============ -->
+    <section class="wrap">
+      <div class="closing">
+        <h2>Make every photo <em>brilliant</em>.</h2>
+        <p>Download Brilliante free from the Microsoft Store and see your library in a whole new light.</p>
+        <a class="store-btn" href="https://apps.microsoft.com/detail/9NCHQKMDLSZ2" target="_blank" rel="noopener">
+          <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
+            <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
+            <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
+            <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
+          </svg>
+          <span class="txt"><small>Get it from</small><strong>Microsoft Store</strong></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footline">
+        <span class="left">
+          <svg class="gem-sm" aria-hidden="true"><use href="#gem"/></svg>
+          &copy; 2026 <strong>Murphy Industries,&nbsp;LLC</strong>
+        </span>
+        <span class="links">
+          <a href="/privacy">Privacy</a>
+          <a href="mailto:major@murphy.industries">Support</a>
+          <a href="https://murphy.industries">murphy.industries</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // Split-view comparison slider — divider drag adapted from the Brilliante HDR Enhancer WebView UI.
+    (function () {
+      var frame = document.getElementById('demo-frame');
+      var divider = document.getElementById('demo-divider');
+      if (!frame || !divider) return;
+      function setDivider(pct) {
+        pct = Math.min(100, Math.max(0, pct));
+        frame.style.setProperty('--divider', pct + '%');
+        divider.setAttribute('aria-valuenow', Math.round(pct));
+      }
+      function pctFromEvent(e) {
+        var r = frame.getBoundingClientRect();
+        return ((e.clientX - r.left) / r.width) * 100;
+      }
+      var dragging = false;
+      divider.addEventListener('pointerdown', function (e) {
+        e.preventDefault(); dragging = true; divider.setPointerCapture(e.pointerId);
+      });
+      divider.addEventListener('pointermove', function (e) { if (dragging) setDivider(pctFromEvent(e)); });
+      function endDrag() { dragging = false; }
+      divider.addEventListener('pointerup', endDrag);
+      divider.addEventListener('pointercancel', endDrag);
+      // Click/tap anywhere on the frame jumps the divider there.
+      frame.addEventListener('pointerdown', function (e) {
+        if (e.target === divider || divider.contains(e.target)) return;
+        setDivider(pctFromEvent(e));
+      });
+      // Keyboard accessibility.
+      divider.addEventListener('keydown', function (e) {
+        var cur = parseFloat(frame.style.getPropertyValue('--divider')) || 50;
+        if (e.key === 'ArrowLeft') { setDivider(cur - 4); e.preventDefault(); }
+        else if (e.key === 'ArrowRight') { setDivider(cur + 4); e.preventDefault(); }
+        else if (e.key === 'Home') { setDivider(0); e.preventDefault(); }
+        else if (e.key === 'End') { setDivider(100); e.preventDefault(); }
+      });
+      setDivider(50);
+    })();
+  </script>
+</body>
+</html>
