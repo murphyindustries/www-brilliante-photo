@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — מציג תמונות HDR ל-Windows",
+  "meta.description": "Brilliante הוא מציג תמונות HDR ל-Windows — צפו בתמונות Ultra HDR, HEIC ובתמונות תנועה בצבעים עזים, והעניקו לכל תמונה ברק מרהיב.",
+  "meta.ogDescription": "צפו בתמונות Ultra HDR, HEIC ובתמונות תנועה בצבעים עזים ונאמנים למציאות — בתוספת ברק מרהיב לכל תמונה רגילה.",
+  "meta.jsonldDescription": "Brilliante הוא מציג תמונות HDR ל-Windows. צפו בתמונות Ultra HDR, HEIC ובתמונות תנועה בצבעים עזים ונאמנים למציאות — והעניקו לכל תמונה רגילה ברק מרהיב.",
+  "app.name": "Brilliante מציג תמונות",
+
+  "nav.by": "מאת",
+
+  "hero.eyebrow": "ל-Windows 10 ו-11",
+  "hero.kicker": "מציג תמונות HDR",
+  "hero.iconAlt": "סמל האפליקציה Brilliante — תמונת Ultra HDR חיה",
+  "hero.lede_html": "צפו בתמונות שלכם בצבעים עזים ונאמנים למציאות. Ultra&nbsp;HDR, HEIC ותמונות תנועה — בתוספת ברק <span class=\"hl\">מרהיב</span> לכל צילום רגיל.",
+
+  "cta.getItFrom": "להורדה מתוך",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "הורדה חינם · Windows 10 ו-11",
+
+  "demo.head_html": "ראו את <em>ההבדל</em>",
+  "demo.sub": "גררו את המחוון כדי להשוות בין תמונה רגילה לבין שיפור ה-HDR של Brilliante.",
+  "demo.ariaCompare": "השוואה בין SDR ל-HDR",
+  "demo.altSdr": "תמונה מקורית, טווח רגיל",
+  "demo.altHdr": "אותה תמונה משופרת ל-Ultra HDR",
+  "demo.hint": "גררו את הידית כדי להשוות",
+  "demo.sdrNote_html": "אתם צופים על <b>מסך SDR</b> — הצד הימני מציג תצוגה מקדימה של חיזוק הצבע ש-Brilliante מעניק גם למסכים רגילים. על <b>מסך HDR</b>, התמונה מוצגת ב-HDR&nbsp;אמיתי.",
+
+  "features.head_html": "תמונות, כפי <em>שהן אמורות להיראות</em>",
+  "features.sub": "Brilliante מפענח את הצבע העשיר שטלפונים מודרניים מצלמים — ומחיה אותו במחשב שלכם.",
+
+  "card1.title": "צבע HDR עז",
+  "card1.body_html": "תמונות Ultra HDR JPEG ו-HDR אמיתי זוהרות בצבע עז ומדויק במסכי HDR.",
+  "card2.title": "מרהיב בכל מסך",
+  "card2.body_html": "חיזוק חכם בסגנון HDR מעניק חיים חדשים לתמונות רגילות, אפילו על מסך רגיל (SDR).",
+  "card3.title": "תמונות תנועה",
+  "card3.body_html": "הפעילו את תמונות התנועה מטלפוני Android — Top&nbsp;Shot של Google Pixel ו-Motion&nbsp;Photo של Samsung — ישירות במחשב שלכם.",
+  "card4.title": "תמיכה רחבה בפורמטים",
+  "card4.body_html": "פותח HEIC, Ultra HDR JPEG, PNG ועוד — עם תמיכה בתמונות עד 16-bit.",
+  "card5.title": "HEIC אמיתי של 10-bit",
+  "card5.body_html": "מפענח HEIC של 10-bit למעברי גוונים ופרטים העמוקים והחלקים ביותר.",
+  "card6.title": "פרטי התמונה",
+  "card6.body_html": "צפו במטא-נתוני EXIF במבט חטוף, כולל מיקום ה-GPS על המפה.",
+
+  "closing.head_html": "הפכו כל תמונה ל<em>מרהיבה</em>.",
+  "closing.sub": "הורידו את Brilliante בחינם מ-Microsoft Store וראו את הספרייה שלכם באור חדש לגמרי.",
+
+  "footer.privacy": "פרטיות",
+  "footer.support": "תמיכה",
+
+  "langPicker.label": "שפה"
+}

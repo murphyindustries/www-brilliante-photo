@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — Bộ xem ảnh HDR cho Windows",
+  "meta.description": "Brilliante là bộ xem ảnh HDR cho Windows — xem ảnh Ultra HDR, HEIC và ảnh chuyển động với màu sắc rực rỡ, đồng thời mang đến vẻ rạng rỡ cho mọi bức ảnh.",
+  "meta.ogDescription": "Xem ảnh Ultra HDR, HEIC và ảnh chuyển động với màu sắc rực rỡ, chân thực như thật — cùng vẻ rạng rỡ cho mọi bức ảnh bình thường.",
+  "meta.jsonldDescription": "Brilliante là bộ xem ảnh HDR cho Windows. Xem ảnh Ultra HDR, HEIC và ảnh chuyển động với màu sắc rực rỡ, chân thực như thật — và mang đến vẻ rạng rỡ cho mọi bức ảnh bình thường.",
+  "app.name": "Brilliante Bộ xem ảnh",
+
+  "nav.by": "bởi",
+
+  "hero.eyebrow": "Dành cho Windows 10 và 11",
+  "hero.kicker": "Bộ xem ảnh HDR",
+  "hero.iconAlt": "Biểu tượng ứng dụng Brilliante — một hình ảnh Ultra HDR thực",
+  "hero.lede_html": "Xem ảnh của bạn với màu sắc rực rỡ, chân thực như thật. Ultra&nbsp;HDR, HEIC và Ảnh chuyển động — cùng vẻ <span class=\"hl\">rạng rỡ</span> cho mọi bức ảnh thường ngày.",
+
+  "cta.getItFrom": "Tải về từ",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Tải miễn phí · Windows 10 và 11",
+
+  "demo.head_html": "Cảm nhận <em>sự khác biệt</em>",
+  "demo.sub": "Kéo thanh trượt để so sánh một bức ảnh thường với bản nâng cấp HDR của Brilliante.",
+  "demo.ariaCompare": "So sánh SDR và HDR",
+  "demo.altSdr": "Ảnh gốc, dải màu tiêu chuẩn",
+  "demo.altHdr": "Cùng bức ảnh được nâng cấp lên Ultra HDR",
+  "demo.hint": "Kéo núm trượt để so sánh",
+  "demo.sdrNote_html": "Bạn đang xem trên <b>màn hình SDR</b> — phía bên phải xem trước phần tăng cường màu sắc mà Brilliante cũng mang lại cho màn hình tiêu chuẩn. Trên <b>màn hình HDR</b>, ảnh hiển thị bằng HDR&nbsp;thực.",
+
+  "features.head_html": "Những bức ảnh, đúng như <em>vốn dĩ phải thế</em>",
+  "features.sub": "Brilliante đọc được màu sắc phong phú mà điện thoại hiện đại ghi lại — và làm chúng sống động trên PC của bạn.",
+
+  "card1.title": "Màu HDR rực rỡ",
+  "card1.body_html": "Ảnh Ultra HDR JPEG và HDR thực tỏa sáng với màu sắc cực kỳ rực rỡ trên màn hình HDR.",
+  "card2.title": "Rạng rỡ trên mọi màn hình",
+  "card2.body_html": "Tính năng tăng cường kiểu HDR thông minh thổi sức sống mới vào ảnh thường, ngay cả trên màn hình tiêu chuẩn (SDR).",
+  "card3.title": "Ảnh chuyển động",
+  "card3.body_html": "Phát ảnh chuyển động từ điện thoại Android — Top&nbsp;Shot của Pixel và Ảnh&nbsp;chuyển động của Samsung — ngay trên PC của bạn.",
+  "card4.title": "Hỗ trợ nhiều định dạng",
+  "card4.body_html": "Mở HEIC, Ultra HDR JPEG, PNG và nhiều hơn nữa — với hỗ trợ ảnh lên tới 16-bit.",
+  "card5.title": "HEIC 10-bit thực thụ",
+  "card5.body_html": "Giải mã HEIC 10-bit để có dải chuyển màu và chi tiết mượt mà, sâu sắc nhất.",
+  "card6.title": "Chi tiết ảnh",
+  "card6.body_html": "Xem nhanh dữ liệu EXIF, bao gồm cả vị trí GPS trên bản đồ.",
+
+  "closing.head_html": "Làm cho mọi bức ảnh thêm <em>rạng rỡ</em>.",
+  "closing.sub": "Tải Brilliante miễn phí từ Microsoft Store và ngắm nhìn thư viện ảnh của bạn dưới một ánh sáng hoàn toàn mới.",
+
+  "footer.privacy": "Quyền riêng tư",
+  "footer.support": "Hỗ trợ",
+
+  "langPicker.label": "Ngôn ngữ"
+}

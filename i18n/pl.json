@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — Przeglądarka fotografii HDR dla Windows",
+  "meta.description": "Brilliante to przeglądarka fotografii HDR dla Windows — oglądaj zdjęcia Ultra HDR, HEIC i zdjęcia ruchome w żywych kolorach i nadaj każdemu zdjęciu olśniewający blask.",
+  "meta.ogDescription": "Oglądaj zdjęcia Ultra HDR, HEIC i zdjęcia ruchome w żywych, wiernych rzeczywistości kolorach — a do tego olśniewający blask dla każdego zwykłego zdjęcia.",
+  "meta.jsonldDescription": "Brilliante to przeglądarka fotografii HDR dla Windows. Oglądaj zdjęcia Ultra HDR, HEIC i zdjęcia ruchome w żywych, wiernych rzeczywistości kolorach — i nadaj każdemu zwykłemu zdjęciu olśniewający blask.",
+  "app.name": "Brilliante Przeglądarka fotografii",
+
+  "nav.by": "od",
+
+  "hero.eyebrow": "Dla Windows 10 i 11",
+  "hero.kicker": "HDR Przeglądarka fotografii",
+  "hero.iconAlt": "Ikona aplikacji Brilliante — żywy obraz Ultra HDR",
+  "hero.lede_html": "Oglądaj swoje zdjęcia w żywych, wiernych rzeczywistości kolorach. Ultra&nbsp;HDR, HEIC i zdjęcia ruchome — a do tego <span class=\"hl\">olśniewający</span> blask dla każdego zwykłego ujęcia.",
+
+  "cta.getItFrom": "Pobierz z",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Darmowe pobieranie · Windows 10 i 11",
+
+  "demo.head_html": "Zobacz <em>różnicę</em>",
+  "demo.sub": "Przeciągnij suwak, aby porównać zwykłe zdjęcie z udoskonaleniem HDR od Brilliante.",
+  "demo.ariaCompare": "Porównaj SDR i HDR",
+  "demo.altSdr": "Oryginalne zdjęcie, zakres standardowy",
+  "demo.altHdr": "To samo zdjęcie udoskonalone do Ultra HDR",
+  "demo.hint": "Przeciągnij uchwyt, aby porównać",
+  "demo.sdrNote_html": "Oglądasz na <b>wyświetlaczu SDR</b> — prawa strona pokazuje wzmocnienie kolorów, które Brilliante wnosi także na standardowe ekrany. Na <b>wyświetlaczu HDR</b> obraz renderuje się w prawdziwym&nbsp;HDR.",
+
+  "features.head_html": "Zdjęcia takie, jakie <em>powinny być</em>",
+  "features.sub": "Brilliante odczytuje bogate kolory, które rejestrują nowoczesne telefony — i ożywia je na Twoim komputerze.",
+
+  "card1.title": "Żywy kolor HDR",
+  "card1.body_html": "Obrazy Ultra HDR JPEG i prawdziwe HDR lśnią żywymi, wiernymi kolorami na wyświetlaczach HDR.",
+  "card2.title": "Olśniewające na każdym ekranie",
+  "card2.body_html": "Inteligentne wzmocnienie w stylu HDR tchnie nowe życie w zwykłe zdjęcia, nawet na standardowym wyświetlaczu (SDR).",
+  "card3.title": "Zdjęcia ruchome",
+  "card3.body_html": "Odtwarzaj zdjęcia ruchome z telefonów Android — najlepsze ujęcie Google&nbsp;Pixel i Motion&nbsp;Photo Samsunga — prosto na swoim komputerze.",
+  "card4.title": "Szerokie wsparcie formatów",
+  "card4.body_html": "Otwiera HEIC, Ultra HDR JPEG, PNG i więcej — z obsługą obrazów do 16-bit.",
+  "card5.title": "Prawdziwy 10-bit HEIC",
+  "card5.body_html": "Dekoduje 10-bit HEIC dla najgłębszych, najbardziej płynnych przejść tonalnych i detali.",
+  "card6.title": "Szczegóły zdjęcia",
+  "card6.body_html": "Zobacz metadane EXIF jednym rzutem oka, w tym lokalizację GPS na mapie.",
+
+  "closing.head_html": "Spraw, by każde zdjęcie było <em>olśniewające</em>.",
+  "closing.sub": "Pobierz Brilliante za darmo z Microsoft Store i zobacz swoją galerię w zupełnie nowym świetle.",
+
+  "footer.privacy": "Prywatność",
+  "footer.support": "Pomoc",
+
+  "langPicker.label": "Język"
+}

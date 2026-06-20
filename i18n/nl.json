@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — HDR-fotoviewer voor Windows",
+  "meta.description": "Brilliante is een HDR-fotoviewer voor Windows: bekijk Ultra HDR, HEIC en motion photo’s in levendige kleuren en geef elke foto een schitterende boost.",
+  "meta.ogDescription": "Bekijk Ultra HDR, HEIC en motion photo’s in levendige, levensechte kleuren — plus een schitterende boost voor elke gewone foto.",
+  "meta.jsonldDescription": "Brilliante is een HDR-fotoviewer voor Windows. Bekijk Ultra HDR, HEIC en motion photo’s in levendige, levensechte kleuren — en geef elke gewone foto een schitterende boost.",
+  "app.name": "Brilliante Fotoviewer",
+
+  "nav.by": "van",
+
+  "hero.eyebrow": "Voor Windows 10 en 11",
+  "hero.kicker": "HDR Fotoviewer",
+  "hero.iconAlt": "Brilliante-app-pictogram — een live Ultra HDR-afbeelding",
+  "hero.lede_html": "Bekijk je foto’s in levendige, levensechte kleuren. Ultra&nbsp;HDR, HEIC en motion photo’s — plus een <span class=\"hl\">schitterende</span> boost voor elke gewone foto.",
+
+  "cta.getItFrom": "Verkrijgbaar via",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Gratis download · Windows 10 en 11",
+
+  "demo.head_html": "Zie het <em>verschil</em>",
+  "demo.sub": "Sleep de schuifregelaar om een gewone foto te vergelijken met de HDR-verbetering van Brilliante.",
+  "demo.ariaCompare": "SDR en HDR vergelijken",
+  "demo.altSdr": "Originele foto, standaardbereik",
+  "demo.altHdr": "Dezelfde foto verbeterd naar Ultra HDR",
+  "demo.hint": "Sleep de greep om te vergelijken",
+  "demo.sdrNote_html": "Je bekijkt dit op een <b>SDR-scherm</b> — de rechterkant toont de kleurboost die Brilliante ook op standaardschermen brengt. Op een <b>HDR-scherm</b> wordt het weergegeven in echt&nbsp;HDR.",
+
+  "features.head_html": "Foto’s, zoals ze <em>bedoeld zijn om eruit te zien</em>",
+  "features.sub": "Brilliante leest de rijke kleuren die moderne telefoons vastleggen — en brengt ze tot leven op je pc.",
+
+  "card1.title": "Levendige HDR-kleuren",
+  "card1.body_html": "Ultra HDR JPEG en echte HDR-afbeeldingen stralen in levendige, accurate kleuren op HDR-schermen.",
+  "card2.title": "Schitterend op elk scherm",
+  "card2.body_html": "Een slimme boost in HDR-stijl geeft gewone foto’s nieuw leven, zelfs op een standaardscherm (SDR).",
+  "card3.title": "Motion photo’s",
+  "card3.body_html": "Speel de motion photo’s van Android-telefoons — Top&nbsp;Shot van de Pixel en Motion&nbsp;Photo van Samsung — direct af op je pc.",
+  "card4.title": "Brede formaatondersteuning",
+  "card4.body_html": "Opent HEIC, Ultra HDR JPEG, PNG en meer — met ondersteuning voor afbeeldingen tot 16-bit.",
+  "card5.title": "Echte 10-bit HEIC",
+  "card5.body_html": "Decodeert 10-bit HEIC voor de diepste, vloeiendste kleurovergangen en details.",
+  "card6.title": "Fotodetails",
+  "card6.body_html": "Bekijk EXIF-metagegevens in één oogopslag, inclusief de GPS-locatie op een kaart.",
+
+  "closing.head_html": "Maak elke foto <em>schitterend</em>.",
+  "closing.sub": "Download Brilliante gratis uit de Microsoft Store en zie je bibliotheek in een heel nieuw licht.",
+
+  "footer.privacy": "Privacy",
+  "footer.support": "Ondersteuning",
+
+  "langPicker.label": "Taal"
+}

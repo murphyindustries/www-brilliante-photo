@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — HDR-средство просмотра фотографий для Windows",
+  "meta.description": "Brilliante — это HDR-средство просмотра фотографий для Windows: смотрите фотографии Ultra HDR, HEIC и Motion Photo в насыщенных цветах и придайте любому снимку яркое сияние.",
+  "meta.ogDescription": "Смотрите фотографии Ultra HDR, HEIC и Motion Photo в насыщенных, естественных цветах — а каждому обычному снимку добавьте яркое сияние.",
+  "meta.jsonldDescription": "Brilliante — это HDR-средство просмотра фотографий для Windows. Смотрите фотографии Ultra HDR, HEIC и Motion Photo в насыщенных, естественных цветах — и придайте каждому обычному снимку яркое сияние.",
+  "app.name": "Brilliante Средство просмотра фотографий",
+
+  "nav.by": "от",
+
+  "hero.eyebrow": "Для Windows 10 и 11",
+  "hero.kicker": "HDR Средство просмотра фотографий",
+  "hero.iconAlt": "Значок приложения Brilliante — живое изображение Ultra HDR",
+  "hero.lede_html": "Смотрите свои фотографии в насыщенных, естественных цветах. Ultra&nbsp;HDR, HEIC и Motion Photo — а каждому обычному кадру добавьте <span class=\"hl\">яркое</span> сияние.",
+
+  "cta.getItFrom": "Загрузите из",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Бесплатная загрузка · Windows 10 и 11",
+
+  "demo.head_html": "Почувствуйте <em>разницу</em>",
+  "demo.sub": "Перетащите ползунок, чтобы сравнить обычную фотографию с HDR-улучшением от Brilliante.",
+  "demo.ariaCompare": "Сравнить SDR и HDR",
+  "demo.altSdr": "Исходная фотография, стандартный диапазон",
+  "demo.altHdr": "Та же фотография, улучшенная до Ultra HDR",
+  "demo.hint": "Перетащите маркер для сравнения",
+  "demo.sdrNote_html": "Вы смотрите на <b>SDR-дисплее</b> — правая сторона показывает усиление цвета, которое Brilliante привносит и на стандартные экраны. На <b>HDR-дисплее</b> изображение отображается в настоящем&nbsp;HDR.",
+
+  "features.head_html": "Фотографии такими, <em>какими они должны быть</em>",
+  "features.sub": "Brilliante считывает насыщенный цвет, который захватывают современные телефоны, и оживляет его на вашем ПК.",
+
+  "card1.title": "Насыщенный цвет HDR",
+  "card1.body_html": "Изображения Ultra HDR JPEG и настоящий HDR сияют живыми, точными цветами на HDR-дисплеях.",
+  "card2.title": "Великолепно на любом экране",
+  "card2.body_html": "Умное усиление в стиле HDR вдыхает новую жизнь в обычные фотографии, даже на стандартном (SDR) дисплее.",
+  "card3.title": "Motion Photo",
+  "card3.body_html": "Воспроизводите Motion Photo с телефонов Android — лучший&nbsp;снимок от Pixel и Motion&nbsp;Photo от Samsung — прямо на вашем ПК.",
+  "card4.title": "Широкая поддержка форматов",
+  "card4.body_html": "Открывает HEIC, Ultra HDR JPEG, PNG и другие форматы — с поддержкой изображений до 16-bit.",
+  "card5.title": "Настоящий 10-bit HEIC",
+  "card5.body_html": "Декодирует 10-bit HEIC ради самых глубоких, плавных градиентов и детализации.",
+  "card6.title": "Сведения о фотографии",
+  "card6.body_html": "Просматривайте метаданные EXIF с одного взгляда, включая местоположение GPS на карте.",
+
+  "closing.head_html": "Сделайте каждую фотографию <em>яркой</em>.",
+  "closing.sub": "Загрузите Brilliante бесплатно из Microsoft Store и взгляните на свою галерею в совершенно новом свете.",
+
+  "footer.privacy": "Конфиденциальность",
+  "footer.support": "Поддержка",
+
+  "langPicker.label": "Язык"
+}

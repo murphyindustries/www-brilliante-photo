@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — ตัวแสดงภาพถ่าย HDR สำหรับ Windows",
+  "meta.description": "Brilliante คือตัวแสดงภาพถ่าย HDR สำหรับ Windows ดูภาพ Ultra HDR, HEIC และภาพเคลื่อนไหวด้วยสีสันสดใส พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
+  "meta.ogDescription": "ดูภาพ Ultra HDR, HEIC และภาพเคลื่อนไหวด้วยสีสันสดใสและสมจริง พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
+  "meta.jsonldDescription": "Brilliante คือตัวแสดงภาพถ่าย HDR สำหรับ Windows ดูภาพ Ultra HDR, HEIC และภาพเคลื่อนไหวด้วยสีสันสดใสและสมจริง พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
+  "app.name": "Brilliante ตัวแสดงภาพถ่าย",
+
+  "nav.by": "โดย",
+
+  "hero.eyebrow": "สำหรับ Windows 10 และ 11",
+  "hero.kicker": "ตัวแสดงภาพถ่าย HDR",
+  "hero.iconAlt": "ไอคอนแอป Brilliante — ภาพ Ultra HDR แบบสด",
+  "hero.lede_html": "ดูภาพถ่ายของคุณด้วยสีสันสดใสและสมจริง ทั้ง Ultra&nbsp;HDR, HEIC และภาพเคลื่อนไหว พร้อมเพิ่มความ<span class=\"hl\">สดใส</span>ให้ทุกภาพถ่ายธรรมดา",
+
+  "cta.getItFrom": "ดาวน์โหลดได้จาก",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "ดาวน์โหลดฟรี · Windows 10 และ 11",
+
+  "demo.head_html": "สัมผัสความ<em>แตกต่าง</em>",
+  "demo.sub": "ลากแถบเลื่อนเพื่อเปรียบเทียบภาพถ่ายธรรมดากับการปรับแต่ง HDR ของ Brilliante",
+  "demo.ariaCompare": "เปรียบเทียบ SDR และ HDR",
+  "demo.altSdr": "ภาพถ่ายต้นฉบับ ช่วงสีมาตรฐาน",
+  "demo.altHdr": "ภาพเดียวกันที่ปรับแต่งเป็น Ultra HDR",
+  "demo.hint": "ลากที่จับเพื่อเปรียบเทียบ",
+  "demo.sdrNote_html": "คุณกำลังดูบน<b>จอแสดงผล SDR</b> — ด้านขวาแสดงตัวอย่างการเพิ่มสีสันที่ Brilliante มอบให้กับหน้าจอมาตรฐานเช่นกัน บน<b>จอแสดงผล HDR</b> ภาพจะแสดงเป็น HDR&nbsp;จริง",
+
+  "features.head_html": "ภาพถ่าย ในแบบที่<em>ควรจะเป็น</em>",
+  "features.sub": "Brilliante อ่านสีสันอันเข้มข้นที่โทรศัพท์ยุคใหม่บันทึกไว้ และทำให้มันมีชีวิตขึ้นมาบนพีซีของคุณ",
+
+  "card1.title": "สีสัน HDR สดใส",
+  "card1.body_html": "ภาพ Ultra HDR JPEG และภาพ HDR จริงเปล่งประกายด้วยสีสันสดใสและแม่นยำบนจอแสดงผล HDR",
+  "card2.title": "สดใสบนทุกหน้าจอ",
+  "card2.body_html": "การเพิ่มความสดใสสไตล์ HDR อันชาญฉลาดมอบชีวิตใหม่ให้ภาพถ่ายธรรมดา แม้บนจอแสดงผลมาตรฐาน (SDR)",
+  "card3.title": "ภาพเคลื่อนไหว",
+  "card3.body_html": "เล่นภาพเคลื่อนไหวจากโทรศัพท์ Android — Top&nbsp;Shot ของ Google Pixel และภาพเคลื่อนไหวของ Samsung&nbsp;Galaxy — ได้โดยตรงบนพีซีของคุณ",
+  "card4.title": "รองรับฟอร์แมตหลากหลาย",
+  "card4.body_html": "เปิดไฟล์ HEIC, Ultra HDR JPEG, PNG และอื่น ๆ พร้อมรองรับภาพสูงสุดถึง 16-bit",
+  "card5.title": "HEIC 10-bit แท้",
+  "card5.body_html": "ถอดรหัส HEIC แบบ 10-bit เพื่อการไล่เฉดสีและรายละเอียดที่ลึกและนุ่มนวลที่สุด",
+  "card6.title": "รายละเอียดภาพถ่าย",
+  "card6.body_html": "ดูข้อมูลเมตา EXIF ได้ในพริบตา รวมถึงตำแหน่ง GPS บนแผนที่",
+
+  "closing.head_html": "ทำให้ทุกภาพถ่าย<em>สดใส</em>",
+  "closing.sub": "ดาวน์โหลด Brilliante ฟรีจาก Microsoft Store แล้วชมคลังภาพของคุณในมุมมองใหม่",
+
+  "footer.privacy": "ความเป็นส่วนตัว",
+  "footer.support": "การสนับสนุน",
+
+  "langPicker.label": "ภาษา"
+}

@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — HDR-Fotoanzeige für Windows",
+  "meta.description": "Brilliante ist eine HDR-Fotoanzeige für Windows: Betrachte Ultra HDR, HEIC und Motion Photos in leuchtenden Farben und verleihe jedem Foto einen brillanten Glanz.",
+  "meta.ogDescription": "Betrachte Ultra HDR, HEIC und Motion Photos in leuchtenden, naturgetreuen Farben – plus brillanter Glanz für jedes gewöhnliche Foto.",
+  "meta.jsonldDescription": "Brilliante ist eine HDR-Fotoanzeige für Windows. Betrachte Ultra HDR, HEIC und Motion Photos in leuchtenden, naturgetreuen Farben und verleihe jedem gewöhnlichen Foto einen brillanten Glanz.",
+  "app.name": "Brilliante Fotoanzeige",
+
+  "nav.by": "von",
+
+  "hero.eyebrow": "Für Windows 10 und 11",
+  "hero.kicker": "HDR-Fotoanzeige",
+  "hero.iconAlt": "Brilliante App-Symbol – ein echtes Ultra-HDR-Bild",
+  "hero.lede_html": "Sieh deine Fotos in leuchtenden, naturgetreuen Farben. Ultra&nbsp;HDR, HEIC und Motion Photos – dazu ein <span class=\"hl\">brillanter</span> Glanz für jedes gewöhnliche Foto.",
+
+  "cta.getItFrom": "Erhältlich im",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Kostenloser Download · Windows 10 und 11",
+
+  "demo.head_html": "Sieh den <em>Unterschied</em>",
+  "demo.sub": "Zieh den Regler, um ein gewöhnliches Foto mit Brilliantes HDR-Verbesserung zu vergleichen.",
+  "demo.ariaCompare": "SDR und HDR vergleichen",
+  "demo.altSdr": "Originalfoto, Standardbereich",
+  "demo.altHdr": "Dasselbe Foto, verbessert zu Ultra HDR",
+  "demo.hint": "Zieh den Griff zum Vergleichen",
+  "demo.sdrNote_html": "Du betrachtest dies auf einem <b>SDR-Display</b> – die rechte Seite zeigt eine Vorschau des Farbschubs, den Brilliante auch auf Standardbildschirme bringt. Auf einem <b>HDR-Display</b> wird es in echtem&nbsp;HDR dargestellt.",
+
+  "features.head_html": "Fotos, so wie sie <em>aussehen sollten</em>",
+  "features.sub": "Brilliante liest die satten Farben, die moderne Smartphones aufnehmen – und erweckt sie auf deinem PC zum Leben.",
+
+  "card1.title": "Leuchtende HDR-Farben",
+  "card1.body_html": "Ultra HDR JPEG und echte HDR-Bilder erstrahlen in lebendigen, präzisen Farben auf HDR-Displays.",
+  "card2.title": "Brillant auf jedem Bildschirm",
+  "card2.body_html": "Ein intelligenter HDR-Boost haucht gewöhnlichen Fotos neues Leben ein – sogar auf einem Standardbildschirm (SDR).",
+  "card3.title": "Motion Photos",
+  "card3.body_html": "Spiele die Motion Photos von Android-Smartphones – Pixel Top&nbsp;Shot und Samsung Motion&nbsp;Photo – direkt auf deinem PC ab.",
+  "card4.title": "Umfangreiche Formatunterstützung",
+  "card4.body_html": "Öffnet HEIC, Ultra HDR JPEG, PNG und mehr – mit Unterstützung für Bilder mit bis zu 16 Bit.",
+  "card5.title": "Echtes 10-Bit-HEIC",
+  "card5.body_html": "Dekodiert 10-Bit-HEIC für die tiefsten, geschmeidigsten Verläufe und Details.",
+  "card6.title": "Fotodetails",
+  "card6.body_html": "Sieh dir EXIF-Metadaten auf einen Blick an, einschließlich des GPS-Standorts auf einer Karte.",
+
+  "closing.head_html": "Mach jedes Foto <em>brillant</em>.",
+  "closing.sub": "Lade Brilliante kostenlos aus dem Microsoft Store und sieh deine Sammlung in völlig neuem Licht.",
+
+  "footer.privacy": "Datenschutz",
+  "footer.support": "Support",
+
+  "langPicker.label": "Sprache"
+}

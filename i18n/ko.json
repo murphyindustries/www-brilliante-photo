@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — Windows용 HDR 사진 뷰어",
+  "meta.description": "Brilliante는 Windows용 HDR 사진 뷰어입니다. Ultra HDR, HEIC, 모션 포토를 생생한 색감으로 감상하고 어떤 사진이든 빛나게 만들어 보세요.",
+  "meta.ogDescription": "Ultra HDR, HEIC, 모션 포토를 생생하고 사실적인 색감으로 감상하고, 평범한 사진에도 멋진 빛을 더하세요.",
+  "meta.jsonldDescription": "Brilliante는 Windows용 HDR 사진 뷰어입니다. Ultra HDR, HEIC, 모션 포토를 생생하고 사실적인 색감으로 감상하고, 평범한 사진에도 멋진 빛을 더해 보세요.",
+  "app.name": "Brilliante 사진 뷰어",
+
+  "nav.by": "제공",
+
+  "hero.eyebrow": "Windows 10 및 11 지원",
+  "hero.kicker": "HDR 사진 뷰어",
+  "hero.iconAlt": "Brilliante 앱 아이콘 — 실제 Ultra HDR 이미지",
+  "hero.lede_html": "사진을 생생하고 사실적인 색감으로 감상하세요. Ultra&nbsp;HDR, HEIC, 모션 포토를 지원하며, 평범한 사진에도 <span class=\"hl\">눈부신</span> 빛을 더합니다.",
+
+  "cta.getItFrom": "받기",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "무료 다운로드 · Windows 10 및 11",
+
+  "demo.head_html": "<em>차이</em>를 확인하세요",
+  "demo.sub": "슬라이더를 드래그하여 일반 사진과 Brilliante의 HDR 향상을 비교해 보세요.",
+  "demo.ariaCompare": "SDR과 HDR 비교",
+  "demo.altSdr": "원본 사진, 표준 범위",
+  "demo.altHdr": "Ultra HDR로 향상된 같은 사진",
+  "demo.hint": "핸들을 드래그하여 비교",
+  "demo.sdrNote_html": "현재 <b>SDR 디스플레이</b>로 보고 있습니다. 오른쪽은 Brilliante가 표준 화면에도 더해 주는 색감 향상을 미리 보여 줍니다. <b>HDR 디스플레이</b>에서는 진정한&nbsp;HDR로 표시됩니다.",
+
+  "features.head_html": "사진, <em>본래의 모습</em> 그대로",
+  "features.sub": "Brilliante는 최신 스마트폰이 담아낸 풍부한 색을 읽어내어 PC에서 생생하게 되살립니다.",
+
+  "card1.title": "생생한 HDR 색감",
+  "card1.body_html": "Ultra HDR JPEG와 진정한 HDR 이미지가 HDR 디스플레이에서 선명하고 정확한 색으로 빛납니다.",
+  "card2.title": "어떤 화면에서도 빛나게",
+  "card2.body_html": "스마트한 HDR 스타일 향상이 표준(SDR) 디스플레이에서도 평범한 사진에 새로운 생기를 불어넣습니다.",
+  "card3.title": "모션 포토",
+  "card3.body_html": "Android 휴대폰의 모션 포토 — Pixel의 Top&nbsp;Shot과 Samsung의 Motion&nbsp;Photo — 를 PC에서 바로 재생하세요.",
+  "card4.title": "폭넓은 형식 지원",
+  "card4.body_html": "HEIC, Ultra HDR JPEG, PNG 등을 열 수 있으며 최대 16비트 이미지를 지원합니다.",
+  "card5.title": "진정한 10비트 HEIC",
+  "card5.body_html": "10비트 HEIC를 디코딩하여 가장 깊고 부드러운 그라데이션과 디테일을 구현합니다.",
+  "card6.title": "사진 세부정보",
+  "card6.body_html": "EXIF 메타데이터를 한눈에 확인하고 지도에서 GPS 위치도 볼 수 있습니다.",
+
+  "closing.head_html": "모든 사진을 <em>눈부시게</em>.",
+  "closing.sub": "Microsoft Store에서 Brilliante를 무료로 다운로드하고 사진 라이브러리를 새로운 빛으로 만나 보세요.",
+
+  "footer.privacy": "개인정보",
+  "footer.support": "지원",
+
+  "langPicker.label": "언어"
+}

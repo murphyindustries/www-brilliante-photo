@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — HDR Photo Viewer para sa Windows",
+  "meta.description": "Ang Brilliante ay isang HDR photo viewer para sa Windows — tingnan ang mga Ultra HDR, HEIC, at motion photo nang may matingkad na kulay, at bigyan ng makinang na ganda ang kahit anong larawan.",
+  "meta.ogDescription": "Tingnan ang mga Ultra HDR, HEIC, at motion photo nang may matingkad at totoong-buhay na kulay — kasama ang makinang na ganda para sa bawat karaniwang larawan.",
+  "meta.jsonldDescription": "Ang Brilliante ay isang HDR photo viewer para sa Windows. Tingnan ang mga Ultra HDR, HEIC, at motion photo nang may matingkad at totoong-buhay na kulay — at bigyan ng makinang na ganda ang bawat karaniwang larawan.",
+  "app.name": "Brilliante Photo Viewer",
+
+  "nav.by": "ng",
+
+  "hero.eyebrow": "Para sa Windows 10 at 11",
+  "hero.kicker": "HDR Photo Viewer",
+  "hero.iconAlt": "Icon ng app na Brilliante — isang live na Ultra HDR na larawan",
+  "hero.lede_html": "Tingnan ang iyong mga larawan nang may matingkad at totoong-buhay na kulay. Ultra&nbsp;HDR, HEIC, at mga Motion Photo — kasama ang isang <span class=\"hl\">makinang</span> na ganda para sa bawat karaniwang kuha.",
+
+  "cta.getItFrom": "Kunin ito sa",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Libreng download · Windows 10 at 11",
+
+  "demo.head_html": "Tingnan ang <em>pagkakaiba</em>",
+  "demo.sub": "I-drag ang slider upang ihambing ang isang karaniwang larawan sa HDR enhancement ng Brilliante.",
+  "demo.ariaCompare": "Ihambing ang SDR at HDR",
+  "demo.altSdr": "Orihinal na larawan, standard range",
+  "demo.altHdr": "Ang parehong larawan na pinaganda sa Ultra HDR",
+  "demo.hint": "I-drag ang handle upang ihambing",
+  "demo.sdrNote_html": "Tinitingnan mo ito sa isang <b>SDR display</b> — ipinapakita ng kanang bahagi ang pagpapaganda ng kulay na dinadala rin ng Brilliante sa mga standard na screen. Sa isang <b>HDR display</b>, ito ay umaandar sa totoong&nbsp;HDR.",
+
+  "features.head_html": "Mga larawan, sa paraang <em>nararapat nilang itsura</em>",
+  "features.sub": "Binabasa ng Brilliante ang mayamang kulay na kinukuha ng mga modernong telepono — at binubuhay ito sa iyong PC.",
+
+  "card1.title": "Matingkad na HDR na kulay",
+  "card1.body_html": "Ang mga Ultra HDR JPEG at totoong HDR na larawan ay nagniningning sa buhay at tumpak na kulay sa mga HDR display.",
+  "card2.title": "Makinang sa anumang screen",
+  "card2.body_html": "Isang matalinong HDR-style na pagpapaganda ang nagbibigay ng bagong buhay sa mga karaniwang larawan, kahit sa isang standard (SDR) na display.",
+  "card3.title": "Mga motion photo",
+  "card3.body_html": "I-play ang mga motion photo mula sa mga Android phone — Top&nbsp;Shot ng Google Pixel at Motion&nbsp;Photo ng Samsung — diretso sa iyong PC.",
+  "card4.title": "Malawak na suporta sa format",
+  "card4.body_html": "Nagbubukas ng HEIC, Ultra HDR JPEG, PNG at higit pa — may suporta para sa mga larawan na hanggang 16-bit.",
+  "card5.title": "Totoong 10-bit na HEIC",
+  "card5.body_html": "Nagde-decode ng 10-bit na HEIC para sa pinakamalalim, pinakamakinis na gradient at detalye.",
+  "card6.title": "Mga detalye ng larawan",
+  "card6.body_html": "Tingnan ang EXIF metadata sa isang sulyap, kasama ang lokasyon ng GPS sa isang mapa.",
+
+  "closing.head_html": "Gawing <em>makinang</em> ang bawat larawan.",
+  "closing.sub": "I-download ang Brilliante nang libre mula sa Microsoft Store at tingnan ang iyong library sa isang ganap na bagong liwanag.",
+
+  "footer.privacy": "Privacy",
+  "footer.support": "Suporta",
+
+  "langPicker.label": "Wika"
+}

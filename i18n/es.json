@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — Visor de fotos HDR para Windows",
+  "meta.description": "Brilliante es un visor de fotos HDR para Windows: ve fotos Ultra HDR, HEIC y Motion Photos con un color vibrante y dale un toque brillante a cualquier foto.",
+  "meta.ogDescription": "Ve fotos Ultra HDR, HEIC y Motion Photos con un color vibrante y fiel a la realidad, además de un toque brillante para cada foto corriente.",
+  "meta.jsonldDescription": "Brilliante es un visor de fotos HDR para Windows. Ve fotos Ultra HDR, HEIC y Motion Photos con un color vibrante y fiel a la realidad, y dale un toque brillante a cualquier foto corriente.",
+  "app.name": "Brilliante Visor de fotos",
+
+  "nav.by": "de",
+
+  "hero.eyebrow": "Para Windows 10 y 11",
+  "hero.kicker": "Visor de fotos HDR",
+  "hero.iconAlt": "Icono de la app Brilliante: una imagen Ultra HDR real",
+  "hero.lede_html": "Ve tus fotos con un color vibrante y fiel a la realidad. Ultra&nbsp;HDR, HEIC y Motion Photos, además de un toque <span class=\"hl\">brillante</span> para cada foto corriente.",
+
+  "cta.getItFrom": "Disponible en",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Descarga gratuita · Windows 10 y 11",
+
+  "demo.head_html": "Nota la <em>diferencia</em>",
+  "demo.sub": "Arrastra el control para comparar una foto normal con la mejora HDR de Brilliante.",
+  "demo.ariaCompare": "Comparar SDR y HDR",
+  "demo.altSdr": "Foto original, rango estándar",
+  "demo.altHdr": "La misma foto mejorada a Ultra HDR",
+  "demo.hint": "Arrastra el tirador para comparar",
+  "demo.sdrNote_html": "Estás viendo esto en una <b>pantalla SDR</b>: el lado derecho muestra el realce de color que Brilliante también aporta a las pantallas estándar. En una <b>pantalla HDR</b>, se muestra en HDR&nbsp;real.",
+
+  "features.head_html": "Las fotos, tal como <em>deben verse</em>",
+  "features.sub": "Brilliante interpreta el color intenso que captan los móviles modernos y lo hace cobrar vida en tu PC.",
+
+  "card1.title": "Color HDR vibrante",
+  "card1.body_html": "Las imágenes Ultra HDR JPEG y HDR real brillan con un color vivo y preciso en pantallas HDR.",
+  "card2.title": "Brillante en cualquier pantalla",
+  "card2.body_html": "Un realce inteligente de estilo HDR da nueva vida a las fotos corrientes, incluso en una pantalla estándar (SDR).",
+  "card3.title": "Motion Photos",
+  "card3.body_html": "Reproduce las Motion Photos de los móviles Android —Top&nbsp;Shot de Pixel y Motion&nbsp;Photo de Samsung— directamente en tu PC.",
+  "card4.title": "Amplia compatibilidad de formatos",
+  "card4.body_html": "Abre HEIC, Ultra HDR JPEG, PNG y más, con compatibilidad para imágenes de hasta 16 bits.",
+  "card5.title": "HEIC real de 10 bits",
+  "card5.body_html": "Decodifica HEIC de 10 bits para lograr los degradados y el detalle más suaves y profundos.",
+  "card6.title": "Detalles de la foto",
+  "card6.body_html": "Consulta los metadatos EXIF de un vistazo, incluida la ubicación GPS en un mapa.",
+
+  "closing.head_html": "Haz que cada foto sea <em>brillante</em>.",
+  "closing.sub": "Descarga Brilliante gratis desde Microsoft Store y mira tu galería bajo una nueva luz.",
+
+  "footer.privacy": "Privacidad",
+  "footer.support": "Soporte",
+
+  "langPicker.label": "Idioma"
+}

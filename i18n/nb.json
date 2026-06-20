@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — HDR-bildevisning for Windows",
+  "meta.description": "Brilliante er et HDR-bildevisningsprogram for Windows – se Ultra HDR, HEIC og bevegelsesbilder i livfulle farger, og gi ethvert bilde et briljant løft.",
+  "meta.ogDescription": "Se Ultra HDR, HEIC og bevegelsesbilder i livfulle, naturtro farger – pluss et briljant løft for hvert vanlig bilde.",
+  "meta.jsonldDescription": "Brilliante er et HDR-bildevisningsprogram for Windows. Se Ultra HDR, HEIC og bevegelsesbilder i livfulle, naturtro farger – og gi hvert vanlig bilde et briljant løft.",
+  "app.name": "Brilliante Bildevisningsprogram",
+
+  "nav.by": "av",
+
+  "hero.eyebrow": "For Windows 10 og 11",
+  "hero.kicker": "HDR Bildevisningsprogram",
+  "hero.iconAlt": "Brilliante-appikon – et levende Ultra HDR-bilde",
+  "hero.lede_html": "Se bildene dine i livfulle, naturtro farger. Ultra&nbsp;HDR, HEIC og bevegelsesbilder – pluss et <span class=\"hl\">briljant</span> løft for hvert vanlig bilde.",
+
+  "cta.getItFrom": "Få den fra",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Gratis nedlasting · Windows 10 og 11",
+
+  "demo.head_html": "Se <em>forskjellen</em>",
+  "demo.sub": "Dra glidebryteren for å sammenligne et vanlig bilde med Brilliantes HDR-forbedring.",
+  "demo.ariaCompare": "Sammenlign SDR og HDR",
+  "demo.altSdr": "Originalbilde, standardområde",
+  "demo.altHdr": "Det samme bildet forbedret til Ultra HDR",
+  "demo.hint": "Dra håndtaket for å sammenligne",
+  "demo.sdrNote_html": "Du ser dette på en <b>SDR-skjerm</b> – høyre side viser fargeløftet Brilliante også gir til standardskjermer. På en <b>HDR-skjerm</b> vises det i ekte&nbsp;HDR.",
+
+  "features.head_html": "Bilder, slik de <em>var ment å se ut</em>",
+  "features.sub": "Brilliante tolker de rike fargene moderne mobiler fanger – og vekker dem til live på PC-en din.",
+
+  "card1.title": "Livfulle HDR-farger",
+  "card1.body_html": "Ultra HDR JPEG og ekte HDR-bilder stråler i klare, nøyaktige farger på HDR-skjermer.",
+  "card2.title": "Briljant på enhver skjerm",
+  "card2.body_html": "Et smart løft i HDR-stil gir nytt liv til vanlige bilder, selv på en standardskjerm (SDR).",
+  "card3.title": "Bevegelsesbilder",
+  "card3.body_html": "Spill av bevegelsesbildene fra Android-mobiler – Pixels&nbsp;toppbilde og Samsungs Motion&nbsp;Photo – rett på PC-en din.",
+  "card4.title": "Bred formatstøtte",
+  "card4.body_html": "Åpner HEIC, Ultra HDR JPEG, PNG og mer – med støtte for bilder opptil 16-bit.",
+  "card5.title": "Ekte 10-bit HEIC",
+  "card5.body_html": "Dekoder 10-bit HEIC for de dypeste, jevneste fargeovergangene og detaljene.",
+  "card6.title": "Bildedetaljer",
+  "card6.body_html": "Se EXIF-metadata med ett blikk, inkludert GPS-plasseringen på et kart.",
+
+  "closing.head_html": "Gjør hvert bilde <em>briljant</em>.",
+  "closing.sub": "Last ned Brilliante gratis fra Microsoft Store og se bildesamlingen din i et helt nytt lys.",
+
+  "footer.privacy": "Personvern",
+  "footer.support": "Brukerstøtte",
+
+  "langPicker.label": "Språk"
+}

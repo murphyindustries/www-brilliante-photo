@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — عارض صور HDR لنظام Windows",
+  "meta.description": "Brilliante هو عارض صور HDR لنظام Windows — اعرض صور Ultra HDR وHEIC والصور المتحركة بألوان فائقة الحيوية، وأضفِ لمسة رائعة إلى أي صورة.",
+  "meta.ogDescription": "اعرض صور Ultra HDR وHEIC والصور المتحركة بألوان فائقة الحيوية ووفية للواقع، مع لمسة رائعة لكل صورة عادية.",
+  "meta.jsonldDescription": "Brilliante هو عارض صور HDR لنظام Windows. اعرض صور Ultra HDR وHEIC والصور المتحركة بألوان فائقة الحيوية ووفية للواقع، وأضفِ لمسة رائعة إلى كل صورة عادية.",
+  "app.name": "Brilliante عارض الصور",
+
+  "nav.by": "من",
+
+  "hero.eyebrow": "لنظامي Windows 10 و11",
+  "hero.kicker": "عارض الصور HDR",
+  "hero.iconAlt": "أيقونة تطبيق Brilliante — صورة Ultra HDR حية",
+  "hero.lede_html": "شاهد صورك بألوان فائقة الحيوية ووفية للواقع. صور Ultra&nbsp;HDR وHEIC والصور المتحركة — مع لمسة <span class=\"hl\">رائعة</span> لكل لقطة عادية.",
+
+  "cta.getItFrom": "احصل عليه من",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "تنزيل مجاني · Windows 10 و11",
+
+  "demo.head_html": "لاحظ <em>الفرق</em>",
+  "demo.sub": "اسحب شريط التمرير لمقارنة صورة عادية بتحسين HDR من Brilliante.",
+  "demo.ariaCompare": "قارن بين SDR وHDR",
+  "demo.altSdr": "الصورة الأصلية، نطاق قياسي",
+  "demo.altHdr": "الصورة نفسها محسَّنة إلى Ultra HDR",
+  "demo.hint": "اسحب المقبض للمقارنة",
+  "demo.sdrNote_html": "أنت تشاهد على <b>شاشة SDR</b> — يعرض الجانب الأيمن تعزيز الألوان الذي يضيفه Brilliante إلى الشاشات القياسية أيضًا. وعلى <b>شاشة HDR</b>، تُعرض بتقنية HDR&nbsp;الحقيقية.",
+
+  "features.head_html": "الصور كما <em>يجب أن تبدو</em>",
+  "features.sub": "يقرأ Brilliante الألوان الغنية التي تلتقطها الهواتف الحديثة — ويبثّ فيها الحياة على جهاز الكمبيوتر لديك.",
+
+  "card1.title": "ألوان HDR فائقة الحيوية",
+  "card1.body_html": "تتألق صور Ultra HDR JPEG وصور HDR الحقيقية بألوان فائقة الحيوية على شاشات HDR.",
+  "card2.title": "رائعة على أي شاشة",
+  "card2.body_html": "يبثّ تعزيز ذكي بأسلوب HDR حياةً جديدة في الصور العادية، حتى على الشاشات القياسية (SDR).",
+  "card3.title": "الصور المتحركة",
+  "card3.body_html": "شغّل الصور المتحركة من هواتف Android — متوافق مع Top&nbsp;Shot من Google Pixel ومع Motion&nbsp;Photo من Samsung Galaxy — مباشرةً على جهاز الكمبيوتر لديك.",
+  "card4.title": "دعم واسع للصيغ",
+  "card4.body_html": "يفتح صيغ HEIC وUltra HDR JPEG وPNG والمزيد — مع دعم الصور حتى 16-bit.",
+  "card5.title": "صور HEIC حقيقية بعمق 10-bit",
+  "card5.body_html": "يفكّ ترميز صور HEIC بعمق 10-bit للحصول على أعمق التدرّجات وأنعمها وأدقّ التفاصيل.",
+  "card6.title": "تفاصيل الصورة",
+  "card6.body_html": "اطّلع على بيانات EXIF الوصفية بنظرة واحدة، بما في ذلك موقع GPS على الخريطة.",
+
+  "closing.head_html": "اجعل كل صورة <em>رائعة</em>.",
+  "closing.sub": "نزّل Brilliante مجانًا من Microsoft Store وشاهد مكتبتك في حُلّة جديدة تمامًا.",
+
+  "footer.privacy": "الخصوصية",
+  "footer.support": "الدعم",
+
+  "langPicker.label": "اللغة"
+}

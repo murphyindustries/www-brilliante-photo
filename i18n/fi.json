@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — HDR-valokuvien katseluohjelma Windowsille",
+  "meta.description": "Brilliante on HDR-valokuvien katseluohjelma Windowsille: katsele Ultra HDR-, HEIC- ja liikevalokuvia elävin värein ja anna mille tahansa valokuvalle loistava kohotus.",
+  "meta.ogDescription": "Katsele Ultra HDR-, HEIC- ja liikevalokuvia elävin, todenmukaisin värein – sekä loistava kohotus jokaiselle tavalliselle valokuvalle.",
+  "meta.jsonldDescription": "Brilliante on HDR-valokuvien katseluohjelma Windowsille. Katsele Ultra HDR-, HEIC- ja liikevalokuvia elävin, todenmukaisin värein – ja anna jokaiselle tavalliselle valokuvalle loistava kohotus.",
+  "app.name": "Brilliante Valokuvien katseluohjelma",
+
+  "nav.by": "tekijä",
+
+  "hero.eyebrow": "Windows 10:lle ja 11:lle",
+  "hero.kicker": "HDR Valokuvien katseluohjelma",
+  "hero.iconAlt": "Brilliante-sovelluksen kuvake – aito Ultra HDR -kuva",
+  "hero.lede_html": "Katsele valokuviasi elävin, todenmukaisin värein. Ultra&nbsp;HDR, HEIC ja Motion Photot – sekä <span class=\"hl\">loistava</span> kohotus jokaiselle tavalliselle otokselle.",
+
+  "cta.getItFrom": "Hanki täältä:",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Ilmainen lataus · Windows 10 ja 11",
+
+  "demo.head_html": "Huomaa <em>ero</em>",
+  "demo.sub": "Vedä liukusäädintä vertaillaksesi tavallista valokuvaa Brillianten HDR-parannukseen.",
+  "demo.ariaCompare": "Vertaa SDR:ää ja HDR:ää",
+  "demo.altSdr": "Alkuperäinen valokuva, vakioalue",
+  "demo.altHdr": "Sama valokuva parannettuna Ultra HDR -muotoon",
+  "demo.hint": "Vedä kahvaa vertaillaksesi",
+  "demo.sdrNote_html": "Katselet tätä <b>SDR-näytöllä</b> – oikea puoli esikatselee värien tehostusta, jonka Brilliante tuo myös vakionäytöille. <b>HDR-näytöllä</b> se näkyy aitona&nbsp;HDR:nä.",
+
+  "features.head_html": "Valokuvat sellaisina, kuin niiden <em>kuuluu näyttää</em>",
+  "features.sub": "Brilliante tulkitsee nykyaikaisten puhelimien tallentamat rikkaat värit – ja herättää ne eloon tietokoneellasi.",
+
+  "card1.title": "Elävä HDR-väri",
+  "card1.body_html": "Ultra HDR JPEG- ja aidot HDR-kuvat loistavat eloisin, tarkoin värein HDR-näytöillä.",
+  "card2.title": "Loistava millä tahansa näytöllä",
+  "card2.body_html": "Älykäs HDR-tyylinen tehostus tuo uutta eloa tavallisiin valokuviin, jopa vakionäytöllä (SDR).",
+  "card3.title": "Liikevalokuvat",
+  "card3.body_html": "Toista Android-puhelimien liikevalokuvat – Pixelin Top&nbsp;Shot ja Samsungin Motion&nbsp;Photo – suoraan tietokoneellasi.",
+  "card4.title": "Laaja tiedostomuototuki",
+  "card4.body_html": "Avaa HEIC, Ultra HDR JPEG, PNG ja muita – tukee jopa 16-bittisiä kuvia.",
+  "card5.title": "Aito 10-bittinen HEIC",
+  "card5.body_html": "Purkaa 10-bittisen HEIC:n syvimpiä, pehmeimpiä liukuvärejä ja yksityiskohtia varten.",
+  "card6.title": "Valokuvan tiedot",
+  "card6.body_html": "Näe EXIF-metatiedot yhdellä silmäyksellä, mukaan lukien GPS-sijainti kartalla.",
+
+  "closing.head_html": "Tee jokaisesta valokuvasta <em>loistava</em>.",
+  "closing.sub": "Lataa Brilliante ilmaiseksi Microsoft Storesta ja näe kirjastosi aivan uudessa valossa.",
+
+  "footer.privacy": "Tietosuoja",
+  "footer.support": "Tuki",
+
+  "langPicker.label": "Kieli"
+}

@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — 适用于 Windows 的 HDR 照片查看器",
+  "meta.description": "Brilliante 是一款适用于 Windows 的 HDR 照片查看器：以鲜艳的色彩查看 Ultra HDR、HEIC 和动态相片，让每张照片焕发光彩。",
+  "meta.ogDescription": "以鲜艳、真实的色彩查看 Ultra HDR、HEIC 和动态相片，让每张普通照片都焕发光彩。",
+  "meta.jsonldDescription": "Brilliante 是一款适用于 Windows 的 HDR 照片查看器。以鲜艳、真实的色彩查看 Ultra HDR、HEIC 和动态相片，让每张普通照片都焕发光彩。",
+  "app.name": "Brilliante 照片查看器",
+
+  "nav.by": "来自",
+
+  "hero.eyebrow": "适用于 Windows 10 和 11",
+  "hero.kicker": "HDR 照片查看器",
+  "hero.iconAlt": "Brilliante 应用图标 — 一张真实的 Ultra HDR 图像",
+  "hero.lede_html": "以鲜艳、真实的色彩欣赏照片。支持 Ultra&nbsp;HDR、HEIC 和动态相片，更能为每张普通照片增添<span class=\"hl\">绚丽</span>光彩。",
+
+  "cta.getItFrom": "获取自",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "免费下载 · Windows 10 和 11",
+
+  "demo.head_html": "看看<em>差别</em>",
+  "demo.sub": "拖动滑块，比较普通照片与 Brilliante 的 HDR 增强效果。",
+  "demo.ariaCompare": "比较 SDR 与 HDR",
+  "demo.altSdr": "原始照片，标准范围",
+  "demo.altHdr": "同一张照片，增强为 Ultra HDR",
+  "demo.hint": "拖动手柄进行比较",
+  "demo.sdrNote_html": "您正在 <b>SDR 显示屏</b>上查看 — 右侧预览了 Brilliante 同样为标准屏幕带来的色彩提升。在 <b>HDR 显示屏</b>上，则呈现真正的&nbsp;HDR。",
+
+  "features.head_html": "照片，<em>本该有的样子</em>",
+  "features.sub": "Brilliante 解读现代手机捕捉的丰富色彩，让它们在你的电脑上焕发生机。",
+
+  "card1.title": "鲜艳的 HDR 色彩",
+  "card1.body_html": "Ultra HDR JPEG 与真正的 HDR 图像在 HDR 显示屏上呈现鲜艳而准确的色彩。",
+  "card2.title": "任何屏幕都出彩",
+  "card2.body_html": "智能的 HDR 风格增强为普通照片注入新的活力，即使在标准（SDR）显示屏上也是如此。",
+  "card3.title": "动态相片",
+  "card3.body_html": "在电脑上直接播放 Android 手机的动态相片——Pixel 的 Top&nbsp;Shot 和三星的 Motion&nbsp;Photo。",
+  "card4.title": "广泛的格式支持",
+  "card4.body_html": "可打开 HEIC、Ultra HDR JPEG、PNG 等格式，并支持高达 16 位的图像。",
+  "card5.title": "真正的 10 位 HEIC",
+  "card5.body_html": "解码 10 位 HEIC，呈现最深邃、最平滑的渐变与细节。",
+  "card6.title": "照片详情",
+  "card6.body_html": "一目了然地查看 EXIF 元数据，包括地图上的 GPS 位置。",
+
+  "closing.head_html": "让每张照片都<em>绚丽夺目</em>。",
+  "closing.sub": "从 Microsoft Store 免费下载 Brilliante，以全新的视角欣赏你的照片库。",
+
+  "footer.privacy": "隐私",
+  "footer.support": "支持",
+
+  "langPicker.label": "语言"
+}

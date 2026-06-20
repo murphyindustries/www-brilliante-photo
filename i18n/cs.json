@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — HDR prohlížeč fotografií pro Windows",
+  "meta.description": "Brilliante je HDR prohlížeč fotografií pro Windows — prohlížejte fotky Ultra HDR, HEIC a Motion Photo v živých barvách a dejte každé fotce brilantní lesk.",
+  "meta.ogDescription": "Prohlížejte fotky Ultra HDR, HEIC a Motion Photo v živých, věrných barvách — a navíc dejte brilantní lesk každé obyčejné fotce.",
+  "meta.jsonldDescription": "Brilliante je HDR prohlížeč fotografií pro Windows. Prohlížejte fotky Ultra HDR, HEIC a Motion Photo v živých, věrných barvách — a dejte každé obyčejné fotce brilantní lesk.",
+  "app.name": "Brilliante Prohlížeč fotografií",
+
+  "nav.by": "od",
+
+  "hero.eyebrow": "Pro Windows 10 a 11",
+  "hero.kicker": "HDR Prohlížeč fotografií",
+  "hero.iconAlt": "Ikona aplikace Brilliante — živý obrázek Ultra HDR",
+  "hero.lede_html": "Prohlížejte si fotky v živých, věrných barvách. Ultra&nbsp;HDR, HEIC a Motion Photo — a navíc <span class=\"hl\">brilantní</span> lesk pro každý obyčejný snímek.",
+
+  "cta.getItFrom": "Stáhnout z",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Zdarma ke stažení · Windows 10 a 11",
+
+  "demo.head_html": "Všimněte si <em>rozdílu</em>",
+  "demo.sub": "Posunutím jezdce porovnejte obyčejnou fotku s HDR vylepšením od Brilliante.",
+  "demo.ariaCompare": "Porovnat SDR a HDR",
+  "demo.altSdr": "Původní fotka, standardní rozsah",
+  "demo.altHdr": "Tatáž fotka vylepšená na Ultra HDR",
+  "demo.hint": "Porovnejte přetažením úchytu",
+  "demo.sdrNote_html": "Prohlížíte si to na <b>SDR displeji</b> — pravá strana ukazuje zvýraznění barev, které Brilliante přináší i na standardní obrazovky. Na <b>HDR displeji</b> se zobrazí ve skutečném&nbsp;HDR.",
+
+  "features.head_html": "Fotky tak, jak <em>mají vypadat</em>",
+  "features.sub": "Brilliante přečte sytost barev, kterou zachycují moderní telefony — a oživí ji na vašem PC.",
+
+  "card1.title": "Živé HDR barvy",
+  "card1.body_html": "Obrázky Ultra HDR JPEG a skutečné HDR září v sytých, věrných barvách na HDR displejích.",
+  "card2.title": "Brilantní na každé obrazovce",
+  "card2.body_html": "Chytré zvýraznění ve stylu HDR vdechne nový život obyčejným fotkám, a to i na standardním (SDR) displeji.",
+  "card3.title": "Motion Photo",
+  "card3.body_html": "Přehrávejte Motion Photo z telefonů Android — nejlepší&nbsp;snímek od Pixel a Motion&nbsp;Photo od Samsung — přímo na svém PC.",
+  "card4.title": "Široká podpora formátů",
+  "card4.body_html": "Otevírá HEIC, Ultra HDR JPEG, PNG a další — s podporou obrázků až do 16-bit.",
+  "card5.title": "Skutečné 10-bit HEIC",
+  "card5.body_html": "Dekóduje 10-bit HEIC pro nejhlubší a nejplynulejší přechody a detaily.",
+  "card6.title": "Detaily fotky",
+  "card6.body_html": "Prohlédněte si metadata EXIF na první pohled, včetně polohy GPS na mapě.",
+
+  "closing.head_html": "Udělejte každou fotku <em>brilantní</em>.",
+  "closing.sub": "Stáhněte si Brilliante zdarma z Microsoft Store a uvidíte svou knihovnu v úplně novém světle.",
+
+  "footer.privacy": "Soukromí",
+  "footer.support": "Podpora",
+
+  "langPicker.label": "Jazyk"
+}

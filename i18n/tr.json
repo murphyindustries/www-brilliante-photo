@@ -1,0 +1,50 @@
+{
+  "meta.title": "Brilliante — Windows için HDR Fotoğraf Görüntüleyicisi",
+  "meta.description": "Brilliante, Windows için bir HDR fotoğraf görüntüleyicisidir: Ultra HDR, HEIC ve hareketli fotoğrafları canlı renklerle görüntüleyin ve her fotoğrafa parlak bir dokunuş katın.",
+  "meta.ogDescription": "Ultra HDR, HEIC ve hareketli fotoğrafları canlı, gerçeğe yakın renklerle görüntüleyin; ayrıca her sıradan fotoğrafa parlak bir dokunuş katın.",
+  "meta.jsonldDescription": "Brilliante, Windows için bir HDR fotoğraf görüntüleyicisidir. Ultra HDR, HEIC ve hareketli fotoğrafları canlı, gerçeğe yakın renklerle görüntüleyin ve her sıradan fotoğrafa parlak bir dokunuş katın.",
+  "app.name": "Brilliante Fotoğraf Görüntüleyicisi",
+
+  "nav.by": "—",
+
+  "hero.eyebrow": "Windows 10 ve 11 için",
+  "hero.kicker": "HDR Fotoğraf Görüntüleyicisi",
+  "hero.iconAlt": "Brilliante uygulama simgesi — canlı bir Ultra HDR görüntü",
+  "hero.lede_html": "Fotoğraflarınızı canlı, gerçeğe yakın renklerle görün. Ultra&nbsp;HDR, HEIC ve hareketli fotoğraflar; ayrıca her sıradan kareye <span class=\"hl\">parlak</span> bir dokunuş.",
+
+  "cta.getItFrom": "Şu mağazadan edinin:",
+  "cta.microsoftStore": "Microsoft Store",
+  "cta.meta": "Ücretsiz indirme · Windows 10 ve 11",
+
+  "demo.head_html": "<em>Farkı</em> görün",
+  "demo.sub": "Sıradan bir fotoğrafı Brilliante’nin HDR geliştirmesiyle karşılaştırmak için kaydırıcıyı sürükleyin.",
+  "demo.ariaCompare": "SDR ve HDR’yi karşılaştırın",
+  "demo.altSdr": "Orijinal fotoğraf, standart aralık",
+  "demo.altHdr": "Aynı fotoğraf, Ultra HDR’ye geliştirilmiş hali",
+  "demo.hint": "Karşılaştırmak için tutamacı sürükleyin",
+  "demo.sdrNote_html": "Bir <b>SDR ekranda</b> görüntülüyorsunuz — sağ taraf, Brilliante’nin standart ekranlara da kattığı renk artışını önizler. Bir <b>HDR ekranda</b> ise gerçek&nbsp;HDR olarak işlenir.",
+
+  "features.head_html": "Fotoğraflar, <em>görünmesi gerektiği gibi</em>",
+  "features.sub": "Brilliante, modern telefonların yakaladığı zengin rengi okur ve PC’nizde canlandırır.",
+
+  "card1.title": "Canlı HDR renk",
+  "card1.body_html": "Ultra HDR JPEG ve gerçek HDR görüntüler, HDR ekranlarda canlı ve doğru renklerle parlar.",
+  "card2.title": "Her ekranda parlak",
+  "card2.body_html": "Akıllı bir HDR tarzı renk artışı, standart (SDR) bir ekranda bile sıradan fotoğraflara yeni bir hayat katar.",
+  "card3.title": "Hareketli fotoğraflar",
+  "card3.body_html": "Android telefonların hareketli fotoğraflarını — Pixel’in En İyi&nbsp;Çekim ve Samsung’un Hareketli&nbsp;Fotoğraf özelliklerini — doğrudan PC’nizde oynatın.",
+  "card4.title": "Geniş format desteği",
+  "card4.body_html": "HEIC, Ultra HDR JPEG, PNG ve daha fazlasını açar — 16-bit’e kadar görüntüler için destek sunar.",
+  "card5.title": "Gerçek 10-bit HEIC",
+  "card5.body_html": "En derin, en yumuşak geçişler ve ayrıntı için 10-bit HEIC’i çözer.",
+  "card6.title": "Fotoğraf ayrıntıları",
+  "card6.body_html": "Haritadaki GPS konumu da dahil olmak üzere EXIF meta verilerini tek bakışta görün.",
+
+  "closing.head_html": "Her fotoğrafı <em>parlak</em> yapın.",
+  "closing.sub": "Brilliante’yi Microsoft Store’dan ücretsiz indirin ve kütüphanenizi yepyeni bir ışıkta görün.",
+
+  "footer.privacy": "Gizlilik",
+  "footer.support": "Destek",
+
+  "langPicker.label": "Dil"
+}

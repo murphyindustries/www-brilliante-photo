@@ -1,0 +1,38 @@
+{
+  "_comment": "Locale registry for the site generator. Order here = order in the language menu and sitemap. 'code' matches i18n/<code>.json; 'path' is the URL subpath ('' = site root). Add a locale by appending an entry and creating its i18n/<code>.json. First block = launch pilot (priority markets); the rest are ordered alphabetically by English name.",
+  "base": "https://brilliante.photo",
+  "lastmod": "2026-06-20",
+  "locales": [
+    { "code": "en",      "path": "",        "lang": "en",      "dir": "ltr", "ogLocale": "en_US",  "native": "English",            "enName": "English" },
+    { "code": "es",      "path": "es",      "lang": "es",      "dir": "ltr", "ogLocale": "es_ES",  "native": "Español",            "enName": "Spanish" },
+    { "code": "fr",      "path": "fr",      "lang": "fr",      "dir": "ltr", "ogLocale": "fr_FR",  "native": "Français",           "enName": "French" },
+    { "code": "de",      "path": "de",      "lang": "de",      "dir": "ltr", "ogLocale": "de_DE",  "native": "Deutsch",            "enName": "German" },
+    { "code": "pt",      "path": "pt",      "lang": "pt",      "dir": "ltr", "ogLocale": "pt_PT",  "native": "Português",          "enName": "Portuguese" },
+    { "code": "it",      "path": "it",      "lang": "it",      "dir": "ltr", "ogLocale": "it_IT",  "native": "Italiano",           "enName": "Italian" },
+    { "code": "ja",      "path": "ja",      "lang": "ja",      "dir": "ltr", "ogLocale": "ja_JP",  "native": "日本語",              "enName": "Japanese" },
+    { "code": "zh-Hans", "path": "zh-hans", "lang": "zh-Hans", "dir": "ltr", "ogLocale": "zh_CN",  "native": "简体中文",            "enName": "Simplified Chinese" },
+    { "code": "ko",      "path": "ko",      "lang": "ko",      "dir": "ltr", "ogLocale": "ko_KR",  "native": "한국어",              "enName": "Korean" },
+
+    { "code": "ar",      "path": "ar",      "lang": "ar",      "dir": "rtl", "ogLocale": "ar_AR",  "native": "العربية",            "enName": "Arabic" },
+    { "code": "cs",      "path": "cs",      "lang": "cs",      "dir": "ltr", "ogLocale": "cs_CZ",  "native": "Čeština",            "enName": "Czech" },
+    { "code": "da",      "path": "da",      "lang": "da",      "dir": "ltr", "ogLocale": "da_DK",  "native": "Dansk",              "enName": "Danish" },
+    { "code": "nl",      "path": "nl",      "lang": "nl",      "dir": "ltr", "ogLocale": "nl_NL",  "native": "Nederlands",         "enName": "Dutch" },
+    { "code": "en-GB",   "path": "en-gb",   "lang": "en-GB",   "dir": "ltr", "ogLocale": "en_GB",  "native": "English (UK)",       "enName": "English (UK)" },
+    { "code": "fil",     "path": "fil",     "lang": "fil",     "dir": "ltr", "ogLocale": "fil_PH", "native": "Filipino",           "enName": "Filipino" },
+    { "code": "fi",      "path": "fi",      "lang": "fi",      "dir": "ltr", "ogLocale": "fi_FI",  "native": "Suomi",              "enName": "Finnish" },
+    { "code": "el",      "path": "el",      "lang": "el",      "dir": "ltr", "ogLocale": "el_GR",  "native": "Ελληνικά",           "enName": "Greek" },
+    { "code": "he",      "path": "he",      "lang": "he",      "dir": "rtl", "ogLocale": "he_IL",  "native": "עברית",              "enName": "Hebrew" },
+    { "code": "hi",      "path": "hi",      "lang": "hi",      "dir": "ltr", "ogLocale": "hi_IN",  "native": "हिन्दी",             "enName": "Hindi" },
+    { "code": "id",      "path": "id",      "lang": "id",      "dir": "ltr", "ogLocale": "id_ID",  "native": "Bahasa Indonesia",   "enName": "Indonesian" },
+    { "code": "ms",      "path": "ms",      "lang": "ms",      "dir": "ltr", "ogLocale": "ms_MY",  "native": "Bahasa Melayu",      "enName": "Malay" },
+    { "code": "nb",      "path": "nb",      "lang": "nb",      "dir": "ltr", "ogLocale": "nb_NO",  "native": "Norsk bokmål",       "enName": "Norwegian Bokmål" },
+    { "code": "pl",      "path": "pl",      "lang": "pl",      "dir": "ltr", "ogLocale": "pl_PL",  "native": "Polski",             "enName": "Polish" },
+    { "code": "ru",      "path": "ru",      "lang": "ru",      "dir": "ltr", "ogLocale": "ru_RU",  "native": "Русский",            "enName": "Russian" },
+    { "code": "sv",      "path": "sv",      "lang": "sv",      "dir": "ltr", "ogLocale": "sv_SE",  "native": "Svenska",            "enName": "Swedish" },
+    { "code": "ta",      "path": "ta",      "lang": "ta",      "dir": "ltr", "ogLocale": "ta_IN",  "native": "தமிழ்",              "enName": "Tamil" },
+    { "code": "th",      "path": "th",      "lang": "th",      "dir": "ltr", "ogLocale": "th_TH",  "native": "ไทย",                "enName": "Thai" },
+    { "code": "zh-Hant", "path": "zh-hant", "lang": "zh-Hant", "dir": "ltr", "ogLocale": "zh_TW",  "native": "繁體中文",            "enName": "Traditional Chinese" },
+    { "code": "tr",      "path": "tr",      "lang": "tr",      "dir": "ltr", "ogLocale": "tr_TR",  "native": "Türkçe",             "enName": "Turkish" },
+    { "code": "vi",      "path": "vi",      "lang": "vi",      "dir": "ltr", "ogLocale": "vi_VN",  "native": "Tiếng Việt",         "enName": "Vietnamese" }
+  ]
+}
