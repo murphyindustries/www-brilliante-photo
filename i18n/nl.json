@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — HDR-fotoviewer voor Windows",
-  "meta.description": "Brilliante is een HDR-fotoviewer voor Windows: bekijk Ultra HDR, HEIC en motion photo’s in levendige kleuren en geef elke foto een schitterende boost.",
-  "meta.ogDescription": "Bekijk Ultra HDR, HEIC en motion photo’s in levendige, levensechte kleuren — plus een schitterende boost voor elke gewone foto.",
-  "meta.jsonldDescription": "Brilliante is een HDR-fotoviewer voor Windows. Bekijk Ultra HDR, HEIC en motion photo’s in levendige, levensechte kleuren — en geef elke gewone foto een schitterende boost.",
+  "meta.description": "Brilliante is een HDR-fotoviewer voor Windows: bekijk Ultra HDR, HEIC, motion photo’s en iPhone ProRAW in levendige kleuren en geef elke foto een schitterende boost.",
+  "meta.ogDescription": "Bekijk Ultra HDR, HEIC, motion photo’s en iPhone ProRAW in levendige, levensechte kleuren — plus een schitterende boost voor elke gewone foto.",
+  "meta.jsonldDescription": "Brilliante is een HDR-fotoviewer voor Windows. Bekijk Ultra HDR, HEIC, motion photo’s en iPhone ProRAW in levendige, levensechte kleuren — en geef elke gewone foto een schitterende boost.",
   "app.name": "Brilliante Fotoviewer",
 
   "nav.by": "van",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Voor Windows 10 en 11",
   "hero.kicker": "HDR Fotoviewer",
   "hero.iconAlt": "Brilliante-app-pictogram — een live Ultra HDR-afbeelding",
-  "hero.lede_html": "Bekijk je foto’s in levendige, levensechte kleuren. Ultra&nbsp;HDR, HEIC en motion photo’s — plus een <span class=\"hl\">schitterende</span> boost voor elke gewone foto.",
+  "hero.lede_html": "Bekijk je foto’s in levendige, levensechte kleuren. Ultra&nbsp;HDR, HEIC, motion photo’s en iPhone&nbsp;RAW — plus een <span class=\"hl\">schitterende</span> boost voor elke gewone foto.",
 
   "cta.getItFrom": "Verkrijgbaar via",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante leest de rijke kleuren die moderne telefoons vastleggen — en brengt ze tot leven op je pc.",
 
   "card1.title": "Levendige HDR-kleuren",
-  "card1.body_html": "Ultra HDR JPEG en echte HDR-afbeeldingen stralen in levendige, accurate kleuren op HDR-schermen.",
+  "card1.body_html": "HDR-foto’s stralen in levendige, accurate kleuren — Ultra HDR JPEG en HDR-HEIC van iPhone, Pixel en Galaxy, plus de nieuwste vlaggenschepen van OPPO, Xiaomi, vivo en HONOR.",
   "card2.title": "Schitterend op elk scherm",
   "card2.body_html": "Een slimme boost in HDR-stijl geeft gewone foto’s nieuw leven, zelfs op een standaardscherm (SDR).",
   "card3.title": "Motion photo’s",
-  "card3.body_html": "Speel de motion photo’s van Android-telefoons — Top&nbsp;Shot van de Pixel en Motion&nbsp;Photo van Samsung — direct af op je pc.",
-  "card4.title": "Brede formaatondersteuning",
-  "card4.body_html": "Opent HEIC, Ultra HDR JPEG, PNG en meer — met ondersteuning voor afbeeldingen tot 16-bit.",
+  "card3.body_html": "Speel de motion photo’s van Android-telefoons — Top&nbsp;Shot van de Pixel en Motion&nbsp;Photo van Samsung, in JPEG én HEIC — direct af op je pc.",
+  "card4.title": "De nieuwste RAW-formaten",
+  "card4.body_html": "Opent elke generatie iPhone ProRAW — inclusief het nieuwe DNG&nbsp;1.7 met JPEG&nbsp;XL van de iPhone&nbsp;17 en Samsung Expert&nbsp;RAW, een formaat dat Microsoft Foto’s niet kan openen.",
   "card5.title": "Echte 10-bit HEIC",
   "card5.body_html": "Decodeert 10-bit HEIC voor de diepste, vloeiendste kleurovergangen en details.",
   "card6.title": "Fotodetails",

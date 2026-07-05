@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — Bộ xem ảnh HDR cho Windows",
-  "meta.description": "Brilliante là bộ xem ảnh HDR cho Windows — xem ảnh Ultra HDR, HEIC và ảnh chuyển động với màu sắc rực rỡ, đồng thời mang đến vẻ rạng rỡ cho mọi bức ảnh.",
-  "meta.ogDescription": "Xem ảnh Ultra HDR, HEIC và ảnh chuyển động với màu sắc rực rỡ, chân thực như thật — cùng vẻ rạng rỡ cho mọi bức ảnh bình thường.",
-  "meta.jsonldDescription": "Brilliante là bộ xem ảnh HDR cho Windows. Xem ảnh Ultra HDR, HEIC và ảnh chuyển động với màu sắc rực rỡ, chân thực như thật — và mang đến vẻ rạng rỡ cho mọi bức ảnh bình thường.",
+  "meta.description": "Brilliante là bộ xem ảnh HDR cho Windows — xem ảnh Ultra HDR, HEIC, ảnh chuyển động và iPhone ProRAW với màu sắc rực rỡ, đồng thời mang đến vẻ rạng rỡ cho mọi bức ảnh.",
+  "meta.ogDescription": "Xem ảnh Ultra HDR, HEIC, ảnh chuyển động và iPhone ProRAW với màu sắc rực rỡ, chân thực như thật — cùng vẻ rạng rỡ cho mọi bức ảnh bình thường.",
+  "meta.jsonldDescription": "Brilliante là bộ xem ảnh HDR cho Windows. Xem ảnh Ultra HDR, HEIC, ảnh chuyển động và iPhone ProRAW với màu sắc rực rỡ, chân thực như thật — và mang đến vẻ rạng rỡ cho mọi bức ảnh bình thường.",
   "app.name": "Brilliante Bộ xem ảnh",
 
   "nav.by": "bởi",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Dành cho Windows 10 và 11",
   "hero.kicker": "Bộ xem ảnh HDR",
   "hero.iconAlt": "Biểu tượng ứng dụng Brilliante — một hình ảnh Ultra HDR thực",
-  "hero.lede_html": "Xem ảnh của bạn với màu sắc rực rỡ, chân thực như thật. Ultra&nbsp;HDR, HEIC và Ảnh chuyển động — cùng vẻ <span class=\"hl\">rạng rỡ</span> cho mọi bức ảnh thường ngày.",
+  "hero.lede_html": "Xem ảnh của bạn với màu sắc rực rỡ, chân thực như thật. Ultra&nbsp;HDR, HEIC, Ảnh chuyển động và RAW&nbsp;iPhone — cùng vẻ <span class=\"hl\">rạng rỡ</span> cho mọi bức ảnh thường ngày.",
 
   "cta.getItFrom": "Tải về từ",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante đọc được màu sắc phong phú mà điện thoại hiện đại ghi lại — và làm chúng sống động trên PC của bạn.",
 
   "card1.title": "Màu HDR rực rỡ",
-  "card1.body_html": "Ảnh Ultra HDR JPEG và HDR thực tỏa sáng với màu sắc cực kỳ rực rỡ trên màn hình HDR.",
+  "card1.body_html": "Ảnh HDR tỏa sáng với màu sắc sống động, chính xác — Ultra HDR JPEG và HDR HEIC từ iPhone, Pixel và Galaxy, cùng các flagship mới nhất của OPPO, Xiaomi, vivo và HONOR.",
   "card2.title": "Rạng rỡ trên mọi màn hình",
   "card2.body_html": "Tính năng tăng cường kiểu HDR thông minh thổi sức sống mới vào ảnh thường, ngay cả trên màn hình tiêu chuẩn (SDR).",
   "card3.title": "Ảnh chuyển động",
-  "card3.body_html": "Phát ảnh chuyển động từ điện thoại Android — Top&nbsp;Shot của Pixel và Ảnh&nbsp;chuyển động của Samsung — ngay trên PC của bạn.",
-  "card4.title": "Hỗ trợ nhiều định dạng",
-  "card4.body_html": "Mở HEIC, Ultra HDR JPEG, PNG và nhiều hơn nữa — với hỗ trợ ảnh lên tới 16-bit.",
+  "card3.body_html": "Phát ảnh chuyển động từ điện thoại Android — Top&nbsp;Shot của Pixel và Ảnh&nbsp;chuyển động của Samsung, cả JPEG lẫn HEIC — ngay trên PC của bạn.",
+  "card4.title": "Các định dạng RAW mới nhất",
+  "card4.body_html": "Mở mọi thế hệ iPhone ProRAW — bao gồm DNG&nbsp;1.7 mới với JPEG&nbsp;XL từ iPhone&nbsp;17 và Samsung Expert&nbsp;RAW, định dạng mà Microsoft Photos không thể mở.",
   "card5.title": "HEIC 10-bit thực thụ",
   "card5.body_html": "Giải mã HEIC 10-bit để có dải chuyển màu và chi tiết mượt mà, sâu sắc nhất.",
   "card6.title": "Chi tiết ảnh",

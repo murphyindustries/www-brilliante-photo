@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — מציג תמונות HDR ל-Windows",
-  "meta.description": "Brilliante הוא מציג תמונות HDR ל-Windows — צפו בתמונות Ultra HDR, HEIC ובתמונות תנועה בצבעים עזים, והעניקו לכל תמונה ברק מרהיב.",
-  "meta.ogDescription": "צפו בתמונות Ultra HDR, HEIC ובתמונות תנועה בצבעים עזים ונאמנים למציאות — בתוספת ברק מרהיב לכל תמונה רגילה.",
-  "meta.jsonldDescription": "Brilliante הוא מציג תמונות HDR ל-Windows. צפו בתמונות Ultra HDR, HEIC ובתמונות תנועה בצבעים עזים ונאמנים למציאות — והעניקו לכל תמונה רגילה ברק מרהיב.",
+  "meta.description": "Brilliante הוא מציג תמונות HDR ל-Windows — צפו בתמונות Ultra HDR, HEIC, תמונות תנועה ו-iPhone ProRAW בצבעים עזים, והעניקו לכל תמונה ברק מרהיב.",
+  "meta.ogDescription": "צפו בתמונות Ultra HDR, HEIC, תמונות תנועה ו-iPhone ProRAW בצבעים עזים ונאמנים למציאות — בתוספת ברק מרהיב לכל תמונה רגילה.",
+  "meta.jsonldDescription": "Brilliante הוא מציג תמונות HDR ל-Windows. צפו בתמונות Ultra HDR, HEIC, תמונות תנועה ו-iPhone ProRAW בצבעים עזים ונאמנים למציאות — והעניקו לכל תמונה רגילה ברק מרהיב.",
   "app.name": "Brilliante מציג תמונות",
 
   "nav.by": "מאת",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "ל-Windows 10 ו-11",
   "hero.kicker": "מציג תמונות HDR",
   "hero.iconAlt": "סמל האפליקציה Brilliante — תמונת Ultra HDR חיה",
-  "hero.lede_html": "צפו בתמונות שלכם בצבעים עזים ונאמנים למציאות. Ultra&nbsp;HDR, HEIC ותמונות תנועה — בתוספת ברק <span class=\"hl\">מרהיב</span> לכל צילום רגיל.",
+  "hero.lede_html": "צפו בתמונות שלכם בצבעים עזים ונאמנים למציאות. Ultra&nbsp;HDR, HEIC, תמונות תנועה ו-RAW של iPhone — בתוספת ברק <span class=\"hl\">מרהיב</span> לכל צילום רגיל.",
 
   "cta.getItFrom": "להורדה מתוך",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante מפענח את הצבע העשיר שטלפונים מודרניים מצלמים — ומחיה אותו במחשב שלכם.",
 
   "card1.title": "צבע HDR עז",
-  "card1.body_html": "תמונות Ultra HDR JPEG ו-HDR אמיתי זוהרות בצבע עז ומדויק במסכי HDR.",
+  "card1.body_html": "תמונות HDR זוהרות בצבע עז ומדויק — Ultra HDR JPEG ו-HDR HEIC מ-iPhone, מ-Pixel ומ-Galaxy, וגם מדגמי הדגל החדשים של OPPO, Xiaomi, vivo ו-HONOR.",
   "card2.title": "מרהיב בכל מסך",
   "card2.body_html": "חיזוק חכם בסגנון HDR מעניק חיים חדשים לתמונות רגילות, אפילו על מסך רגיל (SDR).",
   "card3.title": "תמונות תנועה",
-  "card3.body_html": "הפעילו את תמונות התנועה מטלפוני Android — Top&nbsp;Shot של Google Pixel ו-Motion&nbsp;Photo של Samsung — ישירות במחשב שלכם.",
-  "card4.title": "תמיכה רחבה בפורמטים",
-  "card4.body_html": "פותח HEIC, Ultra HDR JPEG, PNG ועוד — עם תמיכה בתמונות עד 16-bit.",
+  "card3.body_html": "הפעילו את תמונות התנועה מטלפוני Android — Top&nbsp;Shot של Google Pixel ו-Motion&nbsp;Photo של Samsung, ב-JPEG וב-HEIC — ישירות במחשב שלכם.",
+  "card4.title": "פורמטי ה-RAW החדשים ביותר",
+  "card4.body_html": "פותח כל דור של iPhone ProRAW — כולל ה-DNG&nbsp;1.7 החדש עם JPEG&nbsp;XL של iPhone&nbsp;17 ו-Samsung Expert&nbsp;RAW, פורמט שאפליקציית התמונות של Microsoft אינה יכולה לפתוח.",
   "card5.title": "HEIC אמיתי של 10-bit",
   "card5.body_html": "מפענח HEIC של 10-bit למעברי גוונים ופרטים העמוקים והחלקים ביותר.",
   "card6.title": "פרטי התמונה",

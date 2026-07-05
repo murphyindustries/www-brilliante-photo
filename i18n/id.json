@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — Penampil Foto HDR untuk Windows",
-  "meta.description": "Brilliante adalah penampil foto HDR untuk Windows — lihat foto Ultra HDR, HEIC, dan foto gerak dengan warna yang cerah, serta beri sentuhan brilian pada foto apa pun.",
-  "meta.ogDescription": "Lihat foto Ultra HDR, HEIC, dan foto gerak dengan warna cerah yang nyata seperti aslinya — plus sentuhan brilian untuk setiap foto biasa.",
-  "meta.jsonldDescription": "Brilliante adalah penampil foto HDR untuk Windows. Lihat foto Ultra HDR, HEIC, dan foto gerak dengan warna cerah yang nyata seperti aslinya — dan beri sentuhan brilian pada setiap foto biasa.",
+  "meta.description": "Brilliante adalah penampil foto HDR untuk Windows — lihat foto Ultra HDR, HEIC, foto gerak, dan iPhone ProRAW dengan warna yang cerah, serta beri sentuhan brilian pada foto apa pun.",
+  "meta.ogDescription": "Lihat foto Ultra HDR, HEIC, foto gerak, dan iPhone ProRAW dengan warna cerah yang nyata seperti aslinya — plus sentuhan brilian untuk setiap foto biasa.",
+  "meta.jsonldDescription": "Brilliante adalah penampil foto HDR untuk Windows. Lihat foto Ultra HDR, HEIC, foto gerak, dan iPhone ProRAW dengan warna cerah yang nyata seperti aslinya — dan beri sentuhan brilian pada setiap foto biasa.",
   "app.name": "Brilliante Penampil foto",
 
   "nav.by": "oleh",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Untuk Windows 10 & 11",
   "hero.kicker": "Penampil foto HDR",
   "hero.iconAlt": "Ikon aplikasi Brilliante — gambar Ultra HDR sungguhan",
-  "hero.lede_html": "Lihat foto Anda dengan warna cerah yang nyata seperti aslinya. Ultra&nbsp;HDR, HEIC, dan foto gerak — plus sentuhan <span class=\"hl\">brilian</span> untuk setiap jepretan biasa.",
+  "hero.lede_html": "Lihat foto Anda dengan warna cerah yang nyata seperti aslinya. Ultra&nbsp;HDR, HEIC, foto gerak, dan RAW&nbsp;iPhone — plus sentuhan <span class=\"hl\">brilian</span> untuk setiap jepretan biasa.",
 
   "cta.getItFrom": "Dapatkan dari",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante membaca warna kaya yang ditangkap ponsel modern — dan menghidupkannya di PC Anda.",
 
   "card1.title": "Warna HDR yang cerah",
-  "card1.body_html": "Gambar Ultra HDR JPEG dan HDR sungguhan bersinar dengan warna hidup dan akurat pada layar HDR.",
+  "card1.body_html": "Foto HDR bersinar dengan warna hidup dan akurat — Ultra HDR JPEG dan HDR HEIC dari iPhone, Pixel, dan Galaxy, plus flagship terbaru OPPO, Xiaomi, vivo, dan HONOR.",
   "card2.title": "Brilian di layar mana pun",
   "card2.body_html": "Peningkatan cerdas bergaya HDR menghidupkan kembali foto biasa, bahkan pada layar standar (SDR).",
   "card3.title": "Foto gerak",
-  "card3.body_html": "Putar foto gerak dari ponsel Android — Top&nbsp;Shot Google Pixel dan Foto&nbsp;Gerak Samsung — langsung di PC Anda.",
-  "card4.title": "Dukungan format yang luas",
-  "card4.body_html": "Membuka HEIC, Ultra HDR JPEG, PNG dan lainnya — dengan dukungan untuk gambar hingga 16-bit.",
+  "card3.body_html": "Putar foto gerak dari ponsel Android — Top&nbsp;Shot Google Pixel dan Foto&nbsp;Gerak Samsung, baik JPEG maupun HEIC — langsung di PC Anda.",
+  "card4.title": "Format RAW terbaru",
+  "card4.body_html": "Membuka setiap generasi iPhone ProRAW — termasuk DNG&nbsp;1.7 baru dengan JPEG&nbsp;XL dari iPhone&nbsp;17 dan Samsung Expert&nbsp;RAW, format yang tidak bisa dibuka Microsoft Photos.",
   "card5.title": "HEIC 10-bit sungguhan",
   "card5.body_html": "Mendekode HEIC 10-bit untuk gradasi dan detail yang paling dalam serta paling halus.",
   "card6.title": "Detail foto",

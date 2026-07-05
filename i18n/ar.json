@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — عارض صور HDR لنظام Windows",
-  "meta.description": "Brilliante هو عارض صور HDR لنظام Windows — اعرض صور Ultra HDR وHEIC والصور المتحركة بألوان فائقة الحيوية، وأضفِ لمسة رائعة إلى أي صورة.",
-  "meta.ogDescription": "اعرض صور Ultra HDR وHEIC والصور المتحركة بألوان فائقة الحيوية ووفية للواقع، مع لمسة رائعة لكل صورة عادية.",
-  "meta.jsonldDescription": "Brilliante هو عارض صور HDR لنظام Windows. اعرض صور Ultra HDR وHEIC والصور المتحركة بألوان فائقة الحيوية ووفية للواقع، وأضفِ لمسة رائعة إلى كل صورة عادية.",
+  "meta.description": "Brilliante هو عارض صور HDR لنظام Windows — اعرض صور Ultra HDR وHEIC والصور المتحركة وملفات iPhone ProRAW بألوان فائقة الحيوية، وأضفِ لمسة رائعة إلى أي صورة.",
+  "meta.ogDescription": "اعرض صور Ultra HDR وHEIC والصور المتحركة وملفات iPhone ProRAW بألوان فائقة الحيوية ووفية للواقع، مع لمسة رائعة لكل صورة عادية.",
+  "meta.jsonldDescription": "Brilliante هو عارض صور HDR لنظام Windows. اعرض صور Ultra HDR وHEIC والصور المتحركة وملفات iPhone ProRAW بألوان فائقة الحيوية ووفية للواقع، وأضفِ لمسة رائعة إلى كل صورة عادية.",
   "app.name": "Brilliante عارض الصور",
 
   "nav.by": "من",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "لنظامي Windows 10 و11",
   "hero.kicker": "عارض الصور HDR",
   "hero.iconAlt": "أيقونة تطبيق Brilliante — صورة Ultra HDR حية",
-  "hero.lede_html": "شاهد صورك بألوان فائقة الحيوية ووفية للواقع. صور Ultra&nbsp;HDR وHEIC والصور المتحركة — مع لمسة <span class=\"hl\">رائعة</span> لكل لقطة عادية.",
+  "hero.lede_html": "شاهد صورك بألوان فائقة الحيوية ووفية للواقع. صور Ultra&nbsp;HDR وHEIC والصور المتحركة وملفات iPhone&nbsp;RAW — مع لمسة <span class=\"hl\">رائعة</span> لكل لقطة عادية.",
 
   "cta.getItFrom": "احصل عليه من",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "يقرأ Brilliante الألوان الغنية التي تلتقطها الهواتف الحديثة — ويبثّ فيها الحياة على جهاز الكمبيوتر لديك.",
 
   "card1.title": "ألوان HDR فائقة الحيوية",
-  "card1.body_html": "تتألق صور Ultra HDR JPEG وصور HDR الحقيقية بألوان فائقة الحيوية على شاشات HDR.",
+  "card1.body_html": "تتألق صور HDR بألوان فائقة الحيوية ودقيقة — Ultra HDR JPEG وHDR HEIC من iPhone وPixel وGalaxy، إضافةً إلى أحدث الهواتف الرائدة من OPPO وXiaomi وvivo وHONOR.",
   "card2.title": "رائعة على أي شاشة",
   "card2.body_html": "يبثّ تعزيز ذكي بأسلوب HDR حياةً جديدة في الصور العادية، حتى على الشاشات القياسية (SDR).",
   "card3.title": "الصور المتحركة",
-  "card3.body_html": "شغّل الصور المتحركة من هواتف Android — متوافق مع Top&nbsp;Shot من Google Pixel ومع Motion&nbsp;Photo من Samsung Galaxy — مباشرةً على جهاز الكمبيوتر لديك.",
-  "card4.title": "دعم واسع للصيغ",
-  "card4.body_html": "يفتح صيغ HEIC وUltra HDR JPEG وPNG والمزيد — مع دعم الصور حتى 16-bit.",
+  "card3.body_html": "شغّل الصور المتحركة من هواتف Android — متوافق مع Top&nbsp;Shot من Google Pixel ومع Motion&nbsp;Photo من Samsung، بصيغتي JPEG وHEIC — مباشرةً على جهاز الكمبيوتر لديك.",
+  "card4.title": "أحدث صيغ RAW",
+  "card4.body_html": "يفتح جميع أجيال iPhone ProRAW — بما في ذلك صيغة DNG&nbsp;1.7 الجديدة مع JPEG&nbsp;XL من iPhone&nbsp;17 وSamsung Expert&nbsp;RAW، وهي صيغة لا يستطيع تطبيق صور Microsoft فتحها.",
   "card5.title": "صور HEIC حقيقية بعمق 10-bit",
   "card5.body_html": "يفكّ ترميز صور HEIC بعمق 10-bit للحصول على أعمق التدرّجات وأنعمها وأدقّ التفاصيل.",
   "card6.title": "تفاصيل الصورة",

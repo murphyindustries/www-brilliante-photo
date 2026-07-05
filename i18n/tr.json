@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — Windows için HDR Fotoğraf Görüntüleyicisi",
-  "meta.description": "Brilliante, Windows için bir HDR fotoğraf görüntüleyicisidir: Ultra HDR, HEIC ve hareketli fotoğrafları canlı renklerle görüntüleyin ve her fotoğrafa parlak bir dokunuş katın.",
-  "meta.ogDescription": "Ultra HDR, HEIC ve hareketli fotoğrafları canlı, gerçeğe yakın renklerle görüntüleyin; ayrıca her sıradan fotoğrafa parlak bir dokunuş katın.",
-  "meta.jsonldDescription": "Brilliante, Windows için bir HDR fotoğraf görüntüleyicisidir. Ultra HDR, HEIC ve hareketli fotoğrafları canlı, gerçeğe yakın renklerle görüntüleyin ve her sıradan fotoğrafa parlak bir dokunuş katın.",
+  "meta.description": "Brilliante, Windows için bir HDR fotoğraf görüntüleyicisidir: Ultra HDR, HEIC, hareketli fotoğrafları ve iPhone ProRAW'ı canlı renklerle görüntüleyin ve her fotoğrafa parlak bir dokunuş katın.",
+  "meta.ogDescription": "Ultra HDR, HEIC, hareketli fotoğrafları ve iPhone ProRAW'ı canlı, gerçeğe yakın renklerle görüntüleyin; ayrıca her sıradan fotoğrafa parlak bir dokunuş katın.",
+  "meta.jsonldDescription": "Brilliante, Windows için bir HDR fotoğraf görüntüleyicisidir. Ultra HDR, HEIC, hareketli fotoğrafları ve iPhone ProRAW'ı canlı, gerçeğe yakın renklerle görüntüleyin ve her sıradan fotoğrafa parlak bir dokunuş katın.",
   "app.name": "Brilliante Fotoğraf Görüntüleyicisi",
 
   "nav.by": "—",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Windows 10 ve 11 için",
   "hero.kicker": "HDR Fotoğraf Görüntüleyicisi",
   "hero.iconAlt": "Brilliante uygulama simgesi — canlı bir Ultra HDR görüntü",
-  "hero.lede_html": "Fotoğraflarınızı canlı, gerçeğe yakın renklerle görün. Ultra&nbsp;HDR, HEIC ve hareketli fotoğraflar; ayrıca her sıradan kareye <span class=\"hl\">parlak</span> bir dokunuş.",
+  "hero.lede_html": "Fotoğraflarınızı canlı, gerçeğe yakın renklerle görün. Ultra&nbsp;HDR, HEIC, hareketli fotoğraflar ve iPhone&nbsp;RAW; ayrıca her sıradan kareye <span class=\"hl\">parlak</span> bir dokunuş.",
 
   "cta.getItFrom": "Şu mağazadan edinin:",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante, modern telefonların yakaladığı zengin rengi okur ve PC’nizde canlandırır.",
 
   "card1.title": "Canlı HDR renk",
-  "card1.body_html": "Ultra HDR JPEG ve gerçek HDR görüntüler, HDR ekranlarda canlı ve doğru renklerle parlar.",
+  "card1.body_html": "HDR fotoğraflar canlı ve doğru renklerle parlar — iPhone, Pixel ve Galaxy'nin Ultra HDR JPEG ve HDR HEIC dosyaları, ayrıca OPPO, Xiaomi, vivo ve HONOR'un en yeni amiral gemileri.",
   "card2.title": "Her ekranda parlak",
   "card2.body_html": "Akıllı bir HDR tarzı renk artışı, standart (SDR) bir ekranda bile sıradan fotoğraflara yeni bir hayat katar.",
   "card3.title": "Hareketli fotoğraflar",
-  "card3.body_html": "Android telefonların hareketli fotoğraflarını — Pixel’in En İyi&nbsp;Çekim ve Samsung’un Hareketli&nbsp;Fotoğraf özelliklerini — doğrudan PC’nizde oynatın.",
-  "card4.title": "Geniş format desteği",
-  "card4.body_html": "HEIC, Ultra HDR JPEG, PNG ve daha fazlasını açar — 16-bit’e kadar görüntüler için destek sunar.",
+  "card3.body_html": "Android telefonların hareketli fotoğraflarını — Pixel'in En İyi&nbsp;Çekim ve Samsung'un Hareketli&nbsp;Fotoğraf özelliklerini, hem JPEG hem HEIC olarak — doğrudan PC'nizde oynatın.",
+  "card4.title": "En yeni RAW formatları",
+  "card4.body_html": "iPhone ProRAW'ın her neslini açar — iPhone&nbsp;17'nin JPEG&nbsp;XL'li yeni DNG&nbsp;1.7 formatı ve Samsung Expert&nbsp;RAW dahil; Microsoft Fotoğraflar'ın açamadığı formatlar.",
   "card5.title": "Gerçek 10-bit HEIC",
   "card5.body_html": "En derin, en yumuşak geçişler ve ayrıntı için 10-bit HEIC’i çözer.",
   "card6.title": "Fotoğraf ayrıntıları",

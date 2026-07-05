@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — HDR-средство просмотра фотографий для Windows",
-  "meta.description": "Brilliante — это HDR-средство просмотра фотографий для Windows: смотрите фотографии Ultra HDR, HEIC и Motion Photo в насыщенных цветах и придайте любому снимку яркое сияние.",
-  "meta.ogDescription": "Смотрите фотографии Ultra HDR, HEIC и Motion Photo в насыщенных, естественных цветах — а каждому обычному снимку добавьте яркое сияние.",
-  "meta.jsonldDescription": "Brilliante — это HDR-средство просмотра фотографий для Windows. Смотрите фотографии Ultra HDR, HEIC и Motion Photo в насыщенных, естественных цветах — и придайте каждому обычному снимку яркое сияние.",
+  "meta.description": "Brilliante — это HDR-средство просмотра фотографий для Windows: смотрите фотографии Ultra HDR, HEIC, Motion Photo и iPhone ProRAW в насыщенных цветах и придайте любому снимку яркое сияние.",
+  "meta.ogDescription": "Смотрите фотографии Ultra HDR, HEIC, Motion Photo и iPhone ProRAW в насыщенных, естественных цветах — а каждому обычному снимку добавьте яркое сияние.",
+  "meta.jsonldDescription": "Brilliante — это HDR-средство просмотра фотографий для Windows. Смотрите фотографии Ultra HDR, HEIC, Motion Photo и iPhone ProRAW в насыщенных, естественных цветах — и придайте каждому обычному снимку яркое сияние.",
   "app.name": "Brilliante Средство просмотра фотографий",
 
   "nav.by": "от",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Для Windows 10 и 11",
   "hero.kicker": "HDR Средство просмотра фотографий",
   "hero.iconAlt": "Значок приложения Brilliante — живое изображение Ultra HDR",
-  "hero.lede_html": "Смотрите свои фотографии в насыщенных, естественных цветах. Ultra&nbsp;HDR, HEIC и Motion Photo — а каждому обычному кадру добавьте <span class=\"hl\">яркое</span> сияние.",
+  "hero.lede_html": "Смотрите свои фотографии в насыщенных, естественных цветах. Ultra&nbsp;HDR, HEIC, Motion Photo и iPhone&nbsp;RAW — а каждому обычному кадру добавьте <span class=\"hl\">яркое</span> сияние.",
 
   "cta.getItFrom": "Загрузите из",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante считывает насыщенный цвет, который захватывают современные телефоны, и оживляет его на вашем ПК.",
 
   "card1.title": "Насыщенный цвет HDR",
-  "card1.body_html": "Изображения Ultra HDR JPEG и настоящий HDR сияют живыми, точными цветами на HDR-дисплеях.",
+  "card1.body_html": "Фотографии HDR сияют живыми, точными цветами — Ultra HDR JPEG и HDR HEIC с iPhone, Pixel и Galaxy, а также с новейших флагманов OPPO, Xiaomi, vivo и HONOR.",
   "card2.title": "Великолепно на любом экране",
   "card2.body_html": "Умное усиление в стиле HDR вдыхает новую жизнь в обычные фотографии, даже на стандартном (SDR) дисплее.",
   "card3.title": "Motion Photo",
-  "card3.body_html": "Воспроизводите Motion Photo с телефонов Android — лучший&nbsp;снимок от Pixel и Motion&nbsp;Photo от Samsung — прямо на вашем ПК.",
-  "card4.title": "Широкая поддержка форматов",
-  "card4.body_html": "Открывает HEIC, Ultra HDR JPEG, PNG и другие форматы — с поддержкой изображений до 16-bit.",
+  "card3.body_html": "Воспроизводите Motion Photo с телефонов Android — лучший&nbsp;снимок от Pixel и Motion&nbsp;Photo от Samsung, в JPEG и HEIC — прямо на вашем ПК.",
+  "card4.title": "Новейшие форматы RAW",
+  "card4.body_html": "Открывает все поколения iPhone ProRAW — включая новый DNG&nbsp;1.7 с JPEG&nbsp;XL из iPhone&nbsp;17 и Samsung Expert&nbsp;RAW — формат, который приложение «Фотографии» Microsoft открыть не может.",
   "card5.title": "Настоящий 10-bit HEIC",
   "card5.body_html": "Декодирует 10-bit HEIC ради самых глубоких, плавных градиентов и детализации.",
   "card6.title": "Сведения о фотографии",

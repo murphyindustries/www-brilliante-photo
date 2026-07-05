@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — HDR Photo Viewer for Windows",
-  "meta.description": "Brilliante is an HDR photo viewer for Windows — view Ultra HDR, HEIC, and motion photos in vibrant colour, and give any photo a brilliant glow-up.",
-  "meta.ogDescription": "View Ultra HDR, HEIC, and motion photos in vibrant, true-to-life colour — plus a brilliant glow-up for every ordinary photo.",
-  "meta.jsonldDescription": "Brilliante is an HDR photo viewer for Windows. View Ultra HDR, HEIC, and motion photos in vibrant, true-to-life colour — and give every ordinary photo a brilliant glow-up.",
+  "meta.description": "Brilliante is an HDR photo viewer for Windows — view Ultra HDR, HEIC, motion photos, and iPhone ProRAW in vibrant colour, and give any photo a brilliant glow-up.",
+  "meta.ogDescription": "View Ultra HDR, HEIC, motion photos, and iPhone ProRAW in vibrant, true-to-life colour — plus a brilliant glow-up for every ordinary photo.",
+  "meta.jsonldDescription": "Brilliante is an HDR photo viewer for Windows. View Ultra HDR, HEIC, motion photos, and iPhone ProRAW in vibrant, true-to-life colour — and give every ordinary photo a brilliant glow-up.",
   "app.name": "Brilliante Photo Viewer",
 
   "nav.by": "by",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "For Windows 10 & 11",
   "hero.kicker": "HDR Photo Viewer",
   "hero.iconAlt": "Brilliante app icon — a live Ultra HDR image",
-  "hero.lede_html": "See your photos in vibrant, true-to-life colour. Ultra&nbsp;HDR, HEIC, and motion photos — plus a <span class=\"hl\">brilliant</span> glow-up for every ordinary shot.",
+  "hero.lede_html": "See your photos in vibrant, true-to-life colour. Ultra&nbsp;HDR, HEIC, motion photos, and iPhone&nbsp;RAW — plus a <span class=\"hl\">brilliant</span> glow-up for every ordinary shot.",
 
   "cta.getItFrom": "Get it from",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante reads the rich colour modern phones capture — and brings it to life on your PC.",
 
   "card1.title": "Vibrant HDR colour",
-  "card1.body_html": "Ultra HDR JPEG and true HDR images shine in vivid, accurate colour on HDR displays.",
+  "card1.body_html": "HDR photos shine in vivid, accurate colour — Ultra HDR JPEG and HDR HEIC from iPhone, Pixel, and Galaxy, plus the latest OPPO, Xiaomi, vivo, and HONOR flagships.",
   "card2.title": "Brilliant on any screen",
   "card2.body_html": "A smart HDR-style boost brings new life to ordinary photos, even on a standard (SDR) display.",
   "card3.title": "Motion photos",
-  "card3.body_html": "Play the motion photos from Android phones — Pixel Top&nbsp;Shot and Samsung Motion&nbsp;Photo — right on your PC.",
-  "card4.title": "Wide format support",
-  "card4.body_html": "Opens HEIC, Ultra HDR JPEG, PNG and more — with support for images up to 16-bit.",
+  "card3.body_html": "Play the motion photos from Android phones — Pixel Top&nbsp;Shot and Samsung Motion&nbsp;Photo, in both JPEG and HEIC — right on your PC.",
+  "card4.title": "The newest RAW formats",
+  "card4.body_html": "Opens every generation of iPhone ProRAW — including the new DNG&nbsp;1.7 with JPEG&nbsp;XL from iPhone&nbsp;17 and Samsung Expert&nbsp;RAW, a format Microsoft Photos can't open.",
   "card5.title": "True 10-bit HEIC",
   "card5.body_html": "Decodes 10-bit HEIC for the deepest, smoothest gradients and detail.",
   "card6.title": "Photo details",

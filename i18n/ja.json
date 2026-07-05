@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — Windows 向け HDR フォトビューアー",
-  "meta.description": "Brilliante は Windows 向けの HDR フォトビューアーです。Ultra HDR、HEIC、モーションフォトを鮮やかな色彩で表示し、どんな写真も美しく引き立てます。",
-  "meta.ogDescription": "Ultra HDR、HEIC、モーションフォトを鮮やかで自然な色彩で表示。ありふれた写真にも輝きを加えます。",
-  "meta.jsonldDescription": "Brilliante は Windows 向けの HDR フォトビューアーです。Ultra HDR、HEIC、モーションフォトを鮮やかで自然な色彩で表示し、ありふれた写真にも美しい輝きを加えます。",
+  "meta.description": "Brilliante は Windows 向けの HDR フォトビューアーです。Ultra HDR、HEIC、モーションフォト、iPhone の ProRAW を鮮やかな色彩で表示し、どんな写真も美しく引き立てます。",
+  "meta.ogDescription": "Ultra HDR、HEIC、モーションフォト、iPhone の ProRAW を鮮やかで自然な色彩で表示。ありふれた写真にも輝きを加えます。",
+  "meta.jsonldDescription": "Brilliante は Windows 向けの HDR フォトビューアーです。Ultra HDR、HEIC、モーションフォト、iPhone の ProRAW を鮮やかで自然な色彩で表示し、ありふれた写真にも美しい輝きを加えます。",
   "app.name": "Brilliante フォト ビューアー",
 
   "nav.by": "提供",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Windows 10 / 11 対応",
   "hero.kicker": "HDR フォトビューアー",
   "hero.iconAlt": "Brilliante アプリのアイコン — 実際の Ultra HDR 画像",
-  "hero.lede_html": "写真を鮮やかで自然な色彩で。Ultra&nbsp;HDR、HEIC、モーションフォトに対応し、ありふれた一枚にも<span class=\"hl\">鮮やかな</span>輝きを加えます。",
+  "hero.lede_html": "写真を鮮やかで自然な色彩で。Ultra&nbsp;HDR、HEIC、モーションフォト、iPhone&nbsp;RAW に対応し、ありふれた一枚にも<span class=\"hl\">鮮やかな</span>輝きを加えます。",
 
   "cta.getItFrom": "入手先",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante は最新のスマートフォンが捉えた豊かな色を読み取り、あなたの PC でよみがえらせます。",
 
   "card1.title": "鮮やかな HDR の色彩",
-  "card1.body_html": "Ultra HDR JPEG や本物の HDR 画像が、HDR ディスプレイで鮮やかかつ正確な色彩で輝きます。",
+  "card1.body_html": "iPhone・Pixel・Galaxy の Ultra HDR JPEG と HDR HEIC、さらに OPPO・Xiaomi・vivo・HONOR の最新フラッグシップの HDR 写真が、鮮やかで正確な色彩で輝きます。",
   "card2.title": "どんな画面でも美しく",
   "card2.body_html": "スマートな HDR 風の補正が、標準（SDR）ディスプレイでもありふれた写真に新たな命を吹き込みます。",
   "card3.title": "モーションフォト",
-  "card3.body_html": "Android スマートフォンのモーションフォト（Pixel の Top&nbsp;Shot、Samsung の Motion&nbsp;Photo）を、PC でそのまま再生できます。",
-  "card4.title": "幅広いフォーマット対応",
-  "card4.body_html": "HEIC、Ultra HDR JPEG、PNG などに対応し、最大 16 ビットの画像をサポートします。",
+  "card3.body_html": "Android スマートフォンのモーションフォト（Pixel の Top&nbsp;Shot、Samsung の Motion&nbsp;Photo）を、JPEG でも HEIC でも PC でそのまま再生できます。",
+  "card4.title": "最新の RAW フォーマット",
+  "card4.body_html": "iPhone ProRAW を全世代で開けます。iPhone&nbsp;17 の新しい DNG&nbsp;1.7（JPEG&nbsp;XL 圧縮）や Samsung Expert&nbsp;RAW など、Microsoft フォトでは開けないフォーマットにも対応。",
   "card5.title": "本物の 10 ビット HEIC",
   "card5.body_html": "10 ビット HEIC をデコードし、最も滑らかで深みのあるグラデーションとディテールを実現します。",
   "card6.title": "写真の詳細",

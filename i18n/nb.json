@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — HDR-bildevisning for Windows",
-  "meta.description": "Brilliante er et HDR-bildevisningsprogram for Windows – se Ultra HDR, HEIC og bevegelsesbilder i livfulle farger, og gi ethvert bilde et briljant løft.",
-  "meta.ogDescription": "Se Ultra HDR, HEIC og bevegelsesbilder i livfulle, naturtro farger – pluss et briljant løft for hvert vanlig bilde.",
-  "meta.jsonldDescription": "Brilliante er et HDR-bildevisningsprogram for Windows. Se Ultra HDR, HEIC og bevegelsesbilder i livfulle, naturtro farger – og gi hvert vanlig bilde et briljant løft.",
+  "meta.description": "Brilliante er et HDR-bildevisningsprogram for Windows – se Ultra HDR, HEIC, bevegelsesbilder og iPhone ProRAW i livfulle farger, og gi ethvert bilde et briljant løft.",
+  "meta.ogDescription": "Se Ultra HDR, HEIC, bevegelsesbilder og iPhone ProRAW i livfulle, naturtro farger – pluss et briljant løft for hvert vanlig bilde.",
+  "meta.jsonldDescription": "Brilliante er et HDR-bildevisningsprogram for Windows. Se Ultra HDR, HEIC, bevegelsesbilder og iPhone ProRAW i livfulle, naturtro farger – og gi hvert vanlig bilde et briljant løft.",
   "app.name": "Brilliante Bildevisningsprogram",
 
   "nav.by": "av",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "For Windows 10 og 11",
   "hero.kicker": "HDR Bildevisningsprogram",
   "hero.iconAlt": "Brilliante-appikon – et levende Ultra HDR-bilde",
-  "hero.lede_html": "Se bildene dine i livfulle, naturtro farger. Ultra&nbsp;HDR, HEIC og bevegelsesbilder – pluss et <span class=\"hl\">briljant</span> løft for hvert vanlig bilde.",
+  "hero.lede_html": "Se bildene dine i livfulle, naturtro farger. Ultra&nbsp;HDR, HEIC, bevegelsesbilder og iPhone&nbsp;RAW – pluss et <span class=\"hl\">briljant</span> løft for hvert vanlig bilde.",
 
   "cta.getItFrom": "Få den fra",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante tolker de rike fargene moderne mobiler fanger – og vekker dem til live på PC-en din.",
 
   "card1.title": "Livfulle HDR-farger",
-  "card1.body_html": "Ultra HDR JPEG og ekte HDR-bilder stråler i klare, nøyaktige farger på HDR-skjermer.",
+  "card1.body_html": "HDR-bilder stråler i klare, nøyaktige farger – Ultra HDR JPEG og HDR HEIC fra iPhone, Pixel og Galaxy, pluss de nyeste flaggskipene fra OPPO, Xiaomi, vivo og HONOR.",
   "card2.title": "Briljant på enhver skjerm",
   "card2.body_html": "Et smart løft i HDR-stil gir nytt liv til vanlige bilder, selv på en standardskjerm (SDR).",
   "card3.title": "Bevegelsesbilder",
-  "card3.body_html": "Spill av bevegelsesbildene fra Android-mobiler – Pixels&nbsp;toppbilde og Samsungs Motion&nbsp;Photo – rett på PC-en din.",
-  "card4.title": "Bred formatstøtte",
-  "card4.body_html": "Åpner HEIC, Ultra HDR JPEG, PNG og mer – med støtte for bilder opptil 16-bit.",
+  "card3.body_html": "Spill av bevegelsesbildene fra Android-mobiler – Pixels&nbsp;toppbilde og Samsungs Motion&nbsp;Photo, i både JPEG og HEIC – rett på PC-en din.",
+  "card4.title": "De nyeste RAW-formatene",
+  "card4.body_html": "Åpner alle generasjoner av iPhone ProRAW – inkludert det nye DNG&nbsp;1.7 med JPEG&nbsp;XL fra iPhone&nbsp;17 og Samsung Expert&nbsp;RAW, et format Microsoft Fotos ikke kan åpne.",
   "card5.title": "Ekte 10-bit HEIC",
   "card5.body_html": "Dekoder 10-bit HEIC for de dypeste, jevneste fargeovergangene og detaljene.",
   "card6.title": "Bildedetaljer",

@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — HDR-valokuvien katseluohjelma Windowsille",
-  "meta.description": "Brilliante on HDR-valokuvien katseluohjelma Windowsille: katsele Ultra HDR-, HEIC- ja liikevalokuvia elävin värein ja anna mille tahansa valokuvalle loistava kohotus.",
-  "meta.ogDescription": "Katsele Ultra HDR-, HEIC- ja liikevalokuvia elävin, todenmukaisin värein – sekä loistava kohotus jokaiselle tavalliselle valokuvalle.",
-  "meta.jsonldDescription": "Brilliante on HDR-valokuvien katseluohjelma Windowsille. Katsele Ultra HDR-, HEIC- ja liikevalokuvia elävin, todenmukaisin värein – ja anna jokaiselle tavalliselle valokuvalle loistava kohotus.",
+  "meta.description": "Brilliante on HDR-valokuvien katseluohjelma Windowsille: katsele Ultra HDR-, HEIC- ja liikevalokuvia sekä iPhonen ProRAW-kuvia elävin värein ja anna mille tahansa valokuvalle loistava kohotus.",
+  "meta.ogDescription": "Katsele Ultra HDR-, HEIC- ja liikevalokuvia sekä iPhonen ProRAW-kuvia elävin, todenmukaisin värein – ja lisäksi loistava kohotus jokaiselle tavalliselle valokuvalle.",
+  "meta.jsonldDescription": "Brilliante on HDR-valokuvien katseluohjelma Windowsille. Katsele Ultra HDR-, HEIC- ja liikevalokuvia sekä iPhonen ProRAW-kuvia elävin, todenmukaisin värein – ja anna jokaiselle tavalliselle valokuvalle loistava kohotus.",
   "app.name": "Brilliante Valokuvien katseluohjelma",
 
   "nav.by": "tekijä",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Windows 10:lle ja 11:lle",
   "hero.kicker": "HDR Valokuvien katseluohjelma",
   "hero.iconAlt": "Brilliante-sovelluksen kuvake – aito Ultra HDR -kuva",
-  "hero.lede_html": "Katsele valokuviasi elävin, todenmukaisin värein. Ultra&nbsp;HDR, HEIC ja Motion Photot – sekä <span class=\"hl\">loistava</span> kohotus jokaiselle tavalliselle otokselle.",
+  "hero.lede_html": "Katsele valokuviasi elävin, todenmukaisin värein. Ultra&nbsp;HDR, HEIC, liikevalokuvat ja iPhonen&nbsp;RAW – sekä <span class=\"hl\">loistava</span> kohotus jokaiselle tavalliselle otokselle.",
 
   "cta.getItFrom": "Hanki täältä:",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante tulkitsee nykyaikaisten puhelimien tallentamat rikkaat värit – ja herättää ne eloon tietokoneellasi.",
 
   "card1.title": "Elävä HDR-väri",
-  "card1.body_html": "Ultra HDR JPEG- ja aidot HDR-kuvat loistavat eloisin, tarkoin värein HDR-näytöillä.",
+  "card1.body_html": "HDR-kuvat loistavat eloisin, tarkoin värein – Ultra HDR JPEG ja HDR HEIC iPhonesta, Pixelistä ja Galaxysta sekä uusimmista OPPO-, Xiaomi-, vivo- ja HONOR-lippulaivoista.",
   "card2.title": "Loistava millä tahansa näytöllä",
   "card2.body_html": "Älykäs HDR-tyylinen tehostus tuo uutta eloa tavallisiin valokuviin, jopa vakionäytöllä (SDR).",
   "card3.title": "Liikevalokuvat",
-  "card3.body_html": "Toista Android-puhelimien liikevalokuvat – Pixelin Top&nbsp;Shot ja Samsungin Motion&nbsp;Photo – suoraan tietokoneellasi.",
-  "card4.title": "Laaja tiedostomuototuki",
-  "card4.body_html": "Avaa HEIC, Ultra HDR JPEG, PNG ja muita – tukee jopa 16-bittisiä kuvia.",
+  "card3.body_html": "Toista Android-puhelimien liikevalokuvat – Pixelin Top&nbsp;Shot ja Samsungin Motion&nbsp;Photo, niin JPEG- kuin HEIC-muodossa – suoraan tietokoneellasi.",
+  "card4.title": "Uusimmat RAW-muodot",
+  "card4.body_html": "Avaa kaikki iPhone ProRAW -sukupolvet, myös iPhone&nbsp;17:n uuden DNG&nbsp;1.7 + JPEG&nbsp;XL -muodon, sekä Samsung Expert&nbsp;RAW:n – muodot, joita Microsoftin Valokuvat-sovellus ei avaa.",
   "card5.title": "Aito 10-bittinen HEIC",
   "card5.body_html": "Purkaa 10-bittisen HEIC:n syvimpiä, pehmeimpiä liukuvärejä ja yksityiskohtia varten.",
   "card6.title": "Valokuvan tiedot",

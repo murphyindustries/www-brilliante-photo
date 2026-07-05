@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — 適用於 Windows 的 HDR 相片檢視器",
-  "meta.description": "Brilliante 是一款適用於 Windows 的 HDR 相片檢視器：以鮮豔的色彩檢視 Ultra HDR、HEIC 與動態相片，讓每張相片煥發光彩。",
-  "meta.ogDescription": "以鮮豔、真實的色彩檢視 Ultra HDR、HEIC 與動態相片，讓每張平凡相片都煥發光彩。",
-  "meta.jsonldDescription": "Brilliante 是一款適用於 Windows 的 HDR 相片檢視器。以鮮豔、真實的色彩檢視 Ultra HDR、HEIC 與動態相片，讓每張平凡相片都煥發光彩。",
+  "meta.description": "Brilliante 是一款適用於 Windows 的 HDR 相片檢視器：以鮮豔的色彩檢視 Ultra HDR、HEIC、動態相片與 iPhone ProRAW，讓每張相片煥發光彩。",
+  "meta.ogDescription": "以鮮豔、真實的色彩檢視 Ultra HDR、HEIC、動態相片與 iPhone ProRAW，讓每張平凡相片都煥發光彩。",
+  "meta.jsonldDescription": "Brilliante 是一款適用於 Windows 的 HDR 相片檢視器。以鮮豔、真實的色彩檢視 Ultra HDR、HEIC、動態相片與 iPhone ProRAW，讓每張平凡相片都煥發光彩。",
   "app.name": "Brilliante 相片檢視器",
 
   "nav.by": "來自",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "適用於 Windows 10 與 11",
   "hero.kicker": "HDR 相片檢視器",
   "hero.iconAlt": "Brilliante 應用程式圖示 — 一張真實的 Ultra HDR 影像",
-  "hero.lede_html": "以鮮豔、真實的色彩欣賞相片。支援 Ultra&nbsp;HDR、HEIC 與動態相片，更能為每張平凡相片增添<span class=\"hl\">絢麗</span>光彩。",
+  "hero.lede_html": "以鮮豔、真實的色彩欣賞相片。支援 Ultra&nbsp;HDR、HEIC、動態相片與 iPhone&nbsp;RAW，更能為每張平凡相片增添<span class=\"hl\">絢麗</span>光彩。",
 
   "cta.getItFrom": "取得自",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante 解讀現代手機捕捉的豐富色彩，讓它們在你的電腦上煥發生機。",
 
   "card1.title": "鮮豔的 HDR 色彩",
-  "card1.body_html": "Ultra HDR JPEG 與真正的 HDR 影像在 HDR 顯示器上呈現超鮮豔色彩，準確而生動。",
+  "card1.body_html": "HDR 相片以鮮豔而準確的色彩綻放光彩——支援 iPhone、Pixel、Galaxy 的 Ultra HDR JPEG 與 HDR HEIC，以及 OPPO、小米、vivo、HONOR 的最新旗艦機型。",
   "card2.title": "任何螢幕都出色",
   "card2.body_html": "智慧的 HDR 風格增強為平凡相片注入新的活力，即使在標準（SDR）顯示器上也是如此。",
   "card3.title": "動態相片",
-  "card3.body_html": "在電腦上直接播放 Android 手機的動態相片——相容 Google Pixel Top&nbsp;Shot 與 Samsung&nbsp;Galaxy 動態相片。",
-  "card4.title": "廣泛的格式支援",
-  "card4.body_html": "可開啟 HEIC、Ultra HDR JPEG、PNG 等格式，並支援高達 16-bit 的影像。",
+  "card3.body_html": "在電腦上直接播放 Android 手機的動態相片——相容 Google Pixel Top&nbsp;Shot 與 Samsung 動態相片，JPEG 與 HEIC 皆可。",
+  "card4.title": "最新的 RAW 格式",
+  "card4.body_html": "可開啟各代 iPhone ProRAW——包括 iPhone&nbsp;17 全新的 DNG&nbsp;1.7（JPEG&nbsp;XL 壓縮）以及 Samsung Expert&nbsp;RAW——這些是 Microsoft 相片無法開啟的格式。",
   "card5.title": "真正的 10-bit HEIC",
   "card5.body_html": "解碼 10-bit HEIC，呈現最深邃、最平滑的漸層與細節。",
   "card6.title": "相片詳細資料",

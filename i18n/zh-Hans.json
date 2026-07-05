@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — 适用于 Windows 的 HDR 照片查看器",
-  "meta.description": "Brilliante 是一款适用于 Windows 的 HDR 照片查看器：以鲜艳的色彩查看 Ultra HDR、HEIC 和动态相片，让每张照片焕发光彩。",
-  "meta.ogDescription": "以鲜艳、真实的色彩查看 Ultra HDR、HEIC 和动态相片，让每张普通照片都焕发光彩。",
-  "meta.jsonldDescription": "Brilliante 是一款适用于 Windows 的 HDR 照片查看器。以鲜艳、真实的色彩查看 Ultra HDR、HEIC 和动态相片，让每张普通照片都焕发光彩。",
+  "meta.description": "Brilliante 是一款适用于 Windows 的 HDR 照片查看器：以鲜艳的色彩查看 Ultra HDR、HEIC、动态相片和 iPhone ProRAW，让每张照片焕发光彩。",
+  "meta.ogDescription": "以鲜艳、真实的色彩查看 Ultra HDR、HEIC、动态相片和 iPhone ProRAW，让每张普通照片都焕发光彩。",
+  "meta.jsonldDescription": "Brilliante 是一款适用于 Windows 的 HDR 照片查看器。以鲜艳、真实的色彩查看 Ultra HDR、HEIC、动态相片和 iPhone ProRAW，让每张普通照片都焕发光彩。",
   "app.name": "Brilliante 照片查看器",
 
   "nav.by": "来自",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "适用于 Windows 10 和 11",
   "hero.kicker": "HDR 照片查看器",
   "hero.iconAlt": "Brilliante 应用图标 — 一张真实的 Ultra HDR 图像",
-  "hero.lede_html": "以鲜艳、真实的色彩欣赏照片。支持 Ultra&nbsp;HDR、HEIC 和动态相片，更能为每张普通照片增添<span class=\"hl\">绚丽</span>光彩。",
+  "hero.lede_html": "以鲜艳、真实的色彩欣赏照片。支持 Ultra&nbsp;HDR、HEIC、动态相片和 iPhone&nbsp;RAW，更能为每张普通照片增添<span class=\"hl\">绚丽</span>光彩。",
 
   "cta.getItFrom": "获取自",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante 解读现代手机捕捉的丰富色彩，让它们在你的电脑上焕发生机。",
 
   "card1.title": "鲜艳的 HDR 色彩",
-  "card1.body_html": "Ultra HDR JPEG 与真正的 HDR 图像在 HDR 显示屏上呈现鲜艳而准确的色彩。",
+  "card1.body_html": "HDR 照片以鲜艳而准确的色彩绽放光彩——支持 iPhone、Pixel、Galaxy 的 Ultra HDR JPEG 与 HDR HEIC，以及 OPPO、小米、vivo、荣耀的最新旗舰机型。",
   "card2.title": "任何屏幕都出彩",
   "card2.body_html": "智能的 HDR 风格增强为普通照片注入新的活力，即使在标准（SDR）显示屏上也是如此。",
   "card3.title": "动态相片",
-  "card3.body_html": "在电脑上直接播放 Android 手机的动态相片——Pixel 的 Top&nbsp;Shot 和三星的 Motion&nbsp;Photo。",
-  "card4.title": "广泛的格式支持",
-  "card4.body_html": "可打开 HEIC、Ultra HDR JPEG、PNG 等格式，并支持高达 16 位的图像。",
+  "card3.body_html": "在电脑上直接播放 Android 手机的动态相片——Pixel 的 Top&nbsp;Shot 和三星的 Motion&nbsp;Photo，JPEG 与 HEIC 均可。",
+  "card4.title": "最新的 RAW 格式",
+  "card4.body_html": "可打开各代 iPhone ProRAW——包括 iPhone&nbsp;17 全新的 DNG&nbsp;1.7（JPEG&nbsp;XL 压缩）以及 Samsung Expert&nbsp;RAW——这些是 Microsoft 照片无法打开的格式。",
   "card5.title": "真正的 10 位 HEIC",
   "card5.body_html": "解码 10 位 HEIC，呈现最深邃、最平滑的渐变与细节。",
   "card6.title": "照片详情",

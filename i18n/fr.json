@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — Visionneuse de photos HDR pour Windows",
-  "meta.description": "Brilliante est une visionneuse de photos HDR pour Windows : affichez vos photos Ultra HDR, HEIC et Motion Photo avec des couleurs éclatantes et sublimez n’importe quelle photo.",
-  "meta.ogDescription": "Affichez vos photos Ultra HDR, HEIC et Motion Photo avec des couleurs éclatantes et fidèles, et sublimez chaque photo ordinaire.",
-  "meta.jsonldDescription": "Brilliante est une visionneuse de photos HDR pour Windows. Affichez vos photos Ultra HDR, HEIC et Motion Photo avec des couleurs éclatantes et fidèles, et sublimez chaque photo ordinaire.",
+  "meta.description": "Brilliante est une visionneuse de photos HDR pour Windows : affichez vos photos Ultra HDR, HEIC, Motion Photo et iPhone ProRAW avec des couleurs éclatantes et sublimez n’importe quelle photo.",
+  "meta.ogDescription": "Affichez vos photos Ultra HDR, HEIC, Motion Photo et iPhone ProRAW avec des couleurs éclatantes et fidèles, et sublimez chaque photo ordinaire.",
+  "meta.jsonldDescription": "Brilliante est une visionneuse de photos HDR pour Windows. Affichez vos photos Ultra HDR, HEIC, Motion Photo et iPhone ProRAW avec des couleurs éclatantes et fidèles, et sublimez chaque photo ordinaire.",
   "app.name": "Brilliante Visionneuse de photos",
 
   "nav.by": "par",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Pour Windows 10 et 11",
   "hero.kicker": "Visionneuse de photos HDR",
   "hero.iconAlt": "Icône de l’application Brilliante : une véritable image Ultra HDR",
-  "hero.lede_html": "Voyez vos photos avec des couleurs éclatantes et fidèles à la réalité. Ultra&nbsp;HDR, HEIC et Motion Photo, ainsi qu’une touche <span class=\"hl\">brillante</span> pour chaque photo ordinaire.",
+  "hero.lede_html": "Voyez vos photos avec des couleurs éclatantes et fidèles à la réalité. Ultra&nbsp;HDR, HEIC, Motion Photo et RAW d’iPhone, ainsi qu’une touche <span class=\"hl\">brillante</span> pour chaque photo ordinaire.",
 
   "cta.getItFrom": "Disponible sur",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante interprète les couleurs riches que capturent les téléphones modernes et les fait revivre sur votre PC.",
 
   "card1.title": "Couleurs HDR éclatantes",
-  "card1.body_html": "Les images Ultra HDR JPEG et HDR réel rayonnent de couleurs vives et précises sur les écrans HDR.",
+  "card1.body_html": "Les photos HDR rayonnent de couleurs vives et précises — Ultra HDR JPEG et HDR HEIC de l’iPhone, du Pixel et du Galaxy, ainsi que des derniers fleurons d’OPPO, Xiaomi, vivo et HONOR.",
   "card2.title": "Brillant sur tous les écrans",
   "card2.body_html": "Une amélioration intelligente de type HDR redonne vie aux photos ordinaires, même sur un écran standard (SDR).",
   "card3.title": "Motion Photo",
-  "card3.body_html": "Lisez les Motion Photo des téléphones Android — Top&nbsp;Shot de Pixel et Motion&nbsp;Photo de Samsung — directement sur votre PC.",
-  "card4.title": "Prise en charge étendue des formats",
-  "card4.body_html": "Ouvre les HEIC, Ultra HDR JPEG, PNG et plus encore, avec la prise en charge des images jusqu’à 16 bits.",
+  "card3.body_html": "Lisez les Motion Photo des téléphones Android — Top&nbsp;Shot de Pixel et Motion&nbsp;Photo de Samsung, en JPEG comme en HEIC — directement sur votre PC.",
+  "card4.title": "Les tout derniers formats RAW",
+  "card4.body_html": "Ouvre toutes les générations d’iPhone ProRAW — y compris le nouveau DNG&nbsp;1.7 avec JPEG&nbsp;XL de l’iPhone&nbsp;17 et le Samsung Expert&nbsp;RAW, un format que Microsoft Photos ne peut pas ouvrir.",
   "card5.title": "HEIC 10 bits véritable",
   "card5.body_html": "Décode le HEIC 10 bits pour des dégradés et des détails d’une douceur et d’une profondeur inégalées.",
   "card6.title": "Détails de la photo",

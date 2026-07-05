@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — HDR Photo Viewer para sa Windows",
-  "meta.description": "Ang Brilliante ay isang HDR photo viewer para sa Windows — tingnan ang mga Ultra HDR, HEIC, at motion photo nang may matingkad na kulay, at bigyan ng makinang na ganda ang kahit anong larawan.",
-  "meta.ogDescription": "Tingnan ang mga Ultra HDR, HEIC, at motion photo nang may matingkad at totoong-buhay na kulay — kasama ang makinang na ganda para sa bawat karaniwang larawan.",
-  "meta.jsonldDescription": "Ang Brilliante ay isang HDR photo viewer para sa Windows. Tingnan ang mga Ultra HDR, HEIC, at motion photo nang may matingkad at totoong-buhay na kulay — at bigyan ng makinang na ganda ang bawat karaniwang larawan.",
+  "meta.description": "Ang Brilliante ay isang HDR photo viewer para sa Windows — tingnan ang mga Ultra HDR, HEIC, motion photo, at iPhone ProRAW nang may matingkad na kulay, at bigyan ng makinang na ganda ang kahit anong larawan.",
+  "meta.ogDescription": "Tingnan ang mga Ultra HDR, HEIC, motion photo, at iPhone ProRAW nang may matingkad at totoong-buhay na kulay — kasama ang makinang na ganda para sa bawat karaniwang larawan.",
+  "meta.jsonldDescription": "Ang Brilliante ay isang HDR photo viewer para sa Windows. Tingnan ang mga Ultra HDR, HEIC, motion photo, at iPhone ProRAW nang may matingkad at totoong-buhay na kulay — at bigyan ng makinang na ganda ang bawat karaniwang larawan.",
   "app.name": "Brilliante Photo Viewer",
 
   "nav.by": "ng",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Para sa Windows 10 at 11",
   "hero.kicker": "HDR Photo Viewer",
   "hero.iconAlt": "Icon ng app na Brilliante — isang live na Ultra HDR na larawan",
-  "hero.lede_html": "Tingnan ang iyong mga larawan nang may matingkad at totoong-buhay na kulay. Ultra&nbsp;HDR, HEIC, at mga Motion Photo — kasama ang isang <span class=\"hl\">makinang</span> na ganda para sa bawat karaniwang kuha.",
+  "hero.lede_html": "Tingnan ang iyong mga larawan nang may matingkad at totoong-buhay na kulay. Ultra&nbsp;HDR, HEIC, mga motion photo, at iPhone&nbsp;RAW — kasama ang isang <span class=\"hl\">makinang</span> na ganda para sa bawat karaniwang kuha.",
 
   "cta.getItFrom": "Kunin ito sa",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Binabasa ng Brilliante ang mayamang kulay na kinukuha ng mga modernong telepono — at binubuhay ito sa iyong PC.",
 
   "card1.title": "Matingkad na HDR na kulay",
-  "card1.body_html": "Ang mga Ultra HDR JPEG at totoong HDR na larawan ay nagniningning sa buhay at tumpak na kulay sa mga HDR display.",
+  "card1.body_html": "Nagniningning ang mga HDR na larawan sa buhay at tumpak na kulay — Ultra HDR JPEG at HDR HEIC mula sa iPhone, Pixel, at Galaxy, pati na sa pinakabagong mga flagship ng OPPO, Xiaomi, vivo, at HONOR.",
   "card2.title": "Makinang sa anumang screen",
   "card2.body_html": "Isang matalinong HDR-style na pagpapaganda ang nagbibigay ng bagong buhay sa mga karaniwang larawan, kahit sa isang standard (SDR) na display.",
   "card3.title": "Mga motion photo",
-  "card3.body_html": "I-play ang mga motion photo mula sa mga Android phone — Top&nbsp;Shot ng Google Pixel at Motion&nbsp;Photo ng Samsung — diretso sa iyong PC.",
-  "card4.title": "Malawak na suporta sa format",
-  "card4.body_html": "Nagbubukas ng HEIC, Ultra HDR JPEG, PNG at higit pa — may suporta para sa mga larawan na hanggang 16-bit.",
+  "card3.body_html": "I-play ang mga motion photo mula sa mga Android phone — Top&nbsp;Shot ng Google Pixel at Motion&nbsp;Photo ng Samsung, sa JPEG man o HEIC — diretso sa iyong PC.",
+  "card4.title": "Ang pinakabagong mga RAW format",
+  "card4.body_html": "Nagbubukas ng bawat henerasyon ng iPhone ProRAW — kasama ang bagong DNG&nbsp;1.7 na may JPEG&nbsp;XL mula sa iPhone&nbsp;17 at ang Samsung Expert&nbsp;RAW, isang format na hindi mabubuksan ng Microsoft Photos.",
   "card5.title": "Totoong 10-bit na HEIC",
   "card5.body_html": "Nagde-decode ng 10-bit na HEIC para sa pinakamalalim, pinakamakinis na gradient at detalye.",
   "card6.title": "Mga detalye ng larawan",

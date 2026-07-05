@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — ตัวแสดงภาพถ่าย HDR สำหรับ Windows",
-  "meta.description": "Brilliante คือตัวแสดงภาพถ่าย HDR สำหรับ Windows ดูภาพ Ultra HDR, HEIC และภาพเคลื่อนไหวด้วยสีสันสดใส พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
-  "meta.ogDescription": "ดูภาพ Ultra HDR, HEIC และภาพเคลื่อนไหวด้วยสีสันสดใสและสมจริง พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
-  "meta.jsonldDescription": "Brilliante คือตัวแสดงภาพถ่าย HDR สำหรับ Windows ดูภาพ Ultra HDR, HEIC และภาพเคลื่อนไหวด้วยสีสันสดใสและสมจริง พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
+  "meta.description": "Brilliante คือตัวแสดงภาพถ่าย HDR สำหรับ Windows ดูภาพ Ultra HDR, HEIC, ภาพเคลื่อนไหว และ iPhone ProRAW ด้วยสีสันสดใส พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
+  "meta.ogDescription": "ดูภาพ Ultra HDR, HEIC, ภาพเคลื่อนไหว และ iPhone ProRAW ด้วยสีสันสดใสและสมจริง พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
+  "meta.jsonldDescription": "Brilliante คือตัวแสดงภาพถ่าย HDR สำหรับ Windows ดูภาพ Ultra HDR, HEIC, ภาพเคลื่อนไหว และ iPhone ProRAW ด้วยสีสันสดใสและสมจริง พร้อมเพิ่มความสดใสให้ทุกภาพถ่ายธรรมดา",
   "app.name": "Brilliante ตัวแสดงภาพถ่าย",
 
   "nav.by": "โดย",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "สำหรับ Windows 10 และ 11",
   "hero.kicker": "ตัวแสดงภาพถ่าย HDR",
   "hero.iconAlt": "ไอคอนแอป Brilliante — ภาพ Ultra HDR แบบสด",
-  "hero.lede_html": "ดูภาพถ่ายของคุณด้วยสีสันสดใสและสมจริง ทั้ง Ultra&nbsp;HDR, HEIC และภาพเคลื่อนไหว พร้อมเพิ่มความ<span class=\"hl\">สดใส</span>ให้ทุกภาพถ่ายธรรมดา",
+  "hero.lede_html": "ดูภาพถ่ายของคุณด้วยสีสันสดใสและสมจริง ทั้ง Ultra&nbsp;HDR, HEIC, ภาพเคลื่อนไหว และ iPhone&nbsp;RAW พร้อมเพิ่มความ<span class=\"hl\">สดใส</span>ให้ทุกภาพถ่ายธรรมดา",
 
   "cta.getItFrom": "ดาวน์โหลดได้จาก",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante อ่านสีสันอันเข้มข้นที่โทรศัพท์ยุคใหม่บันทึกไว้ และทำให้มันมีชีวิตขึ้นมาบนพีซีของคุณ",
 
   "card1.title": "สีสัน HDR สดใส",
-  "card1.body_html": "ภาพ Ultra HDR JPEG และภาพ HDR จริงเปล่งประกายด้วยสีสันสดใสและแม่นยำบนจอแสดงผล HDR",
+  "card1.body_html": "ภาพ HDR เปล่งประกายด้วยสีสันสดใสและแม่นยำ — Ultra HDR JPEG และ HDR HEIC จาก iPhone, Pixel และ Galaxy รวมถึงเรือธงรุ่นล่าสุดจาก OPPO, Xiaomi, vivo และ HONOR",
   "card2.title": "สดใสบนทุกหน้าจอ",
   "card2.body_html": "การเพิ่มความสดใสสไตล์ HDR อันชาญฉลาดมอบชีวิตใหม่ให้ภาพถ่ายธรรมดา แม้บนจอแสดงผลมาตรฐาน (SDR)",
   "card3.title": "ภาพเคลื่อนไหว",
-  "card3.body_html": "เล่นภาพเคลื่อนไหวจากโทรศัพท์ Android — Top&nbsp;Shot ของ Google Pixel และภาพเคลื่อนไหวของ Samsung&nbsp;Galaxy — ได้โดยตรงบนพีซีของคุณ",
-  "card4.title": "รองรับฟอร์แมตหลากหลาย",
-  "card4.body_html": "เปิดไฟล์ HEIC, Ultra HDR JPEG, PNG และอื่น ๆ พร้อมรองรับภาพสูงสุดถึง 16-bit",
+  "card3.body_html": "เล่นภาพเคลื่อนไหวจากโทรศัพท์ Android — Top&nbsp;Shot ของ Google Pixel และภาพเคลื่อนไหวของ Samsung ทั้งแบบ JPEG และ HEIC — ได้โดยตรงบนพีซีของคุณ",
+  "card4.title": "ฟอร์แมต RAW ใหม่ล่าสุด",
+  "card4.body_html": "เปิดไฟล์ iPhone ProRAW ได้ทุกรุ่น — รวมถึง DNG&nbsp;1.7 ใหม่พร้อม JPEG&nbsp;XL จาก iPhone&nbsp;17 และ Samsung Expert&nbsp;RAW ซึ่งเป็นฟอร์แมตที่ Microsoft Photos เปิดไม่ได้",
   "card5.title": "HEIC 10-bit แท้",
   "card5.body_html": "ถอดรหัส HEIC แบบ 10-bit เพื่อการไล่เฉดสีและรายละเอียดที่ลึกและนุ่มนวลที่สุด",
   "card6.title": "รายละเอียดภาพถ่าย",

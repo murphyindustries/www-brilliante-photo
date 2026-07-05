@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — Windows के लिए HDR फोटो दर्शक",
-  "meta.description": "Brilliante, Windows के लिए एक HDR फोटो दर्शक है — Ultra HDR, HEIC और मोशन फ़ोटो को जीवंत रंगों में देखें, और किसी भी फोटो को शानदार निखार दें।",
-  "meta.ogDescription": "Ultra HDR, HEIC और मोशन फ़ोटो को जीवंत, वास्तविक रंगों में देखें — साथ ही हर साधारण फोटो के लिए एक शानदार निखार।",
-  "meta.jsonldDescription": "Brilliante, Windows के लिए एक HDR फोटो दर्शक है। Ultra HDR, HEIC और मोशन फ़ोटो को जीवंत, वास्तविक रंगों में देखें — और हर साधारण फोटो को एक शानदार निखार दें।",
+  "meta.description": "Brilliante, Windows के लिए एक HDR फोटो दर्शक है — Ultra HDR, HEIC, मोशन फ़ोटो और iPhone ProRAW को जीवंत रंगों में देखें, और किसी भी फोटो को शानदार निखार दें।",
+  "meta.ogDescription": "Ultra HDR, HEIC, मोशन फ़ोटो और iPhone ProRAW को जीवंत, वास्तविक रंगों में देखें — साथ ही हर साधारण फोटो के लिए एक शानदार निखार।",
+  "meta.jsonldDescription": "Brilliante, Windows के लिए एक HDR फोटो दर्शक है। Ultra HDR, HEIC, मोशन फ़ोटो और iPhone ProRAW को जीवंत, वास्तविक रंगों में देखें — और हर साधारण फोटो को एक शानदार निखार दें।",
   "app.name": "Brilliante फोटो दर्शक",
 
   "nav.by": "द्वारा",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Windows 10 और 11 के लिए",
   "hero.kicker": "HDR फोटो दर्शक",
   "hero.iconAlt": "Brilliante ऐप आइकन — एक लाइव Ultra HDR इमेज",
-  "hero.lede_html": "अपनी फ़ोटो को जीवंत, वास्तविक रंगों में देखें। Ultra&nbsp;HDR, HEIC और मोशन फ़ोटो — साथ ही हर साधारण शॉट के लिए एक <span class=\"hl\">शानदार</span> निखार।",
+  "hero.lede_html": "अपनी फ़ोटो को जीवंत, वास्तविक रंगों में देखें। Ultra&nbsp;HDR, HEIC, मोशन फ़ोटो और iPhone&nbsp;RAW — साथ ही हर साधारण शॉट के लिए एक <span class=\"hl\">शानदार</span> निखार।",
 
   "cta.getItFrom": "इससे प्राप्त करें",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante उस समृद्ध रंग को पढ़ता है जो आधुनिक फ़ोन कैप्चर करते हैं — और उसे आपके PC पर जीवंत बनाता है।",
 
   "card1.title": "जीवंत HDR रंग",
-  "card1.body_html": "Ultra HDR JPEG और वास्तविक HDR इमेज HDR डिस्प्ले पर सजीव, सटीक रंगों में चमकती हैं।",
+  "card1.body_html": "HDR फ़ोटो सजीव, सटीक रंगों में चमकती हैं — iPhone, Pixel और Galaxy के Ultra HDR JPEG और HDR HEIC, साथ ही OPPO, Xiaomi, vivo और HONOR के नवीनतम फ़्लैगशिप फ़ोन।",
   "card2.title": "किसी भी स्क्रीन पर शानदार",
   "card2.body_html": "एक स्मार्ट HDR-शैली वृद्धि साधारण फ़ोटो में नई जान डालती है, यहाँ तक कि एक मानक (SDR) डिस्प्ले पर भी।",
   "card3.title": "मोशन फ़ोटो",
-  "card3.body_html": "Android फ़ोन की मोशन फ़ोटो चलाएँ — Pixel का टॉप&nbsp;शॉट और Samsung का मोशन&nbsp;फ़ोटो — सीधे अपने PC पर।",
-  "card4.title": "व्यापक प्रारूप समर्थन",
-  "card4.body_html": "HEIC, Ultra HDR JPEG, PNG और बहुत कुछ खोलता है — 16-bit तक की इमेज के समर्थन के साथ।",
+  "card3.body_html": "Android फ़ोन की मोशन फ़ोटो चलाएँ — Pixel का टॉप&nbsp;शॉट और Samsung का मोशन&nbsp;फ़ोटो, JPEG और HEIC दोनों में — सीधे अपने PC पर।",
+  "card4.title": "सबसे नए RAW प्रारूप",
+  "card4.body_html": "iPhone ProRAW की हर पीढ़ी खोलता है — iPhone&nbsp;17 के नए DNG&nbsp;1.7 (JPEG&nbsp;XL) और Samsung Expert&nbsp;RAW सहित, एक ऐसा प्रारूप जिसे Microsoft Photos नहीं खोल सकता।",
   "card5.title": "वास्तविक 10-bit HEIC",
   "card5.body_html": "सबसे गहरे, सबसे चिकने ग्रेडिएंट और विवरण के लिए 10-bit HEIC को डिकोड करता है।",
   "card6.title": "फोटो विवरण",

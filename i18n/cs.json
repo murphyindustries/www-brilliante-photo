@@ -1,8 +1,8 @@
 {
   "meta.title": "Brilliante — HDR prohlížeč fotografií pro Windows",
-  "meta.description": "Brilliante je HDR prohlížeč fotografií pro Windows — prohlížejte fotky Ultra HDR, HEIC a Motion Photo v živých barvách a dejte každé fotce brilantní lesk.",
-  "meta.ogDescription": "Prohlížejte fotky Ultra HDR, HEIC a Motion Photo v živých, věrných barvách — a navíc dejte brilantní lesk každé obyčejné fotce.",
-  "meta.jsonldDescription": "Brilliante je HDR prohlížeč fotografií pro Windows. Prohlížejte fotky Ultra HDR, HEIC a Motion Photo v živých, věrných barvách — a dejte každé obyčejné fotce brilantní lesk.",
+  "meta.description": "Brilliante je HDR prohlížeč fotografií pro Windows — prohlížejte fotky Ultra HDR, HEIC, Motion Photo a iPhone ProRAW v živých barvách a dejte každé fotce brilantní lesk.",
+  "meta.ogDescription": "Prohlížejte fotky Ultra HDR, HEIC, Motion Photo a iPhone ProRAW v živých, věrných barvách — a navíc dejte brilantní lesk každé obyčejné fotce.",
+  "meta.jsonldDescription": "Brilliante je HDR prohlížeč fotografií pro Windows. Prohlížejte fotky Ultra HDR, HEIC, Motion Photo a iPhone ProRAW v živých, věrných barvách — a dejte každé obyčejné fotce brilantní lesk.",
   "app.name": "Brilliante Prohlížeč fotografií",
 
   "nav.by": "od",
@@ -10,7 +10,7 @@
   "hero.eyebrow": "Pro Windows 10 a 11",
   "hero.kicker": "HDR Prohlížeč fotografií",
   "hero.iconAlt": "Ikona aplikace Brilliante — živý obrázek Ultra HDR",
-  "hero.lede_html": "Prohlížejte si fotky v živých, věrných barvách. Ultra&nbsp;HDR, HEIC a Motion Photo — a navíc <span class=\"hl\">brilantní</span> lesk pro každý obyčejný snímek.",
+  "hero.lede_html": "Prohlížejte si fotky v živých, věrných barvách. Ultra&nbsp;HDR, HEIC, Motion Photo a iPhone&nbsp;RAW — a navíc <span class=\"hl\">brilantní</span> lesk pro každý obyčejný snímek.",
 
   "cta.getItFrom": "Stáhnout z",
   "cta.microsoftStore": "Microsoft Store",
@@ -28,13 +28,13 @@
   "features.sub": "Brilliante přečte sytost barev, kterou zachycují moderní telefony — a oživí ji na vašem PC.",
 
   "card1.title": "Živé HDR barvy",
-  "card1.body_html": "Obrázky Ultra HDR JPEG a skutečné HDR září v sytých, věrných barvách na HDR displejích.",
+  "card1.body_html": "Fotky HDR září v sytých, věrných barvách — Ultra HDR JPEG a HDR HEIC z telefonů iPhone, Pixel a Galaxy i z nejnovějších vlajkových modelů OPPO, Xiaomi, vivo a HONOR.",
   "card2.title": "Brilantní na každé obrazovce",
   "card2.body_html": "Chytré zvýraznění ve stylu HDR vdechne nový život obyčejným fotkám, a to i na standardním (SDR) displeji.",
   "card3.title": "Motion Photo",
-  "card3.body_html": "Přehrávejte Motion Photo z telefonů Android — nejlepší&nbsp;snímek od Pixel a Motion&nbsp;Photo od Samsung — přímo na svém PC.",
-  "card4.title": "Široká podpora formátů",
-  "card4.body_html": "Otevírá HEIC, Ultra HDR JPEG, PNG a další — s podporou obrázků až do 16-bit.",
+  "card3.body_html": "Přehrávejte Motion Photo z telefonů Android — nejlepší&nbsp;snímek od Pixel a Motion&nbsp;Photo od Samsung, ve formátech JPEG i HEIC — přímo na svém PC.",
+  "card4.title": "Nejnovější formáty RAW",
+  "card4.body_html": "Otevírá všechny generace iPhone ProRAW — včetně nového formátu DNG&nbsp;1.7 s JPEG&nbsp;XL z iPhone&nbsp;17 a Samsung Expert&nbsp;RAW, který aplikace Microsoft Fotky neotevře.",
   "card5.title": "Skutečné 10-bit HEIC",
   "card5.body_html": "Dekóduje 10-bit HEIC pro nejhlubší a nejplynulejší přechody a detaily.",
   "card6.title": "Detaily fotky",
