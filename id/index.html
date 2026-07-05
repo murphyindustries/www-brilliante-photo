@@ -452,9 +452,11 @@
      the filter so the genuine Ultra HDR shows through — a CSS filter would otherwise
      force SDR compositing and kill the real HDR rendering. */
   #demo-hdr img { filter: saturate(1.3) contrast(1.05); }
-  @media (dynamic-range: high) {
-    #demo-hdr img { filter: none; }
-  }
+  /* JS adds hdr-live on <html> to strip the simulation so genuine Ultra HDR shows
+     through. It's set when the browser is known gain-map-capable AND, conservatively,
+     when we simply can't tell — because a CSS filter forces SDR compositing, so
+     leaving it on would suppress real HDR on a browser that could actually render it. */
+  .hdr-live #demo-hdr img { filter: none; }
 
   .demo-divider {
     position: absolute; top: 0; bottom: 0; left: var(--divider, 50%);
@@ -488,7 +490,15 @@
     max-width: 560px; margin: 9px auto 0; line-height: 1.5;
   }
   .demo-sdr-note b { color: var(--amber); font-weight: 600; }
+  /* The SDR caption only applies to SDR displays — drop it on any HDR display. */
   @media (dynamic-range: high) { .demo-sdr-note { display: none; } }
+  /* Soft capability note: shown by JS on HDR displays where we can't confirm (or have
+     ruled out) gain-map rendering. Muted and non-alarmist — it's a conditional heads-up. */
+  .demo-browser-note {
+    display: none;
+    text-align: center; color: var(--muted); font-size: 0.84rem;
+    max-width: 560px; margin: 9px auto 0; line-height: 1.5;
+  }
 
   /* ---------- Cookie consent banner ---------- */
   .consent {
@@ -676,6 +686,8 @@
           </div>
           <p class="demo-hint">Geser pegangan untuk membandingkan</p>
           <p class="demo-sdr-note">Anda sedang melihat di <b>layar SDR</b> — sisi kanan menampilkan pratinjau peningkatan warna yang juga dibawa Brilliante ke layar standar. Pada <b>layar HDR</b>, gambar ditampilkan dalam HDR&nbsp;sungguhan.</p>
+          <!-- Shown by JS on HDR displays where the browser doesn't decode the gain map -->
+          <p class="demo-browser-note" id="demo-browser-note"></p>
         </div>
       </div>
     </section>
@@ -820,6 +832,54 @@
         else if (e.key === 'End') { setDivider(100); e.preventDefault(); }
       });
       setDivider(50);
+    })();
+  </script>
+
+  <script>
+    // On an HDR display, decide how to present the demo. We cannot directly ask the
+    // browser "did the UltraHDR gain map render?" — there's no API — and Safari freezes
+    // its macOS version in the UA, so we can't gate on the OS either. So we infer:
+    //   • Known capable (Chromium; or Safari new enough to expose dynamic-range-limit)
+    //       → strip the simulation filter, show the genuine Ultra HDR, no note.
+    //   • Unsure (Safari without dynamic-range-limit)
+    //       → still strip the filter (never suppress real HDR on a maybe) and show a
+    //         soft, conditional note in case the gain map didn't actually render.
+    //   • Known NOT capable (Firefox — no gain-map support as of mid-2025)
+    //       → keep the simulated before/after and label it as a simulation.
+    // The notes name no versions: the dynamic-range-limit proxy isn't yet validated
+    // against real Safari builds (see brilliante-marketing/docs/hdr-detection-findings.md).
+    (function () {
+      if (!window.matchMedia('(dynamic-range: high)').matches) return;
+      var ua = navigator.userAgent;
+      var isChromium = /Chrome|Chromium|CriOS|Edg|OPR|SamsungBrowser/.test(ua);
+      var isFirefox  = /Firefox|FxiOS/.test(ua);
+      var isSafari   = /AppleWebKit/.test(ua) && !isChromium && !isFirefox;
+      var hasDRL     = !!(typeof CSS !== 'undefined' && CSS.supports &&
+                          CSS.supports('dynamic-range-limit', 'no-limit'));
+      var root = document.documentElement;
+
+      // Confident the gain map renders → let the real HDR through, nothing to say.
+      if (isChromium || (isSafari && hasDRL)) {
+        root.classList.add('hdr-live');
+        return;
+      }
+
+      var note = document.getElementById('demo-browser-note');
+      if (isFirefox) {
+        // No gain-map support → keep the simulated before/after and label it.
+        if (note) {
+          note.textContent = 'The right side is a simulated preview — Chrome, Edge, and recent Safari render the real Ultra HDR gain map.';
+          note.style.display = 'block';
+        }
+      } else {
+        // Unsure (e.g. Safari without the dynamic-range-limit proxy). Drop the filter so
+        // a capable build still shows real HDR; add a conditional note for the rest.
+        root.classList.add('hdr-live');
+        if (note) {
+          note.textContent = 'If the two photos look identical, your browser did not render the HDR gain map — Chrome, Edge, and recent Safari show the real Ultra HDR.';
+          note.style.display = 'block';
+        }
+      }
     })();
   </script>
 </body>

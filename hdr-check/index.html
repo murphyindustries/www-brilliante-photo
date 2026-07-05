@@ -128,6 +128,15 @@
     p3: mm('(color-gamut: p3)'),
     dpr: window.devicePixelRatio
   };
+  // Infer gain-map support from browser identity + CSS feature correlation.
+  // dynamic-range-limit shipped in Safari 18 alongside gain-map support — good proxy.
+  // Chromium (Chrome 116+, Edge, etc.) has supported gain maps since Aug 2023.
+  // Firefox does not support UltraHDR gain maps as of mid-2025.
+  sig.gainMapLikely = sig.displayHDR === false ? null
+    : isFirefox  ? false
+    : isSafari   ? sig.drlNoLimit   // null → not determinable (very old UA)
+    : isChromium ? true
+    : null;
 
   // ---- details table ----
   var rows = [
@@ -136,6 +145,7 @@
     ['Display is HDR-capable', sig.displayHDR],
     ['Video HDR', sig.videoHDR],
     ['Supports dynamic-range-limit', sig.drlNoLimit],
+    ['Gain map support (inferred)', sig.gainMapLikely],
     ['Wide color (P3)', sig.p3],
     ['Pixel ratio', sig.dpr]
   ];
@@ -161,6 +171,7 @@
     var line = 'HDR-CHECK | ' + device + '/' + os + ' ' + osVer + ' | ' + browser + ' ' + browserVer +
                ' | display-HDR=' + tf(sig.displayHDR) +
                ' | dynamic-range-limit=' + tf(sig.drlNoLimit) +
+               ' | gain-map=' + tf(sig.gainMapLikely) +
                ' | sees-HDR=' + (human || '?');
     rEl.textContent = line;
 
