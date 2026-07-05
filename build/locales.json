@@ -1,7 +1,7 @@
 {
   "_comment": "Locale registry for the site generator. Order here = order in the language menu and sitemap. 'code' matches i18n/<code>.json; 'path' is the URL subpath ('' = site root). Add a locale by appending an entry and creating its i18n/<code>.json. First block = launch pilot (priority markets); the rest are ordered alphabetically by English name.",
   "base": "https://brilliante.photo",
-  "lastmod": "2026-06-20",
+  "lastmod": "2026-07-05",
   "locales": [
     { "code": "en",      "path": "",        "lang": "en",      "dir": "ltr", "ogLocale": "en_US",  "native": "English",            "enName": "English" },
     { "code": "es",      "path": "es",      "lang": "es",      "dir": "ltr", "ogLocale": "es_ES",  "native": "Español",            "enName": "Spanish" },

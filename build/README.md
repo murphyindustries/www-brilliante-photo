@@ -1,23 +1,31 @@
 # Site localization
 
-The homepage is generated from one template + per-locale translation files, so a
+Each page is generated from one template + per-locale translation files, so a
 design change is made once (in the template) and propagates to every language.
+The generator has a **page registry** (`PAGES` in `generate.py`): the homepage
+and the Classic 7 product page, each localized into every registered locale.
 
 ## Layout
 
 ```
-build/template.html     HTML template with {{placeholders}}  (edit design/markup here)
+build/template.html     homepage template with {{placeholders}}  (edit design/markup here)
+build/classic-7.html    /classic-7/ product-page template (Classic 7's own Aero-glass identity)
 build/locales.json      locale registry: order, URL paths, lang/dir, native names
-build/generate.py       the generator
-i18n/<code>.json        one flat translation file per locale  (edit copy here)
+build/generate.py       the generator (page registry lives at the top)
+i18n/<code>.json        homepage translations — ALSO the shared base for other pages
+                        (chrome strings: nav/cta/footer/consent/langPicker)
+i18n/classic-7/<code>.json  Classic 7 page translations, overlaid on the base
+build/import_classic7_i18n.py  regenerates i18n/classic-7/ from the Store listing CSV
 ```
 
 Generated at the repo root (do **not** hand-edit these — they are overwritten):
 
 ```
-index.html              English homepage   (the locale whose path is "")
+index.html               English homepage   (the locale whose path is "")
 <path>/index.html        one localized homepage per other locale (es/, fr/, de/, …)
-sitemap.xml              homepage URLs with hreflang alternates + /privacy/
+classic-7/index.html     English Classic 7 page
+<path>/classic-7/index.html  localized Classic 7 pages
+sitemap.xml              all pages × locales with hreflang alternates + /privacy/
 ```
 
 The privacy policy (`privacy/index.html`) is **English-only for now** and is not
@@ -45,12 +53,32 @@ Keys ending in `_html` hold markup (highlight `<span class="hl">`, `<em>`, `<b>`
 text. The generator also injects computed values: `lang`, `dir`, `ogLocale`,
 `canonical`, `ogUrl`, `hreflangs`, `langSwitcher`.
 
-Every `i18n/*.json` must define the **same key set** as `i18n/en.json`, or generation
-fails loudly (a missing key is a missing translation). Quick parity check:
+Within each page, every locale file must define the **same key set** as that page's
+`en.json` — the generator now enforces this itself and fails loudly on any diff
+(a missing key is a missing translation). Page templates may also reference the
+shared base keys (e.g. `{{cta.getItFrom}}`) and the generator-injected cross-page
+paths `homeHref` / `classic7Href`.
+
+## The Classic 7 page (`/classic-7/`)
+
+Its copy is the **Microsoft Store listing**, verbatim — the CSV at
+`brilliante-marketing/store/classic-photo-viewer/store-listing.csv` is the source of
+truth for all 30 locales. Don't edit `i18n/classic-7/*.json` by hand; update the store
+CSV and re-run:
 
 ```sh
-python -c "import json,glob; en=set(json.load(open('i18n/en.json',encoding='utf-8'))); [print(p, sorted(set(json.load(open(p,encoding='utf-8')))^en)) for p in glob.glob('i18n/*.json')]"
+python build/import_classic7_i18n.py   # parses the CSV (incl. the Description blocks)
+python build/generate.py
 ```
+
+The importer also maintains the homepage's footer-only Classic 7 link text
+(`footer.classic7` in `i18n/<code>.json` = the localized product title). The page
+deliberately uses Classic 7's **Aero-glass identity** (sky gradient, photo-frame icon
+`/classic7-icon.svg` + `/classic7-icon-256.png`, Segoe UI) rather than the Brilliante
+navy+gem — the only suite-branded element is the Brilliante cross-promo panel
+(the funnel: Classic 7 → Brilliante, never the reverse). Store links carry the
+registered campaign IDs `web-classic7-hero`, `web-classic7-closing`, and
+`web-viewer-classic7` (see `brilliante-marketing/store/CAMPAIGNS.md`).
 
 ## Translation terminology
 
@@ -92,7 +120,9 @@ All 30 of the app/store locales are now live. To add another:
    `ogLocale`, `native`, `enName`). Use `dir: "rtl"` for right-to-left scripts.
 2. Create `i18n/<code>.json` — copy `i18n/en.json` and translate the values, anchoring
    brand/feature terms to the store CSV row for that locale (see above).
-3. `python build/generate.py` and commit.
+3. Run `python build/import_classic7_i18n.py` to produce `i18n/classic-7/<code>.json`
+   (the locale must exist in the Classic 7 store CSV).
+4. `python build/generate.py` and commit.
 
 RTL (`dir: "rtl"`, e.g. ar/he) works out of the box: `<html dir>` flips the page, the
 header/footer use flexbox, and the language menu uses logical properties
