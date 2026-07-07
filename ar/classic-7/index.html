@@ -331,6 +331,28 @@
   .store-btn .txt { display: flex; flex-direction: column; line-height: 1.15; text-align: start; }
   .store-btn .txt small { font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted-dim); }
   .store-btn .txt strong { font-size: 1.05rem; font-weight: 600; }
+  .cta-row { display: flex; align-items: stretch; gap: 14px; flex-wrap: wrap; justify-content: center; }
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(180deg, #2f8fe0 0%, #1a6cba 100%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 26px;
+    border-radius: 12px;
+    border: 1px solid rgba(20, 46, 84, 0.35);
+    outline: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 1.05rem;
+    font-weight: 600;
+    transition: transform 0.22s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 24px rgba(26, 108, 186, 0.35);
+  }
+  .download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 36px rgba(26, 108, 186, 0.45);
+  }
+  .download-btn .dl-icon { width: 22px; height: 22px; flex-shrink: 0; }
   .cta .meta { font-size: 0.85rem; color: var(--muted-dim); }
 
   /* ---------- Screenshot / story ---------- */
@@ -407,7 +429,7 @@
     max-width: 720px;
     margin: 0 auto;
   }
-  .closing .store-btn { margin: 30px auto 0; }
+  .closing .cta-row { margin-top: 30px; }
 
   /* ---------- Brilliante cross-promo (the one dark, suite-branded block) ---------- */
   .bv {
@@ -639,15 +661,23 @@
           <span class="chip">TIFF</span><span class="chip">RAW</span><span class="chip">JPEG XR</span>
         </div>
         <div class="cta">
-          <a class="store-btn" href="https://apps.microsoft.com/detail/9PBLZZSKFT87?cid=web-classic7-hero" target="_blank" rel="noopener">
-            <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
-              <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
-              <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
-              <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
-              <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
-            </svg>
-            <span class="txt"><small>احصل عليه من</small><strong>Microsoft Store</strong></span>
-          </a>
+          <div class="cta-row">
+            <a class="store-btn" href="https://apps.microsoft.com/detail/9PBLZZSKFT87?cid=web-classic7-hero&mode=full" target="_blank" rel="noopener">
+              <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
+                <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
+                <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
+                <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
+              </svg>
+              <span class="txt"><small>احصل عليه من</small><strong>Microsoft Store</strong></span>
+            </a>
+            <a class="download-btn" href="https://get.microsoft.com/installer/download/9PBLZZSKFT87?referrer=appbadge&cid=web-classic7-installer" target="_self">
+              <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/>
+              </svg>
+              <span>تنزيل</span>
+            </a>
+          </div>
           <span class="meta">بلا تعديلات على السجل وبلا إعلانات — مجاني تماماً</span>
         </div>
       </div>
@@ -691,15 +721,23 @@
     <section class="wrap">
       <div class="closing">
         <h2>يعيد عارض الصور في Windows الكلاسيكي</h2>
-        <a class="store-btn" href="https://apps.microsoft.com/detail/9PBLZZSKFT87?cid=web-classic7-closing" target="_blank" rel="noopener">
-          <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
-            <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
-            <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
-            <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
-            <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
-          </svg>
-          <span class="txt"><small>احصل عليه من</small><strong>Microsoft Store</strong></span>
-        </a>
+        <div class="cta-row">
+          <a class="store-btn" href="https://apps.microsoft.com/detail/9PBLZZSKFT87?cid=web-classic7-closing&mode=full" target="_blank" rel="noopener">
+            <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
+              <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
+              <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
+              <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
+            </svg>
+            <span class="txt"><small>احصل عليه من</small><strong>Microsoft Store</strong></span>
+          </a>
+          <a class="download-btn" href="https://get.microsoft.com/installer/download/9PBLZZSKFT87?referrer=appbadge&cid=web-classic7-closing-installer" target="_self">
+            <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/>
+            </svg>
+            <span>تنزيل</span>
+          </a>
+        </div>
       </div>
     </section>
 
