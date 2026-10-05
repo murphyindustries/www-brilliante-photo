@@ -231,13 +231,13 @@
       <div class="wrap">
         <p class="eyebrow">Brilliante apps</p>
         <h1>Open-source source code</h1>
-        <p class="effective">Last updated October&nbsp;1, 2026</p>
+        <p class="effective">Last updated October&nbsp;5, 2026</p>
 
         <div class="tldr">
           <p style="margin:0;"><strong>Why this page exists:</strong> some of the open-source components redistributed in the Brilliante apps are licensed on terms that ask us to make their source code available to you. This page hosts that source, for the exact versions we ship, under each component&rsquo;s own license.</p>
         </div>
 
-        <p>Every archive below is the <strong>unmodified upstream source</strong> for a version built into a shipping product &mdash; byte for byte, with each project&rsquo;s own license and copyright files intact inside it. We publish a SHA&#8209;512 for each so you can verify what you downloaded.</p>
+        <p>Every source archive below is the <strong>unmodified upstream source</strong> for a version built into a shipping product &mdash; byte for byte, with each project&rsquo;s own license and copyright files intact inside it. Where our build changes a component, those changes are published beside its archive. We publish a SHA&#8209;512 for each file so you can verify what you downloaded.</p>
         <p>The full list of third-party components used in each app, with their licenses, is in the third-party notices file installed alongside the app, and in the app&rsquo;s <strong>Third-party notices</strong> view. Only components whose license asks for source availability are hosted here.</p>
 
         <h2>LibRaw</h2>
@@ -282,6 +282,58 @@
 
         <p style="margin-top:22px;">LibRaw&rsquo;s authors offer the library under either the GNU Lesser General Public License version&nbsp;2.1 or the CDDL&nbsp;1.0, at the recipient&rsquo;s choice. <strong>Murphy Industries distributes these copies under the CDDL&nbsp;1.0</strong>, and the Brilliante apps use LibRaw under the CDDL&nbsp;1.0. A complete copy of the CDDL is included inside each archive as <code>LICENSE.CDDL</code>; the copies linked above are provided so you can read the terms without downloading an archive.</p>
         <p>We build each release as published, with no patches applied to it.</p>
+
+        <h2>Eigen</h2>
+
+        <p>Eigen is compiled into the AI&nbsp;3D feature of Brilliante Photo Viewer for Linux and SteamOS, by way of ONNX&nbsp;Runtime below. Most of Eigen is licensed under the Mozilla Public License&nbsp;2.0, which asks that the source of the version we ship be available to you. A few of its files are under BSD, Apache&nbsp;2.0 or MINPACK terms instead; <code>COPYING.README</code> in the archive says which.</p>
+
+        <div class="pkg">
+          <h3>Eigen 5.0.1</h3>
+          <p class="ver">C++ linear algebra &middot; used in Brilliante Photo Viewer for Linux and SteamOS (AI&nbsp;3D) &middot; every Linux build that includes AI&nbsp;3D</p>
+
+          <a class="dl" href="/oss/eigen-5.0.1.tar.gz" download>Download source <span aria-hidden="true">&darr;</span></a>
+
+          <dl class="meta">
+            <dt>File</dt>
+            <dd>eigen-5.0.1.tar.gz &middot; 2,967,272 bytes</dd>
+            <dt>SHA&#8209;512</dt>
+            <dd class="hash">b337d3bc38440db190a8f1fbc4eabc0098e69fcc95bfba195fe039ffb942cae2a7f0153f3094f35fa26325750d1c62e20cccaf916a41f5c7f248ec5e5d30a942</dd>
+            <dt>Offered under</dt>
+            <dd>Mozilla Public License&nbsp;2.0 &mdash; <a href="/oss/eigen-5.0.1-COPYING.MPL2.txt">read the license</a>; some files under BSD, Apache&nbsp;2.0 or MINPACK terms &mdash; <a href="/oss/eigen-5.0.1-COPYING.README.txt">which ones</a></dd>
+            <dt>Upstream</dt>
+            <dd><a href="https://gitlab.com/libeigen/eigen" target="_blank" rel="noopener">gitlab.com/libeigen/eigen</a> &middot; tag 5.0.1 &middot; Copyright &copy; the Eigen contributors named in each file</dd>
+          </dl>
+        </div>
+
+        <p style="margin-top:22px;">We build Eigen as published, with no patches applied to it.</p>
+
+        <h2>ONNX Runtime</h2>
+
+        <p>ONNX&nbsp;Runtime runs the AI&nbsp;3D depth model in Brilliante Photo Viewer for Linux and SteamOS. Its own license, MIT, does not ask for source availability, but two of its files &mdash; <code>include/onnxruntime/core/platform/EigenNonBlockingThreadPool.h</code> and <code>Barrier.h</code> beside it, both derived from Eigen &mdash; are licensed under the Mozilla Public License&nbsp;2.0, which does. So the complete source of the version we ship is here.</p>
+
+        <div class="pkg">
+          <h3>ONNX Runtime 1.23.2</h3>
+          <p class="ver">Machine-learning inference &middot; used in Brilliante Photo Viewer for Linux and SteamOS (AI&nbsp;3D) &middot; every Linux build that includes AI&nbsp;3D</p>
+
+          <a class="dl" href="https://github.com/murphyindustries/www-brilliante-photo/releases/download/oss-onnxruntime-1.23.2/onnxruntime-1.23.2.tar.gz">Download source <span aria-hidden="true">&darr;</span></a>
+
+          <dl class="meta">
+            <dt>File</dt>
+            <dd>onnxruntime-1.23.2.tar.gz &middot; 283,165,408 bytes &mdash; too large for this site, so it is served from a release of this site&rsquo;s own <a href="https://github.com/murphyindustries/www-brilliante-photo/releases/tag/oss-onnxruntime-1.23.2" target="_blank" rel="noopener">public repository</a></dd>
+            <dt>SHA&#8209;512</dt>
+            <dd class="hash">373c51575ada457b8aead5d195a5f3eba62fb747b6370a2a9889fff875c40ea30af8fd49104d58cc86f79247410e829086b0979f37ca8635c6dd34960e9cc424</dd>
+            <dt>Our changes</dt>
+            <dd><a href="/oss/onnxruntime-1.23.2-vcpkg-port.tar.gz" download>onnxruntime-1.23.2-vcpkg-port.tar.gz</a> &middot; 5,484 bytes &mdash; the four patches our build applies, with the vcpkg port files that apply them</dd>
+            <dt>SHA&#8209;512</dt>
+            <dd class="hash">bbf56d9f374ad310a605cf35687cf150a8bf5d375305cc1738230dbc01882b70e20348af6cd6ca1d993761ae443384ab07005cdc77c39eb9e4b5c4277e16fadd</dd>
+            <dt>Offered under</dt>
+            <dd>MIT License &mdash; <a href="/oss/onnxruntime-1.23.2-LICENSE.txt">read the license</a>; the two Eigen-derived files under the Mozilla Public License&nbsp;2.0 &mdash; <a href="/oss/eigen-5.0.1-COPYING.MPL2.txt">read the license</a></dd>
+            <dt>Upstream</dt>
+            <dd><a href="https://github.com/microsoft/onnxruntime" target="_blank" rel="noopener">github.com/microsoft/onnxruntime</a> &middot; tag v1.23.2 &middot; Copyright &copy; Microsoft&nbsp;Corporation</dd>
+          </dl>
+        </div>
+
+        <p style="margin-top:22px;">We build ONNX&nbsp;Runtime with four small patches from the <a href="https://github.com/microsoft/vcpkg" target="_blank" rel="noopener">vcpkg</a> package manager&rsquo;s onnxruntime port. Three change only ONNX&nbsp;Runtime&rsquo;s CMake build files, so that it builds against separately packaged libraries; the fourth adds a missing <code>#include &lt;cstdint&gt;</code> to <code>onnxruntime/core/common/semver.h</code>. None of them touches the two Mozilla Public License files. The patches are vcpkg&rsquo;s, under vcpkg&rsquo;s MIT License, a copy of which is in the patch archive.</p>
 
         <h2>Something missing?</h2>
         <p>If you believe a component we ship should be listed here and is not, or you have trouble downloading any of these files, email <a href="mailto:support@brilliante.photo">support@brilliante.photo</a> and we will sort it out.</p>
