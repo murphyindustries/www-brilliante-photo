@@ -7,7 +7,7 @@
 
   "nav.by": "โดย",
 
-  "hero.eyebrow": "สำหรับ Windows 10 และ 11",
+  "hero.eyebrow": "สำหรับ Windows 11",
   "hero.kicker": "ตัวแสดงภาพถ่าย HDR",
   "hero.iconAlt": "ไอคอนแอป Brilliante — ภาพ Ultra HDR แบบสด",
   "hero.lede_html": "ดูภาพถ่ายของคุณด้วยสีสันสดใสและสมจริง ทั้ง Ultra&nbsp;HDR, HEIC, ภาพเคลื่อนไหว และ iPhone&nbsp;RAW พร้อมเพิ่มความ<span class=\"hl\">สดใส</span>ให้ทุกภาพถ่ายธรรมดา",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "ดาวน์โหลดได้จาก",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "ดาวน์โหลด",
-  "cta.meta": "ดาวน์โหลดฟรี · Windows 10 และ 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "สัมผัสความ<em>แตกต่าง</em>",
   "demo.sub": "ลากแถบเลื่อนเพื่อเปรียบเทียบภาพถ่ายธรรมดากับการปรับแต่ง HDR ของ Brilliante",
@@ -42,11 +42,12 @@
   "card6.body_html": "ดูข้อมูลเมตา EXIF ได้ในพริบตา รวมถึงตำแหน่ง GPS บนแผนที่",
 
   "closing.head_html": "ทำให้ทุกภาพถ่าย<em>สดใส</em>",
-  "closing.sub": "ดาวน์โหลด Brilliante ฟรีจาก Microsoft Store แล้วชมคลังภาพของคุณในมุมมองใหม่",
+  "closing.sub": "รับ Brilliante จาก Microsoft Store แล้วชมคลังภาพของคุณในมุมมองใหม่",
 
   "footer.privacy": "ความเป็นส่วนตัว",
   "footer.support": "การสนับสนุน",
   "footer.classic7": "Classic 7 - ตัวแสดงภาพถ่าย",
+  "footer.steamLegal": "©2026 Valve Corporation โปรดทราบว่า Steam และโลโก้ Steam เป็นเครื่องหมายการค้าและ/หรือเครื่องหมายการค้าจดทะเบียนของ Valve Corporation ในสหรัฐอเมริกาและ/หรือประเทศอื่น",
 
   "consent.text": "เราใช้คุกกี้เพื่อทำความเข้าใจว่ามีการใช้งานเว็บไซต์นี้อย่างไร",
   "consent.accept": "ยอมรับ",

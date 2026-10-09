@@ -7,7 +7,7 @@
 
   "nav.by": "מאת",
 
-  "hero.eyebrow": "ל-Windows 10 ו-11",
+  "hero.eyebrow": "ל-Windows 11",
   "hero.kicker": "מציג תמונות HDR",
   "hero.iconAlt": "סמל האפליקציה Brilliante — תמונת Ultra HDR חיה",
   "hero.lede_html": "צפו בתמונות שלכם בצבעים עזים ונאמנים למציאות. Ultra&nbsp;HDR, HEIC, תמונות תנועה ו-RAW של iPhone — בתוספת ברק <span class=\"hl\">מרהיב</span> לכל צילום רגיל.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "להורדה מתוך",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "הורדה",
-  "cta.meta": "הורדה חינם · Windows 10 ו-11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "ראו את <em>ההבדל</em>",
   "demo.sub": "גררו את המחוון כדי להשוות בין תמונה רגילה לבין שיפור ה-HDR של Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "צפו במטא-נתוני EXIF במבט חטוף, כולל מיקום ה-GPS על המפה.",
 
   "closing.head_html": "הפכו כל תמונה ל<em>מרהיבה</em>.",
-  "closing.sub": "הורידו את Brilliante בחינם מ-Microsoft Store וראו את הספרייה שלכם באור חדש לגמרי.",
+  "closing.sub": "השיגו את Brilliante מ-Microsoft Store וראו את הספרייה שלכם באור חדש לגמרי.",
 
   "footer.privacy": "פרטיות",
   "footer.support": "תמיכה",
   "footer.classic7": "Classic 7 - מציג תמונות",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.",
 
   "consent.text": "אנו משתמשים בעוגיות כדי להבין כיצד נעשה שימוש באתר זה.",
   "consent.accept": "אישור",

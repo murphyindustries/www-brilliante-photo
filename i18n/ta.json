@@ -7,7 +7,7 @@
 
   "nav.by": "உருவாக்கியவர்",
 
-  "hero.eyebrow": "Windows 10 & 11-க்கு",
+  "hero.eyebrow": "Windows 11-க்கு",
   "hero.kicker": "HDR பட பார்வையாளர்",
   "hero.iconAlt": "Brilliante செயலி சின்னம் — ஒரு நேரடி Ultra HDR படம்",
   "hero.lede_html": "உங்கள் படங்களை துடிப்பான, இயல்புக்கு உகந்த நிறத்தில் காணுங்கள். Ultra&nbsp;HDR, HEIC, மோஷன் ஃபோட்டோக்கள் மற்றும் iPhone&nbsp;RAW — மேலும் ஒவ்வொரு சாதாரணப் படத்திற்கும் ஒரு <span class=\"hl\">பிரகாசமான</span> மெருகூட்டல்.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "இங்கிருந்து பெறுங்கள்",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "பதிவிறக்கு",
-  "cta.meta": "இலவசப் பதிவிறக்கம் · Windows 10 & 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "<em>வேறுபாட்டைப்</em> பாருங்கள்",
   "demo.sub": "ஒரு சாதாரணப் படத்தை Brilliante-இன் HDR மேம்பாட்டுடன் ஒப்பிட ஸ்லைடரை இழுக்கவும்.",
@@ -42,11 +42,12 @@
   "card6.body_html": "வரைபடத்தில் GPS இருப்பிடம் உட்பட, EXIF மெட்டாடேட்டாவை ஒரே பார்வையில் காணுங்கள்.",
 
   "closing.head_html": "ஒவ்வொரு படத்தையும் <em>பிரகாசமாக்குங்கள்</em>.",
-  "closing.sub": "Microsoft Store-இலிருந்து Brilliante-ஐ இலவசமாகப் பதிவிறக்கி, உங்கள் தொகுப்பை முற்றிலும் புதிய வெளிச்சத்தில் காணுங்கள்.",
+  "closing.sub": "Microsoft Store-இலிருந்து Brilliante-ஐப் பெற்று, உங்கள் தொகுப்பை முற்றிலும் புதிய வெளிச்சத்தில் காணுங்கள்.",
 
   "footer.privacy": "தனியுரிமை",
   "footer.support": "ஆதரவு",
   "footer.classic7": "Classic 7 - பட பார்வையாளர்",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.",
 
   "consent.text": "இந்த தளம் எவ்வாறு பயன்படுத்தப்படுகிறது என்பதைப் புரிந்துகொள்ள நாங்கள் குக்கீகளைப் பயன்படுத்துகிறோம்.",
   "consent.accept": "ஏற்க",

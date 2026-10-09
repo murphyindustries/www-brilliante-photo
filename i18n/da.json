@@ -7,7 +7,7 @@
 
   "nav.by": "af",
 
-  "hero.eyebrow": "Til Windows 10 og 11",
+  "hero.eyebrow": "Til Windows 11",
   "hero.kicker": "HDR Billedfremviser",
   "hero.iconAlt": "Brilliante-appikon — et live Ultra HDR-billede",
   "hero.lede_html": "Se dine billeder i levende, naturtro farver. Ultra&nbsp;HDR, HEIC, motion photos og iPhone&nbsp;RAW — plus et <span class=\"hl\">brillant</span> løft til hvert almindeligt billede.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Hent den fra",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "Download",
-  "cta.meta": "Gratis download · Windows 10 og 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Mærk <em>forskellen</em>",
   "demo.sub": "Træk i skyderen for at sammenligne et almindeligt billede med Brilliantes HDR-forbedring.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Se EXIF-metadata på et øjeblik, inklusive GPS-placeringen på et kort.",
 
   "closing.head_html": "Gør hvert billede <em>brillant</em>.",
-  "closing.sub": "Download Brilliante gratis fra Microsoft Store, og se dit bibliotek i et helt nyt lys.",
+  "closing.sub": "Hent Brilliante fra Microsoft Store, og se dit bibliotek i et helt nyt lys.",
 
   "footer.privacy": "Privatliv",
   "footer.support": "Support",
   "footer.classic7": "Classic 7 - Billedfremviser",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam og Steam-logoet er varemærker og/eller registrerede varemærker tilhørende Valve Corporation i USA og/eller andre lande.",
 
   "consent.text": "Vi bruger cookies for at forstå, hvordan dette website bruges.",
   "consent.accept": "Accepter",

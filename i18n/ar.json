@@ -7,7 +7,7 @@
 
   "nav.by": "من",
 
-  "hero.eyebrow": "لنظامي Windows 10 و11",
+  "hero.eyebrow": "لنظام Windows 11",
   "hero.kicker": "عارض الصور HDR",
   "hero.iconAlt": "أيقونة تطبيق Brilliante — صورة Ultra HDR حية",
   "hero.lede_html": "شاهد صورك بألوان فائقة الحيوية ووفية للواقع. صور Ultra&nbsp;HDR وHEIC والصور المتحركة وملفات iPhone&nbsp;RAW — مع لمسة <span class=\"hl\">رائعة</span> لكل لقطة عادية.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "احصل عليه من",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "تنزيل",
-  "cta.meta": "تنزيل مجاني · Windows 10 و11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "لاحظ <em>الفرق</em>",
   "demo.sub": "اسحب شريط التمرير لمقارنة صورة عادية بتحسين HDR من Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "اطّلع على بيانات EXIF الوصفية بنظرة واحدة، بما في ذلك موقع GPS على الخريطة.",
 
   "closing.head_html": "اجعل كل صورة <em>رائعة</em>.",
-  "closing.sub": "نزّل Brilliante مجانًا من Microsoft Store وشاهد مكتبتك في حُلّة جديدة تمامًا.",
+  "closing.sub": "احصل على Brilliante من Microsoft Store وشاهد مكتبتك في حُلّة جديدة تمامًا.",
 
   "footer.privacy": "الخصوصية",
   "footer.support": "الدعم",
   "footer.classic7": "Classic 7 - عارض الصور",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.",
 
   "consent.text": "نستخدم ملفات تعريف الارتباط لفهم كيفية استخدام هذا الموقع.",
   "consent.accept": "قبول",

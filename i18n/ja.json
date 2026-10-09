@@ -7,7 +7,7 @@
 
   "nav.by": "提供",
 
-  "hero.eyebrow": "Windows 10 / 11 対応",
+  "hero.eyebrow": "Windows 11 対応",
   "hero.kicker": "HDR フォトビューアー",
   "hero.iconAlt": "Brilliante アプリのアイコン — 実際の Ultra HDR 画像",
   "hero.lede_html": "写真を鮮やかで自然な色彩で。Ultra&nbsp;HDR、HEIC、モーションフォト、iPhone&nbsp;RAW に対応し、ありふれた一枚にも<span class=\"hl\">鮮やかな</span>輝きを加えます。",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "入手先",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "ダウンロード",
-  "cta.meta": "無料ダウンロード · Windows 10 / 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "<em>違い</em>をご覧ください",
   "demo.sub": "スライダーをドラッグして、普通の写真と Brilliante の HDR 補正を比較してみましょう。",
@@ -42,11 +42,12 @@
   "card6.body_html": "EXIF メタデータをひと目で確認でき、GPS の位置も地図上に表示します。",
 
   "closing.head_html": "すべての写真を<em>鮮やか</em>に。",
-  "closing.sub": "Microsoft Store から Brilliante を無料でダウンロードして、あなたのライブラリを新たな輝きで。",
+  "closing.sub": "Microsoft Store で Brilliante を手に入れて、あなたのライブラリを新たな輝きで。",
 
   "footer.privacy": "プライバシー",
   "footer.support": "サポート",
   "footer.classic7": "クラシック 7 - フォト ビューアー",
+  "footer.steamLegal": "©2026 Valve Corporation. SteamおよびSteamロゴは、米国および／またはその他の国のValve Corporationの商標および／または登録商標です。",
 
   "consent.text": "このサイトの利用状況を把握するためにクッキーを使用しています。",
   "consent.accept": "同意する",

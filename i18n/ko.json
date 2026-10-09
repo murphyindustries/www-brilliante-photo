@@ -7,7 +7,7 @@
 
   "nav.by": "제공",
 
-  "hero.eyebrow": "Windows 10 및 11 지원",
+  "hero.eyebrow": "Windows 11 지원",
   "hero.kicker": "HDR 사진 뷰어",
   "hero.iconAlt": "Brilliante 앱 아이콘 — 실제 Ultra HDR 이미지",
   "hero.lede_html": "사진을 생생하고 사실적인 색감으로 감상하세요. Ultra&nbsp;HDR, HEIC, 모션 포토, iPhone&nbsp;RAW를 지원하며, 평범한 사진에도 <span class=\"hl\">눈부신</span> 빛을 더합니다.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "받기",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "다운로드",
-  "cta.meta": "무료 다운로드 · Windows 10 및 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "<em>차이</em>를 확인하세요",
   "demo.sub": "슬라이더를 드래그하여 일반 사진과 Brilliante의 HDR 향상을 비교해 보세요.",
@@ -42,11 +42,12 @@
   "card6.body_html": "EXIF 메타데이터를 한눈에 확인하고 지도에서 GPS 위치도 볼 수 있습니다.",
 
   "closing.head_html": "모든 사진을 <em>눈부시게</em>.",
-  "closing.sub": "Microsoft Store에서 Brilliante를 무료로 다운로드하고 사진 라이브러리를 새로운 빛으로 만나 보세요.",
+  "closing.sub": "Microsoft Store에서 Brilliante를 받고 사진 라이브러리를 새로운 빛으로 만나 보세요.",
 
   "footer.privacy": "개인정보",
   "footer.support": "지원",
   "footer.classic7": "클래식 7 - 사진 뷰어",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam과 Steam 로고는 미국 및 기타 국가에서 등록된 Valve Corporation의 상표 또는 등록 상표입니다.",
 
   "consent.text": "이 사이트의 이용 방식을 파악하기 위해 쿠키를 사용합니다.",
   "consent.accept": "동의",

@@ -7,7 +7,7 @@
 
   "nav.by": "ng",
 
-  "hero.eyebrow": "Para sa Windows 10 at 11",
+  "hero.eyebrow": "Para sa Windows 11",
   "hero.kicker": "HDR Photo Viewer",
   "hero.iconAlt": "Icon ng app na Brilliante — isang live na Ultra HDR na larawan",
   "hero.lede_html": "Tingnan ang iyong mga larawan nang may matingkad at totoong-buhay na kulay. Ultra&nbsp;HDR, HEIC, mga motion photo, at iPhone&nbsp;RAW — kasama ang isang <span class=\"hl\">makinang</span> na ganda para sa bawat karaniwang kuha.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Kunin ito sa",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "I-download",
-  "cta.meta": "Libreng download · Windows 10 at 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Tingnan ang <em>pagkakaiba</em>",
   "demo.sub": "I-drag ang slider upang ihambing ang isang karaniwang larawan sa HDR enhancement ng Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Tingnan ang EXIF metadata sa isang sulyap, kasama ang lokasyon ng GPS sa isang mapa.",
 
   "closing.head_html": "Gawing <em>makinang</em> ang bawat larawan.",
-  "closing.sub": "I-download ang Brilliante nang libre mula sa Microsoft Store at tingnan ang iyong library sa isang ganap na bagong liwanag.",
+  "closing.sub": "Kunin ang Brilliante mula sa Microsoft Store at tingnan ang iyong library sa isang ganap na bagong liwanag.",
 
   "footer.privacy": "Privacy",
   "footer.support": "Suporta",
   "footer.classic7": "Classic 7 Photo Viewer",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.",
 
   "consent.text": "Gumagamit kami ng cookies para maunawaan kung paano ginagamit ang site na ito.",
   "consent.accept": "Tanggapin",

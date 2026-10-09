@@ -7,7 +7,7 @@
 
   "nav.by": "от",
 
-  "hero.eyebrow": "Для Windows 10 и 11",
+  "hero.eyebrow": "Для Windows 11",
   "hero.kicker": "HDR Средство просмотра фотографий",
   "hero.iconAlt": "Значок приложения Brilliante — живое изображение Ultra HDR",
   "hero.lede_html": "Смотрите свои фотографии в насыщенных, естественных цветах. Ultra&nbsp;HDR, HEIC, Motion Photo и iPhone&nbsp;RAW — а каждому обычному кадру добавьте <span class=\"hl\">яркое</span> сияние.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Загрузите из",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "Скачать",
-  "cta.meta": "Бесплатная загрузка · Windows 10 и 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Почувствуйте <em>разницу</em>",
   "demo.sub": "Перетащите ползунок, чтобы сравнить обычную фотографию с HDR-улучшением от Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Просматривайте метаданные EXIF с одного взгляда, включая местоположение GPS на карте.",
 
   "closing.head_html": "Сделайте каждую фотографию <em>яркой</em>.",
-  "closing.sub": "Загрузите Brilliante бесплатно из Microsoft Store и взгляните на свою галерею в совершенно новом свете.",
+  "closing.sub": "Получите Brilliante в Microsoft Store и взгляните на свою галерею в совершенно новом свете.",
 
   "footer.privacy": "Конфиденциальность",
   "footer.support": "Поддержка",
   "footer.classic7": "Classic 7 - Средство просмотра фотографий",
+  "footer.steamLegal": "©2026 Valve Corporation. Название и логотип Steam являются торговыми знаками и/или зарегистрированными торговыми знаками Valve Corporation в США и других странах.",
 
   "consent.text": "Мы используем файлы cookie, чтобы понять, как используется этот сайт.",
   "consent.accept": "Принять",

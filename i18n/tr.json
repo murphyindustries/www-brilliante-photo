@@ -7,7 +7,7 @@
 
   "nav.by": "—",
 
-  "hero.eyebrow": "Windows 10 ve 11 için",
+  "hero.eyebrow": "Windows 11 için",
   "hero.kicker": "HDR Fotoğraf Görüntüleyicisi",
   "hero.iconAlt": "Brilliante uygulama simgesi — canlı bir Ultra HDR görüntü",
   "hero.lede_html": "Fotoğraflarınızı canlı, gerçeğe yakın renklerle görün. Ultra&nbsp;HDR, HEIC, hareketli fotoğraflar ve iPhone&nbsp;RAW; ayrıca her sıradan kareye <span class=\"hl\">parlak</span> bir dokunuş.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Şu mağazadan edinin:",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "İndir",
-  "cta.meta": "Ücretsiz indirme · Windows 10 ve 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "<em>Farkı</em> görün",
   "demo.sub": "Sıradan bir fotoğrafı Brilliante’nin HDR geliştirmesiyle karşılaştırmak için kaydırıcıyı sürükleyin.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Haritadaki GPS konumu da dahil olmak üzere EXIF meta verilerini tek bakışta görün.",
 
   "closing.head_html": "Her fotoğrafı <em>parlak</em> yapın.",
-  "closing.sub": "Brilliante’yi Microsoft Store’dan ücretsiz indirin ve kütüphanenizi yepyeni bir ışıkta görün.",
+  "closing.sub": "Brilliante’yi Microsoft Store’dan edinin ve kütüphanenizi yepyeni bir ışıkta görün.",
 
   "footer.privacy": "Gizlilik",
   "footer.support": "Destek",
   "footer.classic7": "Classic 7 - Fotoğraf Görüntüleyicisi",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam ve Steam logosu ABD ve/veya diğer ülkelerde Valve Corporation'a ait ticari markalar ve/veya tescilli ticari markalardır.",
 
   "consent.text": "Bu sitenin nasıl kullanıldığını anlamak için çerezleri kullanıyoruz.",
   "consent.accept": "Kabul et",

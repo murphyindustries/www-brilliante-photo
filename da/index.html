@@ -73,13 +73,12 @@
   "@type": "SoftwareApplication",
   "name": "Brilliante Billedfremviser",
   "applicationCategory": "MultimediaApplication",
-  "operatingSystem": "Windows 10, Windows 11",
+  "operatingSystem": "Windows 11",
   "url": "https://brilliante.photo/da/",
   "inLanguage": "da",
   "downloadUrl": "https://apps.microsoft.com/detail/9NCHQKMDLSZ2",
   "image": "https://brilliante.photo/icon-512.png",
   "description": "Brilliante er en HDR-billedfremviser til Windows. Se Ultra HDR, HEIC, motion photos og iPhone ProRAW i levende, naturtro farver — og giv ethvert almindeligt billede et brillant løft.",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "publisher": { "@type": "Organization", "name": "Murphy Industries, LLC", "url": "https://murphy.industries" }
 }
 </script>
@@ -346,6 +345,12 @@
     box-shadow: 0 14px 40px rgba(168, 107, 255, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.4);
   }
   .store-btn .ms-logo { width: 26px; height: 26px; flex-shrink: 0; }
+  /* two equal columns sized to the wider badge, so both badges always match; stacked on phones */
+  .store-row { display: inline-grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  /* Steam: Valve's positive logo, unaltered, at its 50px on-screen minimum with the
+     locomotive-crank clear space (~11px) kept clear on every side */
+  .store-btn.steam .steam-logo { display: block; height: 50px; width: auto; padding: 11px; box-sizing: content-box; flex-shrink: 0; }
+  .store-row .store-btn { min-width: 214px; min-height: 74px; justify-content: center; padding-block: 0; }
   .store-btn .txt { display: flex; flex-direction: column; line-height: 1.15; text-align: start; }
   .store-btn .txt small { font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; color: #5a5278; }
   .store-btn .txt strong { font-size: 1.05rem; font-weight: 600; }
@@ -412,7 +417,7 @@
   }
   .closing h2 em { font-style: italic; background: var(--spectrum); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
   .closing p { color: var(--muted); margin: 16px auto 30px; max-width: 480px; }
-  .closing .store-btn { margin: 0 auto; }
+  .legal { margin-top: 18px; font-size: 0.72rem; color: var(--muted-dim); text-align: center; }
 
   /* ---------- Footer ---------- */
   footer { border-top: 1px solid var(--rule); padding: 30px 0 44px; }
@@ -562,6 +567,7 @@
     .grid { grid-template-columns: 1fr; }
     .topnav .label-long { display: none; }
     .footline { justify-content: center; text-align: center; }
+    .store-row { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -648,21 +654,26 @@
         <!-- Hero logo as a live Ultra HDR (gain-map) JPEG — renders in HDR on capable displays,
              falls back to the embedded SDR base everywhere else. Corners clipped via border-radius. -->
         <img class="gem-hero" src="/icon-512.hdr.jpg" alt="Brilliante-appikon — et live Ultra HDR-billede" decoding="async">
-        <p class="eyebrow">Til Windows 10 og 11</p>
+        <p class="eyebrow">Til Windows 11</p>
         <h1>Brilliante</h1>
         <p class="kicker">HDR Billedfremviser</p>
         <p class="lede">Se dine billeder i levende, naturtro farver. Ultra&nbsp;HDR, HEIC, motion photos og iPhone&nbsp;RAW — plus et <span class="hl">brillant</span> løft til hvert almindeligt billede.</p>
         <div class="cta">
-          <a class="store-btn" href="https://apps.microsoft.com/detail/9NCHQKMDLSZ2?cid=web-viewer-hero" target="_blank" rel="noopener">
-            <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
-              <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
-              <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
-              <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
-              <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
-            </svg>
-            <span class="txt"><small>Hent den fra</small><strong>Microsoft Store</strong></span>
-          </a>
-          <span class="meta">Gratis download · Windows 10 og 11</span>
+          <div class="store-row">
+            <a class="store-btn" href="https://apps.microsoft.com/detail/9NCHQKMDLSZ2?cid=web-viewer-hero" target="_blank" rel="noopener">
+              <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
+                <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
+                <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
+                <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
+              </svg>
+              <span class="txt"><small>Hent den fra</small><strong>Microsoft Store</strong></span>
+            </a>
+            <a class="store-btn steam" href="https://store.steampowered.com/app/4994540/?utm_source=brilliante.photo&amp;utm_campaign=web-viewer-hero" target="_blank" rel="noopener">
+              <img class="steam-logo" src="/steam-logo.svg" alt="Steam" width="164" height="50">
+            </a>
+          </div>
+          <span class="meta">Microsoft Store · Windows 11</span>
         </div>
       </div>
     </section>
@@ -756,16 +767,21 @@
     <section class="wrap">
       <div class="closing">
         <h2>Gør hvert billede <em>brillant</em>.</h2>
-        <p>Download Brilliante gratis fra Microsoft Store, og se dit bibliotek i et helt nyt lys.</p>
-        <a class="store-btn" href="https://apps.microsoft.com/detail/9NCHQKMDLSZ2?cid=web-viewer-closing" target="_blank" rel="noopener">
-          <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
-            <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
-            <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
-            <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
-            <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
-          </svg>
-          <span class="txt"><small>Hent den fra</small><strong>Microsoft Store</strong></span>
-        </a>
+        <p>Hent Brilliante fra Microsoft Store, og se dit bibliotek i et helt nyt lys.</p>
+        <div class="store-row">
+          <a class="store-btn" href="https://apps.microsoft.com/detail/9NCHQKMDLSZ2?cid=web-viewer-closing" target="_blank" rel="noopener">
+            <svg class="ms-logo" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
+              <rect x="13" y="1"  width="10" height="10" fill="#7FBA00"/>
+              <rect x="1"  y="13" width="10" height="10" fill="#00A4EF"/>
+              <rect x="13" y="13" width="10" height="10" fill="#FFB900"/>
+            </svg>
+            <span class="txt"><small>Hent den fra</small><strong>Microsoft Store</strong></span>
+          </a>
+          <a class="store-btn steam" href="https://store.steampowered.com/app/4994540/?utm_source=brilliante.photo&amp;utm_campaign=web-viewer-closing" target="_blank" rel="noopener">
+            <img class="steam-logo" src="/steam-logo.svg" alt="Steam" width="164" height="50">
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -785,6 +801,7 @@
           <a href="https://murphy.industries">murphy.industries</a>
         </span>
       </div>
+      <p class="legal">©2026 Valve Corporation. Steam og Steam-logoet er varemærker og/eller registrerede varemærker tilhørende Valve Corporation i USA og/eller andre lande.</p>
     </div>
   </footer>
 

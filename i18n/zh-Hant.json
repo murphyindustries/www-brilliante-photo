@@ -7,7 +7,7 @@
 
   "nav.by": "來自",
 
-  "hero.eyebrow": "適用於 Windows 10 與 11",
+  "hero.eyebrow": "適用於 Windows 11",
   "hero.kicker": "HDR 相片檢視器",
   "hero.iconAlt": "Brilliante 應用程式圖示 — 一張真實的 Ultra HDR 影像",
   "hero.lede_html": "以鮮豔、真實的色彩欣賞相片。支援 Ultra&nbsp;HDR、HEIC、動態相片與 iPhone&nbsp;RAW，更能為每張平凡相片增添<span class=\"hl\">絢麗</span>光彩。",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "取得自",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "下載",
-  "cta.meta": "免費下載 · Windows 10 與 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "看看<em>差別</em>",
   "demo.sub": "拖曳滑桿，比較平凡相片與 Brilliante 的 HDR 增強效果。",
@@ -42,11 +42,12 @@
   "card6.body_html": "一目了然地檢視 EXIF 中繼資料，包括地圖上的 GPS 位置。",
 
   "closing.head_html": "讓每張相片都<em>絢麗奪目</em>。",
-  "closing.sub": "從 Microsoft Store 免費下載 Brilliante，以全新的視角欣賞你的相片庫。",
+  "closing.sub": "從 Microsoft Store 取得 Brilliante，以全新的視角欣賞你的相片庫。",
 
   "footer.privacy": "隱私權",
   "footer.support": "支援",
   "footer.classic7": "Classic 7 - 相片檢視器",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam 和 Steam 標誌為 Valve Corporation 在美國與（或）其它國家 / 地區的商標與（或）註冊商標。",
 
   "consent.text": "我們使用 Cookie 來了解本網站的使用情況。",
   "consent.accept": "接受",

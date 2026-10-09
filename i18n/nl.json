@@ -7,7 +7,7 @@
 
   "nav.by": "van",
 
-  "hero.eyebrow": "Voor Windows 10 en 11",
+  "hero.eyebrow": "Voor Windows 11",
   "hero.kicker": "HDR Fotoviewer",
   "hero.iconAlt": "Brilliante-app-pictogram — een live Ultra HDR-afbeelding",
   "hero.lede_html": "Bekijk je foto’s in levendige, levensechte kleuren. Ultra&nbsp;HDR, HEIC, motion photo’s en iPhone&nbsp;RAW — plus een <span class=\"hl\">schitterende</span> boost voor elke gewone foto.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Verkrijgbaar via",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "Downloaden",
-  "cta.meta": "Gratis download · Windows 10 en 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Zie het <em>verschil</em>",
   "demo.sub": "Sleep de schuifregelaar om een gewone foto te vergelijken met de HDR-verbetering van Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Bekijk EXIF-metagegevens in één oogopslag, inclusief de GPS-locatie op een kaart.",
 
   "closing.head_html": "Maak elke foto <em>schitterend</em>.",
-  "closing.sub": "Download Brilliante gratis uit de Microsoft Store en zie je bibliotheek in een heel nieuw licht.",
+  "closing.sub": "Haal Brilliante uit de Microsoft Store en zie je bibliotheek in een heel nieuw licht.",
 
   "footer.privacy": "Privacy",
   "footer.support": "Ondersteuning",
   "footer.classic7": "Classic 7 Photo Viewer",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam en het Steam-logo zijn handelsmerken en/of geregistreerde handelsmerken van Valve Corporation in de Verenigde Staten en/of andere landen.",
 
   "consent.text": "We gebruiken cookies om te begrijpen hoe deze site wordt gebruikt.",
   "consent.accept": "Accepteren",

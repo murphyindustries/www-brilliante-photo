@@ -7,7 +7,7 @@
 
   "nav.by": "tekijä",
 
-  "hero.eyebrow": "Windows 10:lle ja 11:lle",
+  "hero.eyebrow": "Windows 11:lle",
   "hero.kicker": "HDR Valokuvien katseluohjelma",
   "hero.iconAlt": "Brilliante-sovelluksen kuvake – aito Ultra HDR -kuva",
   "hero.lede_html": "Katsele valokuviasi elävin, todenmukaisin värein. Ultra&nbsp;HDR, HEIC, liikevalokuvat ja iPhonen&nbsp;RAW – sekä <span class=\"hl\">loistava</span> kohotus jokaiselle tavalliselle otokselle.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Hanki täältä:",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "Lataa",
-  "cta.meta": "Ilmainen lataus · Windows 10 ja 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Huomaa <em>ero</em>",
   "demo.sub": "Vedä liukusäädintä vertaillaksesi tavallista valokuvaa Brillianten HDR-parannukseen.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Näe EXIF-metatiedot yhdellä silmäyksellä, mukaan lukien GPS-sijainti kartalla.",
 
   "closing.head_html": "Tee jokaisesta valokuvasta <em>loistava</em>.",
-  "closing.sub": "Lataa Brilliante ilmaiseksi Microsoft Storesta ja näe kirjastosi aivan uudessa valossa.",
+  "closing.sub": "Hanki Brilliante Microsoft Storesta ja näe kirjastosi aivan uudessa valossa.",
 
   "footer.privacy": "Tietosuoja",
   "footer.support": "Tuki",
   "footer.classic7": "Classic 7 - Valokuvien katseluohjelma",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam ja Steam-logo ovat Valve Corporationin tavaramerkkejä tai rekisteröityjä tavaramerkkejä Yhdysvalloissa ja muissa maissa.",
 
   "consent.text": "Käytämme evästeitä ymmärtääksemme, miten tätä sivustoa käytetään.",
   "consent.accept": "Hyväksy",

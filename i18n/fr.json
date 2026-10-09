@@ -7,7 +7,7 @@
 
   "nav.by": "par",
 
-  "hero.eyebrow": "Pour Windows 10 et 11",
+  "hero.eyebrow": "Pour Windows 11",
   "hero.kicker": "Visionneuse de photos HDR",
   "hero.iconAlt": "Icône de l’application Brilliante : une véritable image Ultra HDR",
   "hero.lede_html": "Voyez vos photos avec des couleurs éclatantes et fidèles à la réalité. Ultra&nbsp;HDR, HEIC, Motion Photo et RAW d’iPhone, ainsi qu’une touche <span class=\"hl\">brillante</span> pour chaque photo ordinaire.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Disponible sur",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "Télécharger",
-  "cta.meta": "Téléchargement gratuit · Windows 10 et 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Voyez la <em>différence</em>",
   "demo.sub": "Faites glisser le curseur pour comparer une photo ordinaire avec l’amélioration HDR de Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Consultez les métadonnées EXIF en un coup d’œil, y compris l’emplacement GPS sur une carte.",
 
   "closing.head_html": "Rendez chaque photo <em>brillante</em>.",
-  "closing.sub": "Téléchargez Brilliante gratuitement sur le Microsoft Store et redécouvrez votre galerie sous un nouveau jour.",
+  "closing.sub": "Procurez-vous Brilliante sur le Microsoft Store et redécouvrez votre galerie sous un nouveau jour.",
 
   "footer.privacy": "Confidentialité",
   "footer.support": "Assistance",
   "footer.classic7": "Classique 7 - Visionneuse de photos",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam et le logo Steam sont des marques déposées et/ou des marques enregistrées par Valve Corporation aux É.U. et/ou dans d'autres pays.",
 
   "consent.text": "Nous utilisons des cookies pour comprendre comment ce site est utilisé.",
   "consent.accept": "Accepter",

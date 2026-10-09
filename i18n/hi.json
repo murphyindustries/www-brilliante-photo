@@ -7,7 +7,7 @@
 
   "nav.by": "द्वारा",
 
-  "hero.eyebrow": "Windows 10 और 11 के लिए",
+  "hero.eyebrow": "Windows 11 के लिए",
   "hero.kicker": "HDR फोटो दर्शक",
   "hero.iconAlt": "Brilliante ऐप आइकन — एक लाइव Ultra HDR इमेज",
   "hero.lede_html": "अपनी फ़ोटो को जीवंत, वास्तविक रंगों में देखें। Ultra&nbsp;HDR, HEIC, मोशन फ़ोटो और iPhone&nbsp;RAW — साथ ही हर साधारण शॉट के लिए एक <span class=\"hl\">शानदार</span> निखार।",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "इससे प्राप्त करें",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "डाउनलोड करें",
-  "cta.meta": "मुफ़्त डाउनलोड · Windows 10 और 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "<em>फ़र्क</em> देखें",
   "demo.sub": "एक साधारण फोटो की तुलना Brilliante के HDR सुधार से करने के लिए स्लाइडर को खींचें।",
@@ -42,11 +42,12 @@
   "card6.body_html": "EXIF मेटाडेटा को एक नज़र में देखें, जिसमें मानचित्र पर GPS स्थान भी शामिल है।",
 
   "closing.head_html": "हर फोटो को <em>शानदार</em> बनाएँ।",
-  "closing.sub": "Microsoft Store से Brilliante मुफ़्त डाउनलोड करें और अपनी लाइब्रेरी को एक बिल्कुल नई रोशनी में देखें।",
+  "closing.sub": "Microsoft Store से Brilliante प्राप्त करें और अपनी लाइब्रेरी को एक बिल्कुल नई रोशनी में देखें।",
 
   "footer.privacy": "गोपनीयता",
   "footer.support": "सहायता",
   "footer.classic7": "Classic 7 - फोटो दर्शक",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.",
 
   "consent.text": "हम यह समझने के लिए कुकीज़ का उपयोग करते हैं कि इस साइट का उपयोग कैसे होता है।",
   "consent.accept": "स्वीकार करें",

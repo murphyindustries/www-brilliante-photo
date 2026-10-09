@@ -7,7 +7,7 @@
 
   "nav.by": "od",
 
-  "hero.eyebrow": "Pro Windows 10 a 11",
+  "hero.eyebrow": "Pro Windows 11",
   "hero.kicker": "HDR Prohlížeč fotografií",
   "hero.iconAlt": "Ikona aplikace Brilliante — živý obrázek Ultra HDR",
   "hero.lede_html": "Prohlížejte si fotky v živých, věrných barvách. Ultra&nbsp;HDR, HEIC, Motion Photo a iPhone&nbsp;RAW — a navíc <span class=\"hl\">brilantní</span> lesk pro každý obyčejný snímek.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Stáhnout z",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "Stáhnout",
-  "cta.meta": "Zdarma ke stažení · Windows 10 a 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Všimněte si <em>rozdílu</em>",
   "demo.sub": "Posunutím jezdce porovnejte obyčejnou fotku s HDR vylepšením od Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Prohlédněte si metadata EXIF na první pohled, včetně polohy GPS na mapě.",
 
   "closing.head_html": "Udělejte každou fotku <em>brilantní</em>.",
-  "closing.sub": "Stáhněte si Brilliante zdarma z Microsoft Store a uvidíte svou knihovnu v úplně novém světle.",
+  "closing.sub": "Získejte Brilliante z Microsoft Store a uvidíte svou knihovnu v úplně novém světle.",
 
   "footer.privacy": "Soukromí",
   "footer.support": "Podpora",
   "footer.classic7": "Classic 7 - Prohlížeč fotografií",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam a logo služby Steam jsou obchodní značky a/nebo registrované ochranné známky společnosti Valve Corporation v USA a dalších zemích.",
 
   "consent.text": "Soubory cookie používáme k pochopení toho, jak se tento web používá.",
   "consent.accept": "Přijmout",

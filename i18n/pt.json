@@ -7,7 +7,7 @@
 
   "nav.by": "por",
 
-  "hero.eyebrow": "Para Windows 10 e 11",
+  "hero.eyebrow": "Para Windows 11",
   "hero.kicker": "Visualizador de fotografias HDR",
   "hero.iconAlt": "Ícone da aplicação Brilliante: uma verdadeira imagem Ultra HDR",
   "hero.lede_html": "Veja as suas fotografias com cores vibrantes e fiéis à realidade. Ultra&nbsp;HDR, HEIC, Motion Photos e RAW de iPhone, além de um toque <span class=\"hl\">brilhante</span> para cada fotografia comum.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Disponível na",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "Baixar",
-  "cta.meta": "Transferência gratuita · Windows 10 e 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Veja a <em>diferença</em>",
   "demo.sub": "Arraste o cursor para comparar uma fotografia comum com a melhoria HDR do Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Veja os metadados EXIF num relance, incluindo a localização GPS num mapa.",
 
   "closing.head_html": "Torne cada fotografia <em>brilhante</em>.",
-  "closing.sub": "Transfira o Brilliante gratuitamente na Microsoft Store e veja a sua galeria sob uma nova luz.",
+  "closing.sub": "Obtenha o Brilliante na Microsoft Store e veja a sua galeria sob uma nova luz.",
 
   "footer.privacy": "Privacidade",
   "footer.support": "Suporte",
   "footer.classic7": "Clássico 7 - Visualizador de Fotografias",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam e o logótipo Steam são marcas e/ou marcas registadas da Valve Corporation nos EUA e/ou noutros países.",
 
   "consent.text": "Usamos cookies para entender como este site é utilizado.",
   "consent.accept": "Aceitar",

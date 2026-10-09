@@ -7,7 +7,7 @@
 
   "nav.by": "oleh",
 
-  "hero.eyebrow": "Untuk Windows 10 & 11",
+  "hero.eyebrow": "Untuk Windows 11",
   "hero.kicker": "Penampil foto HDR",
   "hero.iconAlt": "Ikon aplikasi Brilliante — gambar Ultra HDR sungguhan",
   "hero.lede_html": "Lihat foto Anda dengan warna cerah yang nyata seperti aslinya. Ultra&nbsp;HDR, HEIC, foto gerak, dan RAW&nbsp;iPhone — plus sentuhan <span class=\"hl\">brilian</span> untuk setiap jepretan biasa.",
@@ -15,7 +15,7 @@
   "cta.getItFrom": "Dapatkan dari",
   "cta.microsoftStore": "Microsoft Store",
   "cta.download": "Unduh",
-  "cta.meta": "Unduh gratis · Windows 10 & 11",
+  "cta.meta": "Microsoft Store · Windows 11",
 
   "demo.head_html": "Lihat <em>perbedaannya</em>",
   "demo.sub": "Geser penggeser untuk membandingkan foto biasa dengan peningkatan HDR dari Brilliante.",
@@ -42,11 +42,12 @@
   "card6.body_html": "Lihat metadata EXIF secara sekilas, termasuk lokasi GPS di peta.",
 
   "closing.head_html": "Buat setiap foto menjadi <em>brilian</em>.",
-  "closing.sub": "Unduh Brilliante gratis dari Microsoft Store dan lihat galeri Anda dalam cahaya yang sama sekali baru.",
+  "closing.sub": "Dapatkan Brilliante dari Microsoft Store dan lihat galeri Anda dalam cahaya yang sama sekali baru.",
 
   "footer.privacy": "Privasi",
   "footer.support": "Dukungan",
   "footer.classic7": "Classic 7 - Penampil foto",
+  "footer.steamLegal": "©2026 Valve Corporation. Steam dan logo Steam adalah merek dagang dan/atau merek dagang Valve Corporation yang terdaftar di AS dan/atau negara lain.",
 
   "consent.text": "Kami menggunakan cookie untuk memahami cara situs ini digunakan.",
   "consent.accept": "Terima",
