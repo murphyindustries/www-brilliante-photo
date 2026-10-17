@@ -1,0 +1,97 @@
+diff --git a/cmake/CMakeLists.txt b/cmake/CMakeLists.txt
+index 0b37ade..37423d3 100644
+--- a/cmake/CMakeLists.txt
++++ b/cmake/CMakeLists.txt
+@@ -909,7 +909,10 @@ if (onnxruntime_USE_WEBGPU)
+   # until we figure out how to resolve the packaging pipeline failures
+   #
+   # if (onnxruntime_USE_VCPKG AND NOT CMAKE_SYSTEM_NAME STREQUAL "Emscripten")
+-  if (FALSE)
++  #
++  # brilliante-core: re-enabled. Its vcpkg overlay provides Dawn as a package (a static
++  # libwebgpu_dawn.a, see that port's portfile header), so the checks below apply.
++  if (onnxruntime_USE_VCPKG AND NOT CMAKE_SYSTEM_NAME STREQUAL "Emscripten")
+     if (NOT onnxruntime_BUILD_DAWN_MONOLITHIC_LIBRARY)
+       message(FATAL_ERROR "onnxruntime_USE_VCPKG is not supported with onnxruntime_BUILD_DAWN_MONOLITHIC_LIBRARY=OFF")
+     endif()
+@@ -1730,7 +1733,10 @@ if (onnxruntime_ENABLE_EXTERNAL_CUSTOM_OP_SCHEMAS)
+   )
+ endif()
+ 
+-if(NOT onnxruntime_BUILD_SHARED_LIB AND onnxruntime_USE_WEBGPU)
++# brilliante-core: only Dawn's FetchContent build has targets that cannot be exported. Found as a
++# package (onnxruntime_USE_VCPKG), Dawn is an IMPORTED dawn::webgpu_dawn, which exports by name, and the
++# config below gains find_dependency(Dawn) to define it for the consumer.
++if(NOT onnxruntime_BUILD_SHARED_LIB AND onnxruntime_USE_WEBGPU AND NOT onnxruntime_USE_VCPKG)
+   message(WARNING "CMake target files will not be generated for static onnxruntime builds with webgpu support")
+ else()
+   # Install
+@@ -1764,6 +1770,10 @@ else()
+         ")
+   endif()
+ 
++  if (NOT onnxruntime_BUILD_SHARED_LIB AND onnxruntime_USE_WEBGPU)
++    string(APPEND PROJECT_CONFIG_CONTENT "find_dependency(Dawn)\n")
++  endif()
++
+   string(APPEND PROJECT_CONFIG_CONTENT
+         "include(\"\${CMAKE_CURRENT_LIST_DIR}/${PROJECT_NAME}Targets.cmake\")\n")
+ 
+diff --git a/cmake/external/onnxruntime_external_deps.cmake b/cmake/external/onnxruntime_external_deps.cmake
+index 3189b64..f395420 100644
+--- a/cmake/external/onnxruntime_external_deps.cmake
++++ b/cmake/external/onnxruntime_external_deps.cmake
+@@ -637,9 +637,12 @@ if (onnxruntime_USE_WEBGPU)
+   # until we figure out how to resolve the packaging pipeline failures
+   #
+   # if (onnxruntime_USE_VCPKG AND NOT CMAKE_SYSTEM_NAME STREQUAL "Emscripten")
+-  if (FALSE)
++  #
++  # brilliante-core: re-enabled, for its vcpkg overlay's dawn port (DawnConfig.cmake: dawn::webgpu_dawn,
++  # dawn::dawn_headers, dawn::dawncpp_headers).
++  if (onnxruntime_USE_VCPKG AND NOT CMAKE_SYSTEM_NAME STREQUAL "Emscripten")
+     # vcpkg does not support Emscripten yet
+-    find_package(dawn REQUIRED)
++    find_package(Dawn CONFIG REQUIRED)
+   else()
+     #
+     # Please keep the following in sync with cmake/vcpkg-ports/dawn/portfile.cmake
+diff --git a/cmake/onnxruntime_providers_webgpu.cmake b/cmake/onnxruntime_providers_webgpu.cmake
+index 5e092f4..ebb7137 100644
+--- a/cmake/onnxruntime_providers_webgpu.cmake
++++ b/cmake/onnxruntime_providers_webgpu.cmake
+@@ -130,7 +130,19 @@
+ 
+   add_dependencies(onnxruntime_providers_webgpu ${onnxruntime_EXTERNAL_DEPENDENCIES})
+ 
+-  if (onnxruntime_WGSL_TEMPLATE)
++  if (onnxruntime_WGSL_TEMPLATE_PREGENERATED_DIR)
++    # brilliante-core: the STATIC generator's output, made once from this release's *.wgsl.template
++    # files and vendored beside its vcpkg overlay (which checks those sources' hashes), so the build
++    # needs no Node.js or npm. The directory holds wgsl_template_gen/index.h and index_impl.h.
++    if (NOT onnxruntime_WGSL_TEMPLATE STREQUAL "static")
++      message(FATAL_ERROR "onnxruntime_WGSL_TEMPLATE_PREGENERATED_DIR needs onnxruntime_WGSL_TEMPLATE=static")
++    endif()
++    if (NOT EXISTS "${onnxruntime_WGSL_TEMPLATE_PREGENERATED_DIR}/wgsl_template_gen/index.h" OR
++        NOT EXISTS "${onnxruntime_WGSL_TEMPLATE_PREGENERATED_DIR}/wgsl_template_gen/index_impl.h")
++      message(FATAL_ERROR "no generated WGSL templates in ${onnxruntime_WGSL_TEMPLATE_PREGENERATED_DIR}")
++    endif()
++    target_include_directories(onnxruntime_providers_webgpu PRIVATE ${onnxruntime_WGSL_TEMPLATE_PREGENERATED_DIR})
++  elseif (onnxruntime_WGSL_TEMPLATE)
+     # Define the WGSL templates directory and output directory
+     set(WGSL_TEMPLATES_DIR "${ONNXRUNTIME_ROOT}/core/providers/webgpu/wgsl_templates")
+     set(WGSL_GENERATED_ROOT "${CMAKE_CURRENT_BINARY_DIR}/wgsl_generated")
+@@ -227,3 +239,13 @@
+   endif()
+ 
+   set_target_properties(onnxruntime_providers_webgpu PROPERTIES FOLDER "ONNXRuntime")
++
++  # brilliante-core: installed and exported like the other providers' static libraries (see
++  # onnxruntime_providers_xnnpack.cmake), for the static build's package config in CMakeLists.txt.
++  if (NOT onnxruntime_BUILD_SHARED_LIB)
++    install(TARGETS onnxruntime_providers_webgpu EXPORT ${PROJECT_NAME}Targets
++            ARCHIVE   DESTINATION ${CMAKE_INSTALL_LIBDIR}
++            LIBRARY   DESTINATION ${CMAKE_INSTALL_LIBDIR}
++            RUNTIME   DESTINATION ${CMAKE_INSTALL_BINDIR}
++            FRAMEWORK DESTINATION ${CMAKE_INSTALL_BINDIR})
++  endif()

@@ -231,7 +231,7 @@
       <div class="wrap">
         <p class="eyebrow">Brilliante apps</p>
         <h1>Open-source source code</h1>
-        <p class="effective">Last updated October&nbsp;5, 2026</p>
+        <p class="effective">Last updated October&nbsp;17, 2026</p>
 
         <div class="tldr">
           <p style="margin:0;"><strong>Why this page exists:</strong> some of the open-source components redistributed in the Brilliante apps are licensed on terms that ask us to make their source code available to you. This page hosts that source, for the exact versions we ship, under each component&rsquo;s own license.</p>
@@ -323,9 +323,13 @@
             <dt>SHA&#8209;512</dt>
             <dd class="hash">373c51575ada457b8aead5d195a5f3eba62fb747b6370a2a9889fff875c40ea30af8fd49104d58cc86f79247410e829086b0979f37ca8635c6dd34960e9cc424</dd>
             <dt>Our changes</dt>
-            <dd><a href="/oss/onnxruntime-1.23.2-vcpkg-port.tar.gz" download>onnxruntime-1.23.2-vcpkg-port.tar.gz</a> &middot; 5,484 bytes &mdash; the four patches our build applies, with the vcpkg port files that apply them</dd>
+            <dd><a href="/oss/onnxruntime-1.23.2-vcpkg-port.tar.gz" download>onnxruntime-1.23.2-vcpkg-port.tar.gz</a> &middot; 5,484 bytes &mdash; vcpkg&rsquo;s four patches, with the vcpkg port files that apply them</dd>
             <dt>SHA&#8209;512</dt>
             <dd class="hash">bbf56d9f374ad310a605cf35687cf150a8bf5d375305cc1738230dbc01882b70e20348af6cd6ca1d993761ae443384ab07005cdc77c39eb9e4b5c4277e16fadd</dd>
+            <dt>Fifth patch</dt>
+            <dd><a href="/oss/onnxruntime-1.23.2-webgpu-dawn-from-vcpkg.patch" download>onnxruntime-1.23.2-webgpu-dawn-from-vcpkg.patch</a> &middot; 5,005 bytes &mdash; our own, applied from October&nbsp;17, 2026</dd>
+            <dt>SHA&#8209;512</dt>
+            <dd class="hash">8d65e0932aedc742c514602980bbeea6a9811bbac545c6a88479c54e1ebe323938505e95a38e43d16d00b4770a26f5e1d84147d827755c32b03ea2a2cbf42192</dd>
             <dt>Offered under</dt>
             <dd>MIT License &mdash; <a href="/oss/onnxruntime-1.23.2-LICENSE.txt">read the license</a>; the two Eigen-derived files under the Mozilla Public License&nbsp;2.0 &mdash; <a href="/oss/eigen-5.0.1-COPYING.MPL2.txt">read the license</a></dd>
             <dt>Upstream</dt>
@@ -333,7 +337,8 @@
           </dl>
         </div>
 
-        <p style="margin-top:22px;">We build ONNX&nbsp;Runtime with four small patches from the <a href="https://github.com/microsoft/vcpkg" target="_blank" rel="noopener">vcpkg</a> package manager&rsquo;s onnxruntime port. Three change only ONNX&nbsp;Runtime&rsquo;s CMake build files, so that it builds against separately packaged libraries; the fourth adds a missing <code>#include &lt;cstdint&gt;</code> to <code>onnxruntime/core/common/semver.h</code>. None of them touches the two Mozilla Public License files. The patches are vcpkg&rsquo;s, under vcpkg&rsquo;s MIT License, a copy of which is in the patch archive.</p>
+        <p style="margin-top:22px;">We build ONNX&nbsp;Runtime with five small patches. Four are from the <a href="https://github.com/microsoft/vcpkg" target="_blank" rel="noopener">vcpkg</a> package manager&rsquo;s onnxruntime port: three change only ONNX&nbsp;Runtime&rsquo;s CMake build files, so that it builds against separately packaged libraries, and the fourth adds a missing <code>#include &lt;cstdint&gt;</code> to <code>onnxruntime/core/common/semver.h</code>. Those four are vcpkg&rsquo;s, under vcpkg&rsquo;s MIT License, a copy of which is in the patch archive.</p>
+        <p>The fifth patch is our own, and every build made from October&nbsp;17, 2026 applies it (earlier builds apply only the first four). It changes only CMake build files: it builds ONNX&nbsp;Runtime&rsquo;s WebGPU execution provider against a separately packaged Dawn, which is how the x86-64 build runs AI&nbsp;3D on the GPU, and it changes nothing in a build without that provider. None of the five patches touches the two Mozilla Public License files, and the source archive above is unchanged, with the same SHA&#8209;512.</p>
 
         <h2>Something missing?</h2>
         <p>If you believe a component we ship should be listed here and is not, or you have trouble downloading any of these files, email <a href="mailto:support@brilliante.photo">support@brilliante.photo</a> and we will sort it out.</p>
