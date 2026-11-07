@@ -1,0 +1,100 @@
+Sony ILCE-7M5 (A7 V): LibRaw master commit 8eb34338 "Support Sony ILCE-7M5" (2026-05-22), backported
+to 0.22.3 unchanged but for two hunks' CONTEXT. 0.22.3's libraw_cameraids.h has no SonyID_ILCE_1M2
+line (a later master commit), so the new define follows SonyID_ILME_FX2; and 0.22.3 declares
+GetNormalizedModel's `orig` a local (its own 11a5f842), the third context line after the new alias.
+Every added and changed line is upstream's, byte for byte, its comment and whitespace included.
+DELETE this patch (and its PATCHES line and the port-version bump) at the first LibRaw release that
+contains 8eb34338. The portfile says why.
+
+diff --git a/internal/libraw_cameraids.h b/internal/libraw_cameraids.h
+index 653d283b..210c28a3 100644
+--- a/internal/libraw_cameraids.h
++++ b/internal/libraw_cameraids.h
+@@ -343,4 +343,5 @@ it under the terms of the one of two licenses as you choose:
+ #define SonyID_ILX_LR1          0x18eULL
+ #define SonyID_ZV_E10M2         0x18fULL
+ #define SonyID_ILME_FX2         0x196ULL
++#define SonyID_ILCE_7M5         0x197ULL
+ #endif
+diff --git a/src/metadata/identify.cpp b/src/metadata/identify.cpp
+index 7fd5b14a..f90dd0d5 100644
+--- a/src/metadata/identify.cpp
++++ b/src/metadata/identify.cpp
+@@ -3132,7 +3132,7 @@ void LibRaw::identify_finetune_dcr(char head[64], INT64 fsize, INT64 flen)
+ 
+ 		  /* need samples for lossy small/medium w/ APC crop*/
+         }
+-        else if ((unique_id == SonyID_ILCE_7M4)|| (unique_id == SonyID_ILCE_7CM2) || (unique_id == SonyID_ILME_FX2))
++        else if ((unique_id == SonyID_ILCE_7M4) || (unique_id == SonyID_ILCE_7CM2) || (unique_id == SonyID_ILME_FX2) || (unique_id == SonyID_ILCE_7M5))
+         {
+           if (raw_width == 7168 && raw_height == 5120) 
+           {
+diff --git a/src/metadata/normalize_model.cpp b/src/metadata/normalize_model.cpp
+index 85fa9bdd..eda32b53 100644
+--- a/src/metadata/normalize_model.cpp
++++ b/src/metadata/normalize_model.cpp
+@@ -398,6 +398,7 @@ void LibRaw::GetNormalizedModel()
+       { SonyID_ILX_LR1,        "ILX-LR1"},
+       { SonyID_ZV_E10M2,       "ZV-E10M2"},
+       { SonyID_ILME_FX2,       "ILME-FX2"},
++      { SonyID_ILCE_7M5,       "ILCE-7M5"},
+ };
+ 
+    const char *orig = NULL;
+diff --git a/src/metadata/sony.cpp b/src/metadata/sony.cpp
+index 9289ca74..7a0fcb9f 100644
+--- a/src/metadata/sony.cpp
++++ b/src/metadata/sony.cpp
+@@ -362,6 +362,8 @@ void LibRaw::setSonyBodyFeatures(unsigned long long id) {
+        LIBRAW_SONY_Tag2010None, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff},
+       {SonyID_ZV_E10M2, sbfILCE_DX,
+        LIBRAW_SONY_Tag2010None, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff},
++      {SonyID_ILCE_7M5, sbfILCE_FF,
++       LIBRAW_SONY_Tag2010None, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff},
+   };
+   ilm.CamID = id;
+   int isPreProductionFW = 0;
+@@ -451,6 +453,7 @@ void LibRaw::setSonyBodyFeatures(unsigned long long id) {
+   case SonyID_ILCE_7CR:
+   case SonyID_ILCE_7CM2:
+   case SonyID_ILCE_9M3:
++  case SonyID_ILCE_7M5:
+   case SonyID_ZV_E10M2:
+     imSony.group9050 = LIBRAW_SONY_Tag9050d;
+     break;
+@@ -953,7 +956,7 @@ void LibRaw::process_Sony_0x9400(uchar *buf, ushort len, unsigned long long /*id
+     FORC4 s[c] = SonySubstitution[buf[0x1a + c]];
+     imSony.Sony0x9400_SequenceFileNumber = sget4(s);
+ 
+-    imSony.Sony0x9400_SequenceLength2 = SonySubstitution[buf[0x1e]]; // files
++    imSony.Sony0x9400_SequenceLength2 = SonySubstitution[buf[0x1e]]; // files //ilce-7m5 modifed here
+   }
+ 
+   else if ((bufx == 0x0c) && (len >= 0x1f)) // 0x9400 'b' version
+diff --git a/src/tables/cameralist.cpp b/src/tables/cameralist.cpp
+index cbf0b632..75bf4f1f 100644
+--- a/src/tables/cameralist.cpp
++++ b/src/tables/cameralist.cpp
+@@ -1181,6 +1181,7 @@ static const char *static_camera_list[] = {
+ 	"Sony ILCE-7M2 (A7 II)",
+ 	"Sony ILCE-7M3 (A7 III)",
+ 	"Sony ILCE-7M4 (A7 IV)",
++	"Sony ILCE-7M5 (A7 V)",
+ 	"Sony ILCE-7C (A7C)",
+ 	"Sony ILCE-7CR (A7CR)",
+ 	"Sony ILCE-7CM2 (A7C II)",
+diff --git a/src/tables/colordata.cpp b/src/tables/colordata.cpp
+index 86dcd670..bc1327a1 100644
+--- a/src/tables/colordata.cpp
++++ b/src/tables/colordata.cpp
+@@ -1768,7 +1768,9 @@ int LibRaw::adobe_coeff(unsigned make_idx, const char *t_model,
+       { 7460,-2365,-588,-5687,13442,2474,-624,1156,6584 } },
+     { LIBRAW_CAMERAMAKER_Sony, "ILCE-7C", 0, 0,
+       { 7374,-2389,-551,-5435,13162,2519,-1006,1795,6552 } },
+-
++	  
++    { LIBRAW_CAMERAMAKER_Sony, "ILCE-7M5", 0, 0,
++      { 9089, -3577, -787, -3563, 11326, 2557, -114, 928, 5904 } },
+     { LIBRAW_CAMERAMAKER_Sony, "ILCE-7M4", 0, 0,
+       { 7460,-2365,-588,-5687,13442,2474,-624,1156,6584 } },
+     { LIBRAW_CAMERAMAKER_Sony, "ILCE-7M3", 0, 0,

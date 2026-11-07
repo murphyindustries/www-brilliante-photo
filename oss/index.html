@@ -231,7 +231,7 @@
       <div class="wrap">
         <p class="eyebrow">Brilliante apps</p>
         <h1>Open-source source code</h1>
-        <p class="effective">Last updated October&nbsp;30, 2026</p>
+        <p class="effective">Last updated November&nbsp;6, 2026</p>
 
         <div class="tldr">
           <p style="margin:0;"><strong>Why this page exists:</strong> some of the open-source components redistributed in the Brilliante apps are licensed on terms that ask us to make their source code available to you. This page hosts that source, for the exact versions we ship, under each component&rsquo;s own license.</p>
@@ -242,11 +242,33 @@
 
         <h2>LibRaw</h2>
 
-        <p>Two LibRaw releases are listed. Builds that include the October&nbsp;2026 dependency update carry LibRaw&nbsp;0.22.2; earlier builds carry 0.22.1, and its source stays here for them. The third-party notices file in each build names the version it carries and links the matching archive below.</p>
+        <p>Three LibRaw releases are listed. The third-party notices file in each build names the version it carries and links the matching archive below; the source of each earlier release stays here for the builds that carry it.</p>
+
+        <div class="pkg">
+          <h3>LibRaw 0.22.3</h3>
+          <p class="ver">Raw image decoding &middot; used in Brilliante Photo Viewer</p>
+
+          <a class="dl" href="/oss/LibRaw-0.22.3.tar.gz" download>Download source <span aria-hidden="true">&darr;</span></a>
+
+          <dl class="meta">
+            <dt>File</dt>
+            <dd>LibRaw-0.22.3.tar.gz &middot; 612,705 bytes</dd>
+            <dt>SHA&#8209;512</dt>
+            <dd class="hash">a9453f8cff55302926c11c47ba7c8d04d81023bbbcad145551d2c0cc601de7eea8218d00a073e6b9ece845d3420897a2272a34fabf55f5b821183eaa7f66b3ef</dd>
+            <dt>Patch</dt>
+            <dd><a href="/oss/LibRaw-0.22.3-sony-ilce-7m5.patch" download>LibRaw-0.22.3-sony-ilce-7m5.patch</a> &middot; 4,632 bytes</dd>
+            <dt>SHA&#8209;512</dt>
+            <dd class="hash">2ec62a6a3f51eeb76563813b5859c0d405bc8463855d8a01b3536f0711da7bb8d276a476e3f5a5bc11d3fe17419540287d687a3f86bb2ac44b1c7d2e8c1cd2ce</dd>
+            <dt>Offered under</dt>
+            <dd>Common Development and Distribution License (CDDL) Version&nbsp;1.0 &mdash; <a href="/oss/LibRaw-0.22.3-LICENSE.CDDL.txt">read the license</a></dd>
+            <dt>Upstream</dt>
+            <dd><a href="https://www.libraw.org" target="_blank" rel="noopener">libraw.org</a> &middot; Copyright &copy; LibRaw&nbsp;LLC &mdash; <a href="/oss/LibRaw-0.22.3-COPYRIGHT.txt">upstream copyright notice</a></dd>
+          </dl>
+        </div>
 
         <div class="pkg">
           <h3>LibRaw 0.22.2</h3>
-          <p class="ver">Raw image decoding &middot; used in Brilliante Photo Viewer and the Brilliante RAW Image Extension &middot; builds from the October&nbsp;2026 dependency update onward</p>
+          <p class="ver">Raw image decoding &middot; used in Brilliante Photo Viewer and the Brilliante RAW Image Extension &middot; builds from the October&nbsp;2026 dependency update</p>
 
           <a class="dl" href="/oss/LibRaw-0.22.2.tar.gz" download>Download source <span aria-hidden="true">&darr;</span></a>
 
@@ -285,7 +307,7 @@
         </div>
 
         <p style="margin-top:22px;">LibRaw&rsquo;s authors offer the library under either the GNU Lesser General Public License version&nbsp;2.1 or the CDDL&nbsp;1.0, at the recipient&rsquo;s choice. <strong>Murphy Industries distributes these copies under the CDDL&nbsp;1.0</strong>, and the Brilliante apps use LibRaw under the CDDL&nbsp;1.0. A complete copy of the CDDL is included inside each archive as <code>LICENSE.CDDL</code>; the copies linked above are provided so you can read the terms without downloading an archive.</p>
-        <p>We build each release as published, with one exception: builds made from October&nbsp;30, 2026 apply one patch to LibRaw&nbsp;0.22.2, which adds support for the Sony ILCE&#8209;7M5 (A7&nbsp;V). It is LibRaw&rsquo;s own master commit 8eb34338, &ldquo;Support Sony ILCE-7M5&rdquo;, backported to 0.22.2, with every added and changed line LibRaw&rsquo;s own. It is published above, beside the unchanged archive, as the source of that modification under section&nbsp;3.1 of the CDDL. Earlier builds apply no patch.</p>
+        <p>We build each release as published, with one exception: builds of LibRaw&nbsp;0.22.3, and builds of 0.22.2 made from October&nbsp;30, 2026, apply one patch, which adds support for the Sony ILCE&#8209;7M5 (A7&nbsp;V). It is LibRaw&rsquo;s own master commit 8eb34338, &ldquo;Support Sony ILCE-7M5&rdquo;, backported to each release, with every added and changed line LibRaw&rsquo;s own. Each release&rsquo;s patch is published above, beside its unchanged archive, as the source of that modification under section&nbsp;3.1 of the CDDL. Earlier builds apply no patch.</p>
 
         <h2>Eigen</h2>
 
