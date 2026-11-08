@@ -1,0 +1,14 @@
+diff --git a/src/metadata/cr3_parser.cpp b/src/metadata/cr3_parser.cpp
+index 5a1c1930..10f9caa3 100644
+--- a/src/metadata/cr3_parser.cpp
++++ b/src/metadata/cr3_parser.cpp
+@@ -309,8 +309,8 @@ int LibRaw::parseCR3_CTMD(short trackNum)
+           }
+           if (callbacks.exif_cb)
+           {
+-            fseek(ifp, -8L, SEEK_CUR); // unwind order + bad_hdr() check
+             INT64 savepos = ifp->tell();
++            fseek(ifp, -8L, SEEK_CUR); // unwind order + bad_hdr() check
+             callbacks.exif_cb(callbacks.exifparser_data, (tItem << 20) | 0x80000 | 0x927c, 7, lTag-8, order, ifp, 
+ 				track.MediaOffset + relpos_inBox + 8);
+             fseek(ifp, savepos, SEEK_SET);
